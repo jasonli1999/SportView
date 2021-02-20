@@ -1080,12 +1080,12 @@
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable\\actionbar_blue_bg_pressed.xml"
     },
     {
-        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_avchat_audio_record_icon_checked.png.flat",
-        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_checked.png"
-    },
-    {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout-v21_login_activity.xml.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\layout-v21\\login_activity.xml"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_avchat_audio_record_icon_checked.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\avchat_audio_record_icon_checked.png"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_message_view_holder_right_snapchat_disable.png.flat",
@@ -1620,12 +1620,12 @@
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\op_history.png"
     },
     {
-        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_running.xml.flat",
-        "source": "D:\\workspace\\sportView\\demo\\res\\layout\\activity_my_running.xml"
-    },
-    {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable_avchat_video_record_selector.xml.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable\\avchat_video_record_selector.xml"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_activity_my_running.xml.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\layout\\activity_my_running.xml"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_nim_male.png.flat",

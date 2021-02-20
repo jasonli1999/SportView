@@ -17,18 +17,24 @@ com/netease/nim/uikit/session/viewholder/MsgViewHolderThumbBase.java
  com.netease.nim.uikit.session.viewholder.MsgViewHolderThumbBase
 com/netease/nim/uikit/common/adapter/TViewHolder.java
  com.netease.nim.uikit.common.adapter.TViewHolder
-com/netease/nim/uikit/model/ToolBarOptions.java
- com.netease.nim.uikit.model.ToolBarOptions
+com/netease/nim/uikit/contact_selector/activity/ContactSelectActivity.java
+ com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity
+ com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$1
+ com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$2
+ com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$3
+ com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$4
+ com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$5
+ com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$6
+ com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$ContactDataProviderEx
+ com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$ContactSelectType
+ com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$ContactsSelectGroupStrategy
+ com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$Option
 com/netease/nim/uikit/team/helper/AnnouncementHelper.java
  com.netease.nim.uikit.team.helper.AnnouncementHelper
 com/netease/nim/uikit/contact/core/viewholder/AbsContactViewHolder.java
  com.netease.nim.uikit.contact.core.viewholder.AbsContactViewHolder
-com/netease/nim/uikit/common/ui/dialog/CustomAlertDialog.java
- com.netease.nim.uikit.common.ui.dialog.CustomAlertDialog
- com.netease.nim.uikit.common.ui.dialog.CustomAlertDialog$1
- com.netease.nim.uikit.common.ui.dialog.CustomAlertDialog$2
- com.netease.nim.uikit.common.ui.dialog.CustomAlertDialog$3
- com.netease.nim.uikit.common.ui.dialog.CustomAlertDialog$onSeparateItemClickListener
+com/netease/nim/uikit/common/media/picker/adapter/ImagePagerAdapterInImageSwitch.java
+ com.netease.nim.uikit.common.media.picker.adapter.ImagePagerAdapterInImageSwitch
 com/netease/nim/uikit/contact/core/provider/ContactSearch.java
  com.netease.nim.uikit.contact.core.provider.ContactSearch
  com.netease.nim.uikit.contact.core.provider.ContactSearch$HitInfo
@@ -58,24 +64,8 @@ com/netease/nim/uikit/session/actions/PickImageAction.java
  com.netease.nim.uikit.session.actions.PickImageAction
  com.netease.nim.uikit.session.actions.PickImageAction$1
  com.netease.nim.uikit.session.actions.PickImageAction$2
-com/netease/nim/uikit/recent/RecentContactsFragment.java
- com.netease.nim.uikit.recent.RecentContactsFragment
- com.netease.nim.uikit.recent.RecentContactsFragment$1
- com.netease.nim.uikit.recent.RecentContactsFragment$10
- com.netease.nim.uikit.recent.RecentContactsFragment$11
- com.netease.nim.uikit.recent.RecentContactsFragment$12
- com.netease.nim.uikit.recent.RecentContactsFragment$13
- com.netease.nim.uikit.recent.RecentContactsFragment$14
- com.netease.nim.uikit.recent.RecentContactsFragment$15
- com.netease.nim.uikit.recent.RecentContactsFragment$2
- com.netease.nim.uikit.recent.RecentContactsFragment$3
- com.netease.nim.uikit.recent.RecentContactsFragment$4
- com.netease.nim.uikit.recent.RecentContactsFragment$5
- com.netease.nim.uikit.recent.RecentContactsFragment$6
- com.netease.nim.uikit.recent.RecentContactsFragment$6$1
- com.netease.nim.uikit.recent.RecentContactsFragment$7
- com.netease.nim.uikit.recent.RecentContactsFragment$8
- com.netease.nim.uikit.recent.RecentContactsFragment$9
+com/netease/nim/uikit/common/media/picker/activity/PickImageActivity.java
+ com.netease.nim.uikit.common.media.picker.activity.PickImageActivity
 com/netease/nim/uikit/session/audio/MessageAudioControl.java
  com.netease.nim.uikit.session.audio.MessageAudioControl
  com.netease.nim.uikit.session.audio.MessageAudioControl$1
@@ -92,10 +82,12 @@ com/netease/nim/uikit/permission/annotation/OnMPermissionDenied.java
  com.netease.nim.uikit.permission.annotation.OnMPermissionDenied
 com/netease/nim/uikit/contact/ContactEventListener.java
  com.netease.nim.uikit.contact.ContactEventListener
-com/netease/nim/uikit/common/ui/liv/LivIndex.java
- com.netease.nim.uikit.common.ui.liv.LivIndex
- com.netease.nim.uikit.common.ui.liv.LivIndex$1
- com.netease.nim.uikit.common.ui.liv.LivIndex$LetterChangedListener
+com/netease/nim/uikit/session/activity/TeamMessageActivity.java
+ com.netease.nim.uikit.session.activity.TeamMessageActivity
+ com.netease.nim.uikit.session.activity.TeamMessageActivity$1
+ com.netease.nim.uikit.session.activity.TeamMessageActivity$2
+ com.netease.nim.uikit.session.activity.TeamMessageActivity$3
+ com.netease.nim.uikit.session.activity.TeamMessageActivity$4
 com/netease/nim/uikit/common/ui/imageview/BaseZoomableImageView.java
  com.netease.nim.uikit.common.ui.imageview.BaseZoomableImageView
  com.netease.nim.uikit.common.ui.imageview.BaseZoomableImageView$1
@@ -117,15 +109,29 @@ com/netease/nim/uikit/session/module/input/InputPanel.java
  com.netease.nim.uikit.session.module.input.InputPanel$9
 com/netease/nim/uikit/common/ui/dialog/EasyProgressDialog.java
  com.netease.nim.uikit.common.ui.dialog.EasyProgressDialog
-com/netease/nim/uikit/LoginSyncDataStatusObserver.java
- com.netease.nim.uikit.LoginSyncDataStatusObserver
- com.netease.nim.uikit.LoginSyncDataStatusObserver$1
- com.netease.nim.uikit.LoginSyncDataStatusObserver$2
- com.netease.nim.uikit.LoginSyncDataStatusObserver$InstanceHolder
+com/netease/nim/uikit/cache/FriendDataCache.java
+ com.netease.nim.uikit.cache.FriendDataCache
+ com.netease.nim.uikit.cache.FriendDataCache$1
+ com.netease.nim.uikit.cache.FriendDataCache$2
+ com.netease.nim.uikit.cache.FriendDataCache$FriendDataChangedObserver
+ com.netease.nim.uikit.cache.FriendDataCache$InstanceHolder
 com/netease/nim/uikit/contact/core/query/PinYin.java
  com.netease.nim.uikit.contact.core.query.PinYin
-com/netease/nim/uikit/session/viewholder/MsgViewHolderVideo.java
- com.netease.nim.uikit.session.viewholder.MsgViewHolderVideo
+com/netease/nim/uikit/team/activity/NormalTeamInfoActivity.java
+ com.netease.nim.uikit.team.activity.NormalTeamInfoActivity
+ com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$1
+ com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$10
+ com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$11
+ com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$12
+ com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$2
+ com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$3
+ com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$3$1
+ com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$4
+ com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$5
+ com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$6
+ com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$7
+ com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$8
+ com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$9
 com/netease/nim/uikit/common/media/audioplayer/BaseAudioControl.java
  com.netease.nim.uikit.common.media.audioplayer.BaseAudioControl
  com.netease.nim.uikit.common.media.audioplayer.BaseAudioControl$1
@@ -139,14 +145,25 @@ com/netease/nim/uikit/session/module/list/MsgAdapter.java
  com.netease.nim.uikit.session.module.list.MsgAdapter$ViewHolderEventListener
 com/netease/nim/uikit/common/ui/ptr/EmptyViewMethodAccessor.java
  com.netease.nim.uikit.common.ui.ptr.EmptyViewMethodAccessor
-com/netease/nim/uikit/NimUIKit.java
- com.netease.nim.uikit.NimUIKit
+com/netease/nim/uikit/cache/DataCacheManager.java
+ com.netease.nim.uikit.cache.DataCacheManager
+ com.netease.nim.uikit.cache.DataCacheManager$1
+ com.netease.nim.uikit.cache.DataCacheManager$1$1
 com/netease/nim/uikit/contact/core/model/TeamMemberContact.java
  com.netease.nim.uikit.contact.core.model.TeamMemberContact
 com/netease/nim/uikit/BuildConfig.java
  com.netease.nim.uikit.BuildConfig
-com/netease/nim/uikit/session/module/Container.java
- com.netease.nim.uikit.session.module.Container
+com/netease/nim/uikit/contact/ContactsFragment.java
+ com.netease.nim.uikit.contact.ContactsFragment
+ com.netease.nim.uikit.contact.ContactsFragment$1
+ com.netease.nim.uikit.contact.ContactsFragment$2
+ com.netease.nim.uikit.contact.ContactsFragment$3
+ com.netease.nim.uikit.contact.ContactsFragment$4
+ com.netease.nim.uikit.contact.ContactsFragment$5
+ com.netease.nim.uikit.contact.ContactsFragment$5$1
+ com.netease.nim.uikit.contact.ContactsFragment$ContactItemClickListener
+ com.netease.nim.uikit.contact.ContactsFragment$ContactsGroupStrategy
+ com.netease.nim.uikit.contact.ContactsFragment$ReloadFrequencyControl
 com/netease/nim/uikit/common/ui/popupmenu/PopupMenuAdapter.java
  com.netease.nim.uikit.common.ui.popupmenu.PopupMenuAdapter
  com.netease.nim.uikit.common.ui.popupmenu.PopupMenuAdapter$1
@@ -190,8 +207,8 @@ com/netease/nim/uikit/common/ui/widget/SwitchButton.java
  com.netease.nim.uikit.common.ui.widget.SwitchButton$OnChangedListener
 com/netease/nim/uikit/common/adapter/TAdapterDelegate.java
  com.netease.nim.uikit.common.adapter.TAdapterDelegate
-com/netease/nim/uikit/session/module/input/ActionsGridviewAdapter.java
- com.netease.nim.uikit.session.module.input.ActionsGridviewAdapter
+com/netease/nim/uikit/NimUIKit.java
+ com.netease.nim.uikit.NimUIKit
 com/netease/nim/uikit/common/ui/ptr/PullToRefreshAdapterViewBase.java
  com.netease.nim.uikit.common.ui.ptr.PullToRefreshAdapterViewBase
  com.netease.nim.uikit.common.ui.ptr.PullToRefreshAdapterViewBase$1
@@ -206,12 +223,13 @@ com/netease/nim/uikit/common/ui/popupmenu/NIMPopupMenu.java
  com.netease.nim.uikit.common.ui.popupmenu.NIMPopupMenu$MenuItemClickListener
 com/netease/nim/uikit/common/media/picker/util/ThumbnailsUtil.java
  com.netease.nim.uikit.common.media.picker.util.ThumbnailsUtil
-com/netease/nim/uikit/cache/FriendDataCache.java
- com.netease.nim.uikit.cache.FriendDataCache
- com.netease.nim.uikit.cache.FriendDataCache$1
- com.netease.nim.uikit.cache.FriendDataCache$2
- com.netease.nim.uikit.cache.FriendDataCache$FriendDataChangedObserver
- com.netease.nim.uikit.cache.FriendDataCache$InstanceHolder
+com/netease/nim/uikit/team/activity/TeamPropertySettingActivity.java
+ com.netease.nim.uikit.team.activity.TeamPropertySettingActivity
+ com.netease.nim.uikit.team.activity.TeamPropertySettingActivity$1
+ com.netease.nim.uikit.team.activity.TeamPropertySettingActivity$2
+ com.netease.nim.uikit.team.activity.TeamPropertySettingActivity$3
+ com.netease.nim.uikit.team.activity.TeamPropertySettingActivity$4
+ com.netease.nim.uikit.team.activity.TeamPropertySettingActivity$5
 com/netease/nim/uikit/session/actions/VideoAction.java
  com.netease.nim.uikit.session.actions.VideoAction
  com.netease.nim.uikit.session.actions.VideoAction$1
@@ -219,8 +237,11 @@ com/netease/nim/uikit/common/adapter/IScrollStateListener.java
  com.netease.nim.uikit.common.adapter.IScrollStateListener
 com/netease/nim/uikit/session/module/MsgForwardFilter.java
  com.netease.nim.uikit.session.module.MsgForwardFilter
-com/netease/nim/uikit/contact_selector/viewholder/ContactsSelectHolder.java
- com.netease.nim.uikit.contact_selector.viewholder.ContactsSelectHolder
+com/netease/nim/uikit/LoginSyncDataStatusObserver.java
+ com.netease.nim.uikit.LoginSyncDataStatusObserver
+ com.netease.nim.uikit.LoginSyncDataStatusObserver$1
+ com.netease.nim.uikit.LoginSyncDataStatusObserver$2
+ com.netease.nim.uikit.LoginSyncDataStatusObserver$InstanceHolder
 com/netease/nim/uikit/common/media/dao/MediaDAO.java
  com.netease.nim.uikit.common.media.dao.MediaDAO
 com/netease/nim/uikit/common/ui/ptr/ViewCompat.java
@@ -238,8 +259,9 @@ com/netease/nim/uikit/session/emoji/EmojiManager.java
  com.netease.nim.uikit.session.emoji.EmojiManager$EntryLoader
 com/netease/nim/uikit/session/emoji/StickerItem.java
  com.netease.nim.uikit.session.emoji.StickerItem
-com/netease/nim/uikit/permission/annotation/OnMPermissionGranted.java
- com.netease.nim.uikit.permission.annotation.OnMPermissionGranted
+com/netease/nim/uikit/common/media/picker/activity/CropImageActivity.java
+ com.netease.nim.uikit.common.media.picker.activity.CropImageActivity
+ com.netease.nim.uikit.common.media.picker.activity.CropImageActivity$1
 com/netease/nim/uikit/contact_selector/viewholder/ContactsMultiSelectHolder.java
  com.netease.nim.uikit.contact_selector.viewholder.ContactsMultiSelectHolder
 com/netease/nim/uikit/contact/ContactProvider.java
@@ -253,8 +275,8 @@ com/netease/nim/uikit/session/emoji/StickerAdapter.java
  com.netease.nim.uikit.session.emoji.StickerAdapter$StickerViewHolder
 com/netease/nim/uikit/session/emoji/StickerCategory.java
  com.netease.nim.uikit.session.emoji.StickerCategory
-com/netease/nim/uikit/contact/core/query/SimpleT9Matcher.java
- com.netease.nim.uikit.contact.core.query.SimpleT9Matcher
+com/netease/nim/uikit/common/media/picker/activity/PickerAlbumActivity.java
+ com.netease.nim.uikit.common.media.picker.activity.PickerAlbumActivity
 com/netease/nim/uikit/common/util/string/StringUtil.java
  com.netease.nim.uikit.common.util.string.StringUtil
 com/netease/nim/uikit/common/media/picker/fragment/PickerAlbumFragment.java
@@ -290,8 +312,17 @@ com/netease/nim/uikit/common/media/picker/model/AlbumInfo.java
  com.netease.nim.uikit.common.media.picker.model.AlbumInfo
 com/netease/nim/uikit/common/ui/dialog/DialogMaker.java
  com.netease.nim.uikit.common.ui.dialog.DialogMaker
-com/netease/nim/uikit/common/ui/imageview/CircleImageView.java
- com.netease.nim.uikit.common.ui.imageview.CircleImageView
+com/netease/nim/uikit/session/activity/WatchVideoActivity.java
+ com.netease.nim.uikit.session.activity.WatchVideoActivity
+ com.netease.nim.uikit.session.activity.WatchVideoActivity$1
+ com.netease.nim.uikit.session.activity.WatchVideoActivity$2
+ com.netease.nim.uikit.session.activity.WatchVideoActivity$3
+ com.netease.nim.uikit.session.activity.WatchVideoActivity$4
+ com.netease.nim.uikit.session.activity.WatchVideoActivity$5
+ com.netease.nim.uikit.session.activity.WatchVideoActivity$6
+ com.netease.nim.uikit.session.activity.WatchVideoActivity$7
+ com.netease.nim.uikit.session.activity.WatchVideoActivity$8
+ com.netease.nim.uikit.session.activity.WatchVideoActivity$9
 com/netease/nim/uikit/common/util/string/HexDump.java
  com.netease.nim.uikit.common.util.string.HexDump
  com.netease.nim.uikit.common.util.string.HexDump$HexTablifier
@@ -299,8 +330,46 @@ com/netease/nim/uikit/team/viewholder/TeamAnnounceHolder.java
  com.netease.nim.uikit.team.viewholder.TeamAnnounceHolder
 com/netease/nim/uikit/common/util/log/LogUtil.java
  com.netease.nim.uikit.common.util.log.LogUtil
-com/netease/nim/uikit/common/util/media/BitmapDecoder.java
- com.netease.nim.uikit.common.util.media.BitmapDecoder
+com/netease/nim/uikit/team/activity/AdvancedTeamInfoActivity.java
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$1
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$10
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$11
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$12
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$13
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$14
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$15
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$16
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$17
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$18
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$19
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$2
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$20
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$21
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$22
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$23
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$24
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$25
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$26
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$27
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$28
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$29
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$3
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$30
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$31
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$32
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$33
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$34
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$35
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$35$1
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$36
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$4
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$5
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$6
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$7
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$8
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$8$1
+ com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$9
 com/netease/nim/uikit/common/ui/popupmenu/PopupMenuItem.java
  com.netease.nim.uikit.common.ui.popupmenu.PopupMenuItem
 com/netease/nim/uikit/session/fragment/TeamMessageFragment.java
@@ -337,8 +406,10 @@ com/netease/nim/uikit/common/util/file/FileUtil.java
  com.netease.nim.uikit.common.util.file.FileUtil$SizeUnit
 com/netease/nim/uikit/contact/core/model/ContactDataList.java
  com.netease.nim.uikit.contact.core.model.ContactDataList
-com/netease/nim/uikit/contact/core/query/TextComparator.java
- com.netease.nim.uikit.contact.core.query.TextComparator
+com/netease/nim/uikit/common/activity/UI.java
+ com.netease.nim.uikit.common.activity.UI
+ com.netease.nim.uikit.common.activity.UI$1
+ com.netease.nim.uikit.common.activity.UI$2
 com/netease/nim/uikit/session/emoji/IEmoticonCategoryChanged.java
  com.netease.nim.uikit.session.emoji.IEmoticonCategoryChanged
 com/netease/nim/uikit/common/ui/listview/MessageListView.java
@@ -346,11 +417,26 @@ com/netease/nim/uikit/common/ui/listview/MessageListView.java
  com.netease.nim.uikit.common.ui.listview.MessageListView$1
  com.netease.nim.uikit.common.ui.listview.MessageListView$GestureListener
  com.netease.nim.uikit.common.ui.listview.MessageListView$OnListViewEventListener
-com/netease/nim/uikit/session/viewholder/MsgViewHolderUnknown.java
- com.netease.nim.uikit.session.viewholder.MsgViewHolderUnknown
-com/netease/nim/uikit/contact/core/item/ItemTypes.java
- com.netease.nim.uikit.contact.core.item.ItemTypes
- com.netease.nim.uikit.contact.core.item.ItemTypes$TEAMS
+com/netease/nim/uikit/common/media/picker/adapter/PickerPreviewPagerAdapter.java
+ com.netease.nim.uikit.common.media.picker.adapter.PickerPreviewPagerAdapter
+com/netease/nim/uikit/recent/RecentContactsFragment.java
+ com.netease.nim.uikit.recent.RecentContactsFragment
+ com.netease.nim.uikit.recent.RecentContactsFragment$1
+ com.netease.nim.uikit.recent.RecentContactsFragment$10
+ com.netease.nim.uikit.recent.RecentContactsFragment$11
+ com.netease.nim.uikit.recent.RecentContactsFragment$12
+ com.netease.nim.uikit.recent.RecentContactsFragment$13
+ com.netease.nim.uikit.recent.RecentContactsFragment$14
+ com.netease.nim.uikit.recent.RecentContactsFragment$15
+ com.netease.nim.uikit.recent.RecentContactsFragment$2
+ com.netease.nim.uikit.recent.RecentContactsFragment$3
+ com.netease.nim.uikit.recent.RecentContactsFragment$4
+ com.netease.nim.uikit.recent.RecentContactsFragment$5
+ com.netease.nim.uikit.recent.RecentContactsFragment$6
+ com.netease.nim.uikit.recent.RecentContactsFragment$6$1
+ com.netease.nim.uikit.recent.RecentContactsFragment$7
+ com.netease.nim.uikit.recent.RecentContactsFragment$8
+ com.netease.nim.uikit.recent.RecentContactsFragment$9
 com/netease/nim/uikit/common/util/file/AttachmentStore.java
  com.netease.nim.uikit.common.util.file.AttachmentStore
 com/netease/nim/uikit/session/helper/VideoMessageHelper.java
@@ -370,11 +456,11 @@ com/netease/nim/uikit/common/util/C.java
  com.netease.nim.uikit.common.util.C$MimeType
 com/netease/nim/uikit/permission/MPermission.java
  com.netease.nim.uikit.permission.MPermission
-com/netease/nim/uikit/common/framework/NimSingleThreadExecutor.java
- com.netease.nim.uikit.common.framework.NimSingleThreadExecutor
- com.netease.nim.uikit.common.framework.NimSingleThreadExecutor$NimRunnable
- com.netease.nim.uikit.common.framework.NimSingleThreadExecutor$NimRunnable$1
- com.netease.nim.uikit.common.framework.NimSingleThreadExecutor$NimTask
+com/netease/nim/uikit/session/activity/P2PMessageActivity.java
+ com.netease.nim.uikit.session.activity.P2PMessageActivity
+ com.netease.nim.uikit.session.activity.P2PMessageActivity$1
+ com.netease.nim.uikit.session.activity.P2PMessageActivity$2
+ com.netease.nim.uikit.session.activity.P2PMessageActivity$3
 com/netease/nim/uikit/session/emoji/EmoticonView.java
  com.netease.nim.uikit.session.emoji.EmoticonView
  com.netease.nim.uikit.session.emoji.EmoticonView$1
@@ -396,8 +482,13 @@ com/netease/nim/uikit/team/viewholder/TeamMemberHolder.java
  com.netease.nim.uikit.team.viewholder.TeamMemberHolder$3
  com.netease.nim.uikit.team.viewholder.TeamMemberHolder$4
  com.netease.nim.uikit.team.viewholder.TeamMemberHolder$TeamMemberHolderEventListener
-com/netease/nim/uikit/common/util/media/SampleSizeUtil.java
- com.netease.nim.uikit.common.util.media.SampleSizeUtil
+com/netease/nim/uikit/session/activity/CaptureVideoActivity.java
+ com.netease.nim.uikit.session.activity.CaptureVideoActivity
+ com.netease.nim.uikit.session.activity.CaptureVideoActivity$1
+ com.netease.nim.uikit.session.activity.CaptureVideoActivity$2
+ com.netease.nim.uikit.session.activity.CaptureVideoActivity$3
+ com.netease.nim.uikit.session.activity.CaptureVideoActivity$4
+ com.netease.nim.uikit.session.activity.CaptureVideoActivity$5
 com/netease/nim/uikit/team/model/TeamRequestCode.java
  com.netease.nim.uikit.team.model.TeamRequestCode
 com/netease/nim/uikit/recent/viewholder/RecentContactAdapter.java
@@ -457,12 +548,11 @@ com/netease/nim/uikit/common/ui/imageview/HeadImageView.java
  com.netease.nim.uikit.common.ui.imageview.HeadImageView$1
 com/netease/nim/uikit/session/emoji/EmojiAdapter.java
  com.netease.nim.uikit.session.emoji.EmojiAdapter
-com/netease/nim/uikit/cache/NimUserInfoCache.java
- com.netease.nim.uikit.cache.NimUserInfoCache
- com.netease.nim.uikit.cache.NimUserInfoCache$1
- com.netease.nim.uikit.cache.NimUserInfoCache$2
- com.netease.nim.uikit.cache.NimUserInfoCache$3
- com.netease.nim.uikit.cache.NimUserInfoCache$InstanceHolder
+com/netease/nim/uikit/common/media/picker/activity/PreviewImageFromCameraActivity.java
+ com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity
+ com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity$1
+ com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity$2
+ com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity$3
 com/netease/nim/uikit/common/ui/ptr/PullToRefreshListView.java
  com.netease.nim.uikit.common.ui.ptr.PullToRefreshListView
  com.netease.nim.uikit.common.ui.ptr.PullToRefreshListView$1
@@ -530,8 +620,9 @@ com/netease/nim/uikit/common/ui/dialog/EasyAlertDialogHelper.java
  com.netease.nim.uikit.common.ui.dialog.EasyAlertDialogHelper$OnDialogActionListener
 com/netease/nim/uikit/contact/core/item/LabelItem.java
  com.netease.nim.uikit.contact.core.item.LabelItem
-com/netease/nim/uikit/permission/util/MPermissionUtil.java
- com.netease.nim.uikit.permission.util.MPermissionUtil
+com/netease/nim/uikit/session/activity/BaseMessageActivity.java
+ com.netease.nim.uikit.session.activity.BaseMessageActivity
+ com.netease.nim.uikit.session.activity.BaseMessageActivity$1
 com/netease/nim/uikit/session/viewholder/MsgViewHolderBase.java
  com.netease.nim.uikit.session.viewholder.MsgViewHolderBase
  com.netease.nim.uikit.session.viewholder.MsgViewHolderBase$1
@@ -540,17 +631,9 @@ com/netease/nim/uikit/session/viewholder/MsgViewHolderBase.java
  com.netease.nim.uikit.session.viewholder.MsgViewHolderBase$4
  com.netease.nim.uikit.session.viewholder.MsgViewHolderBase$5
  com.netease.nim.uikit.session.viewholder.MsgViewHolderBase$6
-com/netease/nim/uikit/contact/ContactsFragment.java
- com.netease.nim.uikit.contact.ContactsFragment
- com.netease.nim.uikit.contact.ContactsFragment$1
- com.netease.nim.uikit.contact.ContactsFragment$2
- com.netease.nim.uikit.contact.ContactsFragment$3
- com.netease.nim.uikit.contact.ContactsFragment$4
- com.netease.nim.uikit.contact.ContactsFragment$5
- com.netease.nim.uikit.contact.ContactsFragment$5$1
- com.netease.nim.uikit.contact.ContactsFragment$ContactItemClickListener
- com.netease.nim.uikit.contact.ContactsFragment$ContactsGroupStrategy
- com.netease.nim.uikit.contact.ContactsFragment$ReloadFrequencyControl
+com/netease/nim/uikit/common/media/picker/activity/PickerAlbumPreviewActivity.java
+ com.netease.nim.uikit.common.media.picker.activity.PickerAlbumPreviewActivity
+ com.netease.nim.uikit.common.media.picker.activity.PickerAlbumPreviewActivity$1
 com/netease/nim/uikit/session/viewholder/MsgViewHolderAudio.java
  com.netease.nim.uikit.session.viewholder.MsgViewHolderAudio
  com.netease.nim.uikit.session.viewholder.MsgViewHolderAudio$1
@@ -576,8 +659,11 @@ com/netease/nim/uikit/common/ui/dialog/EasyAlertDialog.java
  com.netease.nim.uikit.common.ui.dialog.EasyAlertDialog
 com/netease/nim/uikit/common/ui/imageview/CheckedImageButton.java
  com.netease.nim.uikit.common.ui.imageview.CheckedImageButton
-com/netease/nim/uikit/common/ui/ptr/Utils.java
- com.netease.nim.uikit.common.ui.ptr.Utils
+com/netease/nim/uikit/team/activity/AdvancedTeamNicknameActivity.java
+ com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity
+ com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity$1
+ com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity$2
+ com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity$3
 com/netease/nim/uikit/common/ui/dialog/EasyEditDialog.java
  com.netease.nim.uikit.common.ui.dialog.EasyEditDialog
  com.netease.nim.uikit.common.ui.dialog.EasyEditDialog$EditTextWatcher
@@ -602,9 +688,16 @@ com/netease/nim/uikit/session/helper/TeamNotificationHelper.java
 com/netease/nim/uikit/contact/core/model/ContactDataTask.java
  com.netease.nim.uikit.contact.core.model.ContactDataTask
  com.netease.nim.uikit.contact.core.model.ContactDataTask$Host
-com/netease/nim/uikit/common/util/media/ImageUtil.java
- com.netease.nim.uikit.common.util.media.ImageUtil
- com.netease.nim.uikit.common.util.media.ImageUtil$ImageSize
+com/netease/nim/uikit/common/media/picker/activity/PreviewImageFromLocalActivity.java
+ com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity
+ com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$1
+ com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$2
+ com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$3
+ com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$4
+ com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$5
+ com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$6
+ com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$7
+ com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$8
 com/netease/nim/uikit/team/ui/TeamInfoGridView.java
  com.netease.nim.uikit.team.ui.TeamInfoGridView
 com/netease/nim/uikit/common/ui/listview/ListViewUtil.java
@@ -614,13 +707,25 @@ com/netease/nim/uikit/common/ui/listview/ListViewUtil.java
 com/netease/nim/uikit/common/fragment/TabFragment.java
  com.netease.nim.uikit.common.fragment.TabFragment
  com.netease.nim.uikit.common.fragment.TabFragment$State
-com/netease/nim/uikit/session/emoji/IEmoticonSelectedListener.java
- com.netease.nim.uikit.session.emoji.IEmoticonSelectedListener
+com/netease/nim/uikit/session/activity/WatchMessagePictureActivity.java
+ com.netease.nim.uikit.session.activity.WatchMessagePictureActivity
+ com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$1
+ com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$2
+ com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$3
+ com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$4
+ com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$5
+ com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$6
+ com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$7
+ com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$8
 com/netease/nim/uikit/common/ui/ptr/LoadingLayout.java
  com.netease.nim.uikit.common.ui.ptr.LoadingLayout
  com.netease.nim.uikit.common.ui.ptr.LoadingLayout$1
-com/netease/nim/uikit/ImageLoaderKit.java
- com.netease.nim.uikit.ImageLoaderKit
+com/netease/nim/uikit/team/activity/AdvancedTeamMemberActivity.java
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity$1
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity$2
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity$3
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity$4
 com/netease/nim/uikit/common/media/picker/loader/PickerlImageLoadTool.java
  com.netease.nim.uikit.common.media.picker.loader.PickerlImageLoadTool
 com/netease/nim/uikit/session/module/input/ActionsPagerAdapter.java
@@ -646,11 +751,18 @@ com/netease/nim/uikit/session/constant/RequestCode.java
  com.netease.nim.uikit.session.constant.RequestCode
 com/netease/nim/uikit/common/media/picker/util/PickerUtil.java
  com.netease.nim.uikit.common.media.picker.util.PickerUtil
-com/netease/nim/uikit/common/framework/NimTaskExecutor.java
- com.netease.nim.uikit.common.framework.NimTaskExecutor
- com.netease.nim.uikit.common.framework.NimTaskExecutor$1
- com.netease.nim.uikit.common.framework.NimTaskExecutor$Config
- com.netease.nim.uikit.common.framework.NimTaskExecutor$TaskThreadFactory
+com/netease/nim/uikit/team/activity/AdvancedTeamMemberInfoActivity.java
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$1
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$1$1
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$2
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$3
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$4
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$5
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$6
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$7
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$8
+ com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$9
 com/netease/nim/uikit/common/adapter/IViewReclaimer.java
  com.netease.nim.uikit.common.adapter.IViewReclaimer
 com/netease/nim/uikit/contact/core/item/ContactIdFilter.java
@@ -662,10 +774,14 @@ com/netease/nim/uikit/common/ui/imageview/MultiTouchZoomableImageView.java
  com.netease.nim.uikit.common.ui.imageview.MultiTouchZoomableImageView$1
  com.netease.nim.uikit.common.ui.imageview.MultiTouchZoomableImageView$MyGestureListener
  com.netease.nim.uikit.common.ui.imageview.MultiTouchZoomableImageView$ScaleListener
-com/netease/nim/uikit/cache/DataCacheManager.java
- com.netease.nim.uikit.cache.DataCacheManager
- com.netease.nim.uikit.cache.DataCacheManager$1
- com.netease.nim.uikit.cache.DataCacheManager$1$1
+com/netease/nim/uikit/team/activity/AdvancedTeamAnnounceActivity.java
+ com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity
+ com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity$1
+ com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity$2
+ com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity$3
+ com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity$4
+ com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity$5
+ com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity$6
 com/netease/nim/uikit/common/util/string/StringTextWatcher.java
  com.netease.nim.uikit.common.util.string.StringTextWatcher
 com/netease/nim/uikit/contact/core/viewholder/LabelHolder.java
@@ -690,188 +806,72 @@ com/netease/nim/uikit/contact/core/viewholder/ContactHolder.java
  com.netease.nim.uikit.contact.core.viewholder.ContactHolder$1
 com/netease/nim/uikit/contact/core/item/ContactItemFilter.java
  com.netease.nim.uikit.contact.core.item.ContactItemFilter
-com/netease/nim/uikit/common/media/picker/activity/PreviewImageFromCameraActivity.java
- com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity
- com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity$1
- com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity$2
- com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity$3
-com/netease/nim/uikit/common/media/picker/activity/PickerAlbumPreviewActivity.java
- com.netease.nim.uikit.common.media.picker.activity.PickerAlbumPreviewActivity
- com.netease.nim.uikit.common.media.picker.activity.PickerAlbumPreviewActivity$1
-com/netease/nim/uikit/team/activity/NormalTeamInfoActivity.java
- com.netease.nim.uikit.team.activity.NormalTeamInfoActivity
- com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$1
- com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$10
- com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$11
- com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$12
- com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$2
- com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$3
- com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$3$1
- com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$4
- com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$5
- com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$6
- com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$7
- com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$8
- com.netease.nim.uikit.team.activity.NormalTeamInfoActivity$9
-com/netease/nim/uikit/common/media/picker/activity/PickImageActivity.java
- com.netease.nim.uikit.common.media.picker.activity.PickImageActivity
-com/netease/nim/uikit/team/activity/AdvancedTeamAnnounceActivity.java
- com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity
- com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity$1
- com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity$2
- com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity$3
- com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity$4
- com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity$5
- com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity$6
-com/netease/nim/uikit/team/activity/AdvancedTeamMemberActivity.java
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity$1
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity$2
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity$3
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity$4
-com/netease/nim/uikit/team/activity/TeamPropertySettingActivity.java
- com.netease.nim.uikit.team.activity.TeamPropertySettingActivity
- com.netease.nim.uikit.team.activity.TeamPropertySettingActivity$1
- com.netease.nim.uikit.team.activity.TeamPropertySettingActivity$2
- com.netease.nim.uikit.team.activity.TeamPropertySettingActivity$3
- com.netease.nim.uikit.team.activity.TeamPropertySettingActivity$4
- com.netease.nim.uikit.team.activity.TeamPropertySettingActivity$5
-com/netease/nim/uikit/session/activity/WatchVideoActivity.java
- com.netease.nim.uikit.session.activity.WatchVideoActivity
- com.netease.nim.uikit.session.activity.WatchVideoActivity$1
- com.netease.nim.uikit.session.activity.WatchVideoActivity$2
- com.netease.nim.uikit.session.activity.WatchVideoActivity$3
- com.netease.nim.uikit.session.activity.WatchVideoActivity$4
- com.netease.nim.uikit.session.activity.WatchVideoActivity$5
- com.netease.nim.uikit.session.activity.WatchVideoActivity$6
- com.netease.nim.uikit.session.activity.WatchVideoActivity$7
- com.netease.nim.uikit.session.activity.WatchVideoActivity$8
- com.netease.nim.uikit.session.activity.WatchVideoActivity$9
-com/netease/nim/uikit/session/activity/P2PMessageActivity.java
- com.netease.nim.uikit.session.activity.P2PMessageActivity
- com.netease.nim.uikit.session.activity.P2PMessageActivity$1
- com.netease.nim.uikit.session.activity.P2PMessageActivity$2
- com.netease.nim.uikit.session.activity.P2PMessageActivity$3
-com/netease/nim/uikit/contact_selector/activity/ContactSelectActivity.java
- com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity
- com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$1
- com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$2
- com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$3
- com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$4
- com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$5
- com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$6
- com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$ContactDataProviderEx
- com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$ContactSelectType
- com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$ContactsSelectGroupStrategy
- com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity$Option
-com/netease/nim/uikit/common/activity/UI.java
- com.netease.nim.uikit.common.activity.UI
- com.netease.nim.uikit.common.activity.UI$1
- com.netease.nim.uikit.common.activity.UI$2
+com/netease/nim/uikit/contact/core/query/SimpleT9Matcher.java
+ com.netease.nim.uikit.contact.core.query.SimpleT9Matcher
+com/netease/nim/uikit/session/emoji/IEmoticonSelectedListener.java
+ com.netease.nim.uikit.session.emoji.IEmoticonSelectedListener
+com/netease/nim/uikit/common/ui/ptr/Utils.java
+ com.netease.nim.uikit.common.ui.ptr.Utils
+com/netease/nim/uikit/common/framework/NimTaskExecutor.java
+ com.netease.nim.uikit.common.framework.NimTaskExecutor
+ com.netease.nim.uikit.common.framework.NimTaskExecutor$1
+ com.netease.nim.uikit.common.framework.NimTaskExecutor$Config
+ com.netease.nim.uikit.common.framework.NimTaskExecutor$TaskThreadFactory
+com/netease/nim/uikit/common/util/media/SampleSizeUtil.java
+ com.netease.nim.uikit.common.util.media.SampleSizeUtil
+com/netease/nim/uikit/permission/util/MPermissionUtil.java
+ com.netease.nim.uikit.permission.util.MPermissionUtil
+com/netease/nim/uikit/common/util/media/ImageUtil.java
+ com.netease.nim.uikit.common.util.media.ImageUtil
+ com.netease.nim.uikit.common.util.media.ImageUtil$ImageSize
+com/netease/nim/uikit/ImageLoaderKit.java
+ com.netease.nim.uikit.ImageLoaderKit
+com/netease/nim/uikit/permission/annotation/OnMPermissionGranted.java
+ com.netease.nim.uikit.permission.annotation.OnMPermissionGranted
+com/netease/nim/uikit/session/viewholder/MsgViewHolderUnknown.java
+ com.netease.nim.uikit.session.viewholder.MsgViewHolderUnknown
+com/netease/nim/uikit/common/ui/dialog/CustomAlertDialog.java
+ com.netease.nim.uikit.common.ui.dialog.CustomAlertDialog
+ com.netease.nim.uikit.common.ui.dialog.CustomAlertDialog$1
+ com.netease.nim.uikit.common.ui.dialog.CustomAlertDialog$2
+ com.netease.nim.uikit.common.ui.dialog.CustomAlertDialog$3
+ com.netease.nim.uikit.common.ui.dialog.CustomAlertDialog$onSeparateItemClickListener
+com/netease/nim/uikit/common/util/media/BitmapDecoder.java
+ com.netease.nim.uikit.common.util.media.BitmapDecoder
+com/netease/nim/uikit/common/ui/liv/LivIndex.java
+ com.netease.nim.uikit.common.ui.liv.LivIndex
+ com.netease.nim.uikit.common.ui.liv.LivIndex$1
+ com.netease.nim.uikit.common.ui.liv.LivIndex$LetterChangedListener
+com/netease/nim/uikit/contact/core/query/TextComparator.java
+ com.netease.nim.uikit.contact.core.query.TextComparator
+com/netease/nim/uikit/model/ToolBarOptions.java
+ com.netease.nim.uikit.model.ToolBarOptions
+com/netease/nim/uikit/session/viewholder/MsgViewHolderVideo.java
+ com.netease.nim.uikit.session.viewholder.MsgViewHolderVideo
+com/netease/nim/uikit/common/ui/imageview/CircleImageView.java
+ com.netease.nim.uikit.common.ui.imageview.CircleImageView
 com/netease/nim/uikit/team/activity/AdvancedTeamCreateAnnounceActivity.java
  com.netease.nim.uikit.team.activity.AdvancedTeamCreateAnnounceActivity
  com.netease.nim.uikit.team.activity.AdvancedTeamCreateAnnounceActivity$1
  com.netease.nim.uikit.team.activity.AdvancedTeamCreateAnnounceActivity$2
  com.netease.nim.uikit.team.activity.AdvancedTeamCreateAnnounceActivity$3
-com/netease/nim/uikit/team/activity/AdvancedTeamInfoActivity.java
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$1
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$10
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$11
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$12
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$13
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$14
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$15
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$16
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$17
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$18
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$19
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$2
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$20
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$21
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$22
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$23
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$24
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$25
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$26
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$27
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$28
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$29
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$3
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$30
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$31
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$32
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$33
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$34
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$35
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$35$1
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$36
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$4
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$5
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$6
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$7
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$8
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$8$1
- com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity$9
-com/netease/nim/uikit/common/media/picker/adapter/ImagePagerAdapterInImageSwitch.java
- com.netease.nim.uikit.common.media.picker.adapter.ImagePagerAdapterInImageSwitch
-com/netease/nim/uikit/common/media/picker/adapter/PickerPreviewPagerAdapter.java
- com.netease.nim.uikit.common.media.picker.adapter.PickerPreviewPagerAdapter
-com/netease/nim/uikit/common/media/picker/activity/CropImageActivity.java
- com.netease.nim.uikit.common.media.picker.activity.CropImageActivity
- com.netease.nim.uikit.common.media.picker.activity.CropImageActivity$1
-com/netease/nim/uikit/session/activity/TeamMessageActivity.java
- com.netease.nim.uikit.session.activity.TeamMessageActivity
- com.netease.nim.uikit.session.activity.TeamMessageActivity$1
- com.netease.nim.uikit.session.activity.TeamMessageActivity$2
- com.netease.nim.uikit.session.activity.TeamMessageActivity$3
- com.netease.nim.uikit.session.activity.TeamMessageActivity$4
-com/netease/nim/uikit/common/media/picker/activity/PreviewImageFromLocalActivity.java
- com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity
- com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$1
- com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$2
- com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$3
- com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$4
- com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$5
- com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$6
- com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$7
- com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity$8
-com/netease/nim/uikit/session/activity/BaseMessageActivity.java
- com.netease.nim.uikit.session.activity.BaseMessageActivity
- com.netease.nim.uikit.session.activity.BaseMessageActivity$1
-com/netease/nim/uikit/session/activity/CaptureVideoActivity.java
- com.netease.nim.uikit.session.activity.CaptureVideoActivity
- com.netease.nim.uikit.session.activity.CaptureVideoActivity$1
- com.netease.nim.uikit.session.activity.CaptureVideoActivity$2
- com.netease.nim.uikit.session.activity.CaptureVideoActivity$3
- com.netease.nim.uikit.session.activity.CaptureVideoActivity$4
- com.netease.nim.uikit.session.activity.CaptureVideoActivity$5
-com/netease/nim/uikit/team/activity/AdvancedTeamMemberInfoActivity.java
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$1
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$1$1
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$2
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$3
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$4
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$5
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$6
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$7
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$8
- com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity$9
-com/netease/nim/uikit/team/activity/AdvancedTeamNicknameActivity.java
- com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity
- com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity$1
- com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity$2
- com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity$3
-com/netease/nim/uikit/session/activity/WatchMessagePictureActivity.java
- com.netease.nim.uikit.session.activity.WatchMessagePictureActivity
- com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$1
- com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$2
- com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$3
- com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$4
- com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$5
- com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$6
- com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$7
- com.netease.nim.uikit.session.activity.WatchMessagePictureActivity$8
-com/netease/nim/uikit/common/media/picker/activity/PickerAlbumActivity.java
- com.netease.nim.uikit.common.media.picker.activity.PickerAlbumActivity
+com/netease/nim/uikit/cache/NimUserInfoCache.java
+ com.netease.nim.uikit.cache.NimUserInfoCache
+ com.netease.nim.uikit.cache.NimUserInfoCache$1
+ com.netease.nim.uikit.cache.NimUserInfoCache$2
+ com.netease.nim.uikit.cache.NimUserInfoCache$3
+ com.netease.nim.uikit.cache.NimUserInfoCache$InstanceHolder
+com/netease/nim/uikit/common/framework/NimSingleThreadExecutor.java
+ com.netease.nim.uikit.common.framework.NimSingleThreadExecutor
+ com.netease.nim.uikit.common.framework.NimSingleThreadExecutor$NimRunnable
+ com.netease.nim.uikit.common.framework.NimSingleThreadExecutor$NimRunnable$1
+ com.netease.nim.uikit.common.framework.NimSingleThreadExecutor$NimTask
+com/netease/nim/uikit/contact/core/item/ItemTypes.java
+ com.netease.nim.uikit.contact.core.item.ItemTypes
+ com.netease.nim.uikit.contact.core.item.ItemTypes$TEAMS
+com/netease/nim/uikit/contact_selector/viewholder/ContactsSelectHolder.java
+ com.netease.nim.uikit.contact_selector.viewholder.ContactsSelectHolder
+com/netease/nim/uikit/session/module/Container.java
+ com.netease.nim.uikit.session.module.Container
+com/netease/nim/uikit/session/module/input/ActionsGridviewAdapter.java
+ com.netease.nim.uikit.session.module.input.ActionsGridviewAdapter

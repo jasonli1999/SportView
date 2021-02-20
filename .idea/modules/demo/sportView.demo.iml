@@ -48,8 +48,6 @@
     <orderEntry type="library" name="Gradle: org.apache.http.legacy" level="project" />
     <orderEntry type="library" name="Gradle: ./demo/libs/HelloCharts.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./demo/libs/SwitchLayout1.0.jar" level="project" />
-    <orderEntry type="library" name="Gradle: ./demo/libs/AMap_3DMap_V3.3.2_20160525.jar" level="project" />
-    <orderEntry type="library" name="Gradle: ./demo/libs/AMap_Location_V2.4.1_20160414.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./demo/libs/cosinesdk.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./demo/libs/nim-chatroom-2.6.0.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./demo/libs/nim-rts-2.6.0.jar" level="project" />

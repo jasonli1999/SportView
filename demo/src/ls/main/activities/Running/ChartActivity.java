@@ -7,6 +7,7 @@ import android.graphics.Color;
 import android.os.Build;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -152,23 +153,23 @@ public class ChartActivity extends AppCompatActivity implements SwichLayoutInter
             choice_str[0] = "今日未达到目标里程，查看详情";
         }
 
-        for(int i=0;i<choice_str.length;i++){
-            HashMap<String,Object> map = new HashMap<>();
-            map.put("choice_content",choice_str[i]);
-            map.put("choice_icon",R.drawable.next_normal);
+        for (String s : choice_str) {
+            HashMap<String, Object> map = new HashMap<>();
+            map.put("choice_content", s);
+            map.put("choice_icon", R.drawable.next_normal);
             data_choice.add(map);
         }
     }
 
-//    @Override
-//    public boolean onTouchEvent(MotionEvent event) {
-//        switch (event.getAction()){
-//            case MotionEvent.ACTION_MOVE:
-//                Log.e("TAG",event.getX()+"=======================");
-//                break;
-//        }
-//        return super.onTouchEvent(event);
-//    }
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        switch (event.getAction()){
+            case MotionEvent.ACTION_MOVE:
+                Log.e("TAG",event.getX()+"=======================");
+                break;
+        }
+        return super.onTouchEvent(event);
+    }
 
     private void generateData() {
         int numSubcolumns = 1;
