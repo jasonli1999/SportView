@@ -137,7 +137,7 @@
 64-->D:\workspace\sportView\demo\AndroidManifest.xml:64:22-80
 65
 66    <application
-66-->D:\workspace\sportView\demo\AndroidManifest.xml:66:5-421:19
+66-->D:\workspace\sportView\demo\AndroidManifest.xml:66:5-423:19
 67        android:name="com.netease.nim.demo.NimApplication"
 67-->D:\workspace\sportView\demo\AndroidManifest.xml:67:9-39
 68        android:allowBackup="true"
@@ -173,864 +173,869 @@
 87        <!-- <uses-library -->
 88        <!-- android:name="com.google.android.maps" -->
 89        <!-- android:required="false" /> -->
-90
-91
-92        <!-- 导航页 -->
-93        <activity
-93-->D:\workspace\sportView\demo\AndroidManifest.xml:90:9-103:24
-94            android:name="com.netease.nim.demo.main.activity.WelcomeActivity"
-94-->D:\workspace\sportView\demo\AndroidManifest.xml:91:13-58
-95            android:configChanges="keyboardHidden|orientation"
-95-->D:\workspace\sportView\demo\AndroidManifest.xml:92:13-63
-96            android:label="@string/app_name"
-96-->D:\workspace\sportView\demo\AndroidManifest.xml:93:13-45
-97            android:launchMode="singleTop"
-97-->D:\workspace\sportView\demo\AndroidManifest.xml:94:13-43
-98            android:screenOrientation="portrait"
-98-->D:\workspace\sportView\demo\AndroidManifest.xml:95:13-49
-99            android:theme="@style/WelcomeEntranceActionBarTheme"
-99-->D:\workspace\sportView\demo\AndroidManifest.xml:96:13-65
-100            android:windowSoftInputMode="adjustPan" >
-100-->D:\workspace\sportView\demo\AndroidManifest.xml:97:13-52
-101            <intent-filter>
-101-->D:\workspace\sportView\demo\AndroidManifest.xml:98:13-102:29
-102                <action android:name="android.intent.action.MAIN" />
-102-->D:\workspace\sportView\demo\AndroidManifest.xml:99:17-69
-102-->D:\workspace\sportView\demo\AndroidManifest.xml:99:25-66
-103
-104                <category android:name="android.intent.category.LAUNCHER" />
-104-->D:\workspace\sportView\demo\AndroidManifest.xml:100:17-77
-104-->D:\workspace\sportView\demo\AndroidManifest.xml:100:27-74
-105                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
-105-->D:\workspace\sportView\demo\AndroidManifest.xml:101:17-89
-105-->D:\workspace\sportView\demo\AndroidManifest.xml:101:27-86
-106            </intent-filter>
-107        </activity>
-108
-109        <!-- 主界面 -->
-110        <activity
-110-->D:\workspace\sportView\demo\AndroidManifest.xml:106:9-113:55
-111            android:name="com.netease.nim.demo.main.activity.MainActivity"
-111-->D:\workspace\sportView\demo\AndroidManifest.xml:107:13-55
-112            android:configChanges="keyboardHidden|orientation"
-112-->D:\workspace\sportView\demo\AndroidManifest.xml:108:13-63
-113            android:hardwareAccelerated="true"
-113-->D:\workspace\sportView\demo\AndroidManifest.xml:109:13-47
-114            android:launchMode="singleTop"
-114-->D:\workspace\sportView\demo\AndroidManifest.xml:110:13-43
-115            android:screenOrientation="portrait"
-115-->D:\workspace\sportView\demo\AndroidManifest.xml:111:13-49
-116            android:theme="@style/AppTheme.NoActionBar"
-116-->D:\workspace\sportView\demo\AndroidManifest.xml:112:13-56
-117            android:windowSoftInputMode="adjustPan" />
-117-->D:\workspace\sportView\demo\AndroidManifest.xml:113:13-52
-118
-119        <!-- 多端登录管理 -->
-120        <activity
-120-->D:\workspace\sportView\demo\AndroidManifest.xml:116:9-121:70
-121            android:name="com.netease.nim.demo.main.activity.MultiportActivity"
-121-->D:\workspace\sportView\demo\AndroidManifest.xml:117:13-60
-122            android:configChanges="keyboardHidden|orientation"
-122-->D:\workspace\sportView\demo\AndroidManifest.xml:118:13-63
-123            android:screenOrientation="portrait"
-123-->D:\workspace\sportView\demo\AndroidManifest.xml:119:13-49
-124            android:theme="@style/AppTheme.NoActionBar"
-124-->D:\workspace\sportView\demo\AndroidManifest.xml:120:13-56
-125            android:windowSoftInputMode="adjustResize|stateHidden" />
-125-->D:\workspace\sportView\demo\AndroidManifest.xml:121:13-67
-126
-127        <!-- 登录界面 -->
-128        <activity
-128-->D:\workspace\sportView\demo\AndroidManifest.xml:124:9-132:24
-129            android:name="com.netease.nim.demo.login.LoginActivity"
-129-->D:\workspace\sportView\demo\AndroidManifest.xml:125:13-48
-130            android:configChanges="orientation"
-130-->D:\workspace\sportView\demo\AndroidManifest.xml:126:13-48
-131            android:label="@string/login"
-131-->D:\workspace\sportView\demo\AndroidManifest.xml:127:13-42
-132            android:screenOrientation="portrait"
-132-->D:\workspace\sportView\demo\AndroidManifest.xml:128:13-49
-133            android:theme="@style/LoginTheme"
-133-->D:\workspace\sportView\demo\AndroidManifest.xml:129:13-46
-134            android:windowSoftInputMode="adjustResize|stateHidden" >
-134-->D:\workspace\sportView\demo\AndroidManifest.xml:130:13-67
-135        </activity>
-136
-137        <!-- 关于 -->
-138        <activity
-138-->D:\workspace\sportView\demo\AndroidManifest.xml:135:9-141:75
-139            android:name="com.netease.nim.demo.main.activity.AboutActivity"
-139-->D:\workspace\sportView\demo\AndroidManifest.xml:136:13-56
-140            android:configChanges="orientation"
-140-->D:\workspace\sportView\demo\AndroidManifest.xml:137:13-48
-141            android:label="@string/about"
-141-->D:\workspace\sportView\demo\AndroidManifest.xml:138:13-42
-142            android:screenOrientation="portrait"
-142-->D:\workspace\sportView\demo\AndroidManifest.xml:139:13-49
-143            android:theme="@style/AppTheme.NoActionBar"
-143-->D:\workspace\sportView\demo\AndroidManifest.xml:140:13-56
-144            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
-144-->D:\workspace\sportView\demo\AndroidManifest.xml:141:13-72
-145        <activity
-145-->D:\workspace\sportView\demo\AndroidManifest.xml:142:9-147:63
-146            android:name="com.netease.nim.demo.main.activity.SettingsActivity"
-146-->D:\workspace\sportView\demo\AndroidManifest.xml:143:13-59
-147            android:configChanges="orientation"
-147-->D:\workspace\sportView\demo\AndroidManifest.xml:144:13-48
-148            android:screenOrientation="portrait"
-148-->D:\workspace\sportView\demo\AndroidManifest.xml:145:13-49
-149            android:theme="@style/AppTheme.NoActionBar"
-149-->D:\workspace\sportView\demo\AndroidManifest.xml:146:13-56
-150            android:windowSoftInputMode="stateAlwaysHidden" />
-150-->D:\workspace\sportView\demo\AndroidManifest.xml:147:13-60
-151        <activity
-151-->D:\workspace\sportView\demo\AndroidManifest.xml:148:9-153:75
-152            android:name="com.netease.nim.demo.main.activity.NoDisturbActivity"
+90        <uses-library
+90-->D:\workspace\sportView\demo\AndroidManifest.xml:87:9-89:40
+91            android:name="org.apache.http.legacy"
+91-->D:\workspace\sportView\demo\AndroidManifest.xml:88:13-50
+92            android:required="false" />
+92-->D:\workspace\sportView\demo\AndroidManifest.xml:89:13-37
+93
+94        <!-- 导航页 -->
+95        <activity
+95-->D:\workspace\sportView\demo\AndroidManifest.xml:92:9-105:24
+96            android:name="com.netease.nim.demo.main.activity.WelcomeActivity"
+96-->D:\workspace\sportView\demo\AndroidManifest.xml:93:13-58
+97            android:configChanges="keyboardHidden|orientation"
+97-->D:\workspace\sportView\demo\AndroidManifest.xml:94:13-63
+98            android:label="@string/app_name"
+98-->D:\workspace\sportView\demo\AndroidManifest.xml:95:13-45
+99            android:launchMode="singleTop"
+99-->D:\workspace\sportView\demo\AndroidManifest.xml:96:13-43
+100            android:screenOrientation="portrait"
+100-->D:\workspace\sportView\demo\AndroidManifest.xml:97:13-49
+101            android:theme="@style/WelcomeEntranceActionBarTheme"
+101-->D:\workspace\sportView\demo\AndroidManifest.xml:98:13-65
+102            android:windowSoftInputMode="adjustPan" >
+102-->D:\workspace\sportView\demo\AndroidManifest.xml:99:13-52
+103            <intent-filter>
+103-->D:\workspace\sportView\demo\AndroidManifest.xml:100:13-104:29
+104                <action android:name="android.intent.action.MAIN" />
+104-->D:\workspace\sportView\demo\AndroidManifest.xml:101:17-69
+104-->D:\workspace\sportView\demo\AndroidManifest.xml:101:25-66
+105
+106                <category android:name="android.intent.category.LAUNCHER" />
+106-->D:\workspace\sportView\demo\AndroidManifest.xml:102:17-77
+106-->D:\workspace\sportView\demo\AndroidManifest.xml:102:27-74
+107                <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
+107-->D:\workspace\sportView\demo\AndroidManifest.xml:103:17-89
+107-->D:\workspace\sportView\demo\AndroidManifest.xml:103:27-86
+108            </intent-filter>
+109        </activity>
+110
+111        <!-- 主界面 -->
+112        <activity
+112-->D:\workspace\sportView\demo\AndroidManifest.xml:108:9-115:55
+113            android:name="com.netease.nim.demo.main.activity.MainActivity"
+113-->D:\workspace\sportView\demo\AndroidManifest.xml:109:13-55
+114            android:configChanges="keyboardHidden|orientation"
+114-->D:\workspace\sportView\demo\AndroidManifest.xml:110:13-63
+115            android:hardwareAccelerated="true"
+115-->D:\workspace\sportView\demo\AndroidManifest.xml:111:13-47
+116            android:launchMode="singleTop"
+116-->D:\workspace\sportView\demo\AndroidManifest.xml:112:13-43
+117            android:screenOrientation="portrait"
+117-->D:\workspace\sportView\demo\AndroidManifest.xml:113:13-49
+118            android:theme="@style/AppTheme.NoActionBar"
+118-->D:\workspace\sportView\demo\AndroidManifest.xml:114:13-56
+119            android:windowSoftInputMode="adjustPan" />
+119-->D:\workspace\sportView\demo\AndroidManifest.xml:115:13-52
+120
+121        <!-- 多端登录管理 -->
+122        <activity
+122-->D:\workspace\sportView\demo\AndroidManifest.xml:118:9-123:70
+123            android:name="com.netease.nim.demo.main.activity.MultiportActivity"
+123-->D:\workspace\sportView\demo\AndroidManifest.xml:119:13-60
+124            android:configChanges="keyboardHidden|orientation"
+124-->D:\workspace\sportView\demo\AndroidManifest.xml:120:13-63
+125            android:screenOrientation="portrait"
+125-->D:\workspace\sportView\demo\AndroidManifest.xml:121:13-49
+126            android:theme="@style/AppTheme.NoActionBar"
+126-->D:\workspace\sportView\demo\AndroidManifest.xml:122:13-56
+127            android:windowSoftInputMode="adjustResize|stateHidden" />
+127-->D:\workspace\sportView\demo\AndroidManifest.xml:123:13-67
+128
+129        <!-- 登录界面 -->
+130        <activity
+130-->D:\workspace\sportView\demo\AndroidManifest.xml:126:9-134:24
+131            android:name="com.netease.nim.demo.login.LoginActivity"
+131-->D:\workspace\sportView\demo\AndroidManifest.xml:127:13-48
+132            android:configChanges="orientation"
+132-->D:\workspace\sportView\demo\AndroidManifest.xml:128:13-48
+133            android:label="@string/login"
+133-->D:\workspace\sportView\demo\AndroidManifest.xml:129:13-42
+134            android:screenOrientation="portrait"
+134-->D:\workspace\sportView\demo\AndroidManifest.xml:130:13-49
+135            android:theme="@style/LoginTheme"
+135-->D:\workspace\sportView\demo\AndroidManifest.xml:131:13-46
+136            android:windowSoftInputMode="adjustResize|stateHidden" >
+136-->D:\workspace\sportView\demo\AndroidManifest.xml:132:13-67
+137        </activity>
+138
+139        <!-- 关于 -->
+140        <activity
+140-->D:\workspace\sportView\demo\AndroidManifest.xml:137:9-143:75
+141            android:name="com.netease.nim.demo.main.activity.AboutActivity"
+141-->D:\workspace\sportView\demo\AndroidManifest.xml:138:13-56
+142            android:configChanges="orientation"
+142-->D:\workspace\sportView\demo\AndroidManifest.xml:139:13-48
+143            android:label="@string/about"
+143-->D:\workspace\sportView\demo\AndroidManifest.xml:140:13-42
+144            android:screenOrientation="portrait"
+144-->D:\workspace\sportView\demo\AndroidManifest.xml:141:13-49
+145            android:theme="@style/AppTheme.NoActionBar"
+145-->D:\workspace\sportView\demo\AndroidManifest.xml:142:13-56
+146            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+146-->D:\workspace\sportView\demo\AndroidManifest.xml:143:13-72
+147        <activity
+147-->D:\workspace\sportView\demo\AndroidManifest.xml:144:9-149:63
+148            android:name="com.netease.nim.demo.main.activity.SettingsActivity"
+148-->D:\workspace\sportView\demo\AndroidManifest.xml:145:13-59
+149            android:configChanges="orientation"
+149-->D:\workspace\sportView\demo\AndroidManifest.xml:146:13-48
+150            android:screenOrientation="portrait"
+150-->D:\workspace\sportView\demo\AndroidManifest.xml:147:13-49
+151            android:theme="@style/AppTheme.NoActionBar"
+151-->D:\workspace\sportView\demo\AndroidManifest.xml:148:13-56
+152            android:windowSoftInputMode="stateAlwaysHidden" />
 152-->D:\workspace\sportView\demo\AndroidManifest.xml:149:13-60
-153            android:configChanges="orientation"
-153-->D:\workspace\sportView\demo\AndroidManifest.xml:150:13-48
-154            android:screenOrientation="portrait"
-154-->D:\workspace\sportView\demo\AndroidManifest.xml:151:13-49
-155            android:theme="@style/AppTheme.NoActionBar"
-155-->D:\workspace\sportView\demo\AndroidManifest.xml:152:13-56
-156            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
-156-->D:\workspace\sportView\demo\AndroidManifest.xml:153:13-72
-157        <activity
-157-->D:\workspace\sportView\demo\AndroidManifest.xml:154:9-159:75
-158            android:name="com.netease.nim.demo.contact.activity.AddFriendActivity"
-158-->D:\workspace\sportView\demo\AndroidManifest.xml:155:13-63
-159            android:configChanges="orientation"
-159-->D:\workspace\sportView\demo\AndroidManifest.xml:156:13-48
-160            android:screenOrientation="portrait"
-160-->D:\workspace\sportView\demo\AndroidManifest.xml:157:13-49
-161            android:theme="@style/AppTheme.NoActionBar"
-161-->D:\workspace\sportView\demo\AndroidManifest.xml:158:13-56
-162            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
-162-->D:\workspace\sportView\demo\AndroidManifest.xml:159:13-72
-163        <activity
-163-->D:\workspace\sportView\demo\AndroidManifest.xml:160:9-165:75
-164            android:name="com.netease.nim.demo.contact.activity.UserProfileActivity"
-164-->D:\workspace\sportView\demo\AndroidManifest.xml:161:13-65
-165            android:configChanges="orientation"
-165-->D:\workspace\sportView\demo\AndroidManifest.xml:162:13-48
-166            android:screenOrientation="portrait"
-166-->D:\workspace\sportView\demo\AndroidManifest.xml:163:13-49
-167            android:theme="@style/AppTheme.NoActionBar"
-167-->D:\workspace\sportView\demo\AndroidManifest.xml:164:13-56
-168            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
-168-->D:\workspace\sportView\demo\AndroidManifest.xml:165:13-72
-169        <activity
-169-->D:\workspace\sportView\demo\AndroidManifest.xml:166:9-171:75
-170            android:name="com.netease.nim.demo.contact.activity.UserProfileSettingActivity"
+153        <activity
+153-->D:\workspace\sportView\demo\AndroidManifest.xml:150:9-155:75
+154            android:name="com.netease.nim.demo.main.activity.NoDisturbActivity"
+154-->D:\workspace\sportView\demo\AndroidManifest.xml:151:13-60
+155            android:configChanges="orientation"
+155-->D:\workspace\sportView\demo\AndroidManifest.xml:152:13-48
+156            android:screenOrientation="portrait"
+156-->D:\workspace\sportView\demo\AndroidManifest.xml:153:13-49
+157            android:theme="@style/AppTheme.NoActionBar"
+157-->D:\workspace\sportView\demo\AndroidManifest.xml:154:13-56
+158            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+158-->D:\workspace\sportView\demo\AndroidManifest.xml:155:13-72
+159        <activity
+159-->D:\workspace\sportView\demo\AndroidManifest.xml:156:9-161:75
+160            android:name="com.netease.nim.demo.contact.activity.AddFriendActivity"
+160-->D:\workspace\sportView\demo\AndroidManifest.xml:157:13-63
+161            android:configChanges="orientation"
+161-->D:\workspace\sportView\demo\AndroidManifest.xml:158:13-48
+162            android:screenOrientation="portrait"
+162-->D:\workspace\sportView\demo\AndroidManifest.xml:159:13-49
+163            android:theme="@style/AppTheme.NoActionBar"
+163-->D:\workspace\sportView\demo\AndroidManifest.xml:160:13-56
+164            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+164-->D:\workspace\sportView\demo\AndroidManifest.xml:161:13-72
+165        <activity
+165-->D:\workspace\sportView\demo\AndroidManifest.xml:162:9-167:75
+166            android:name="com.netease.nim.demo.contact.activity.UserProfileActivity"
+166-->D:\workspace\sportView\demo\AndroidManifest.xml:163:13-65
+167            android:configChanges="orientation"
+167-->D:\workspace\sportView\demo\AndroidManifest.xml:164:13-48
+168            android:screenOrientation="portrait"
+168-->D:\workspace\sportView\demo\AndroidManifest.xml:165:13-49
+169            android:theme="@style/AppTheme.NoActionBar"
+169-->D:\workspace\sportView\demo\AndroidManifest.xml:166:13-56
+170            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
 170-->D:\workspace\sportView\demo\AndroidManifest.xml:167:13-72
-171            android:configChanges="orientation"
-171-->D:\workspace\sportView\demo\AndroidManifest.xml:168:13-48
-172            android:screenOrientation="portrait"
-172-->D:\workspace\sportView\demo\AndroidManifest.xml:169:13-49
-173            android:theme="@style/AppTheme.NoActionBar"
-173-->D:\workspace\sportView\demo\AndroidManifest.xml:170:13-56
-174            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
-174-->D:\workspace\sportView\demo\AndroidManifest.xml:171:13-72
-175        <activity
-175-->D:\workspace\sportView\demo\AndroidManifest.xml:172:9-177:75
-176            android:name="com.netease.nim.demo.contact.activity.UserProfileEditItemActivity"
-176-->D:\workspace\sportView\demo\AndroidManifest.xml:173:13-73
-177            android:configChanges="orientation"
-177-->D:\workspace\sportView\demo\AndroidManifest.xml:174:13-48
-178            android:screenOrientation="portrait"
-178-->D:\workspace\sportView\demo\AndroidManifest.xml:175:13-49
-179            android:theme="@style/AppTheme.NoActionBar"
-179-->D:\workspace\sportView\demo\AndroidManifest.xml:176:13-56
-180            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
-180-->D:\workspace\sportView\demo\AndroidManifest.xml:177:13-72
-181        <activity
-181-->D:\workspace\sportView\demo\AndroidManifest.xml:178:9-183:75
-182            android:name="com.netease.nim.demo.contact.activity.BlackListActivity"
-182-->D:\workspace\sportView\demo\AndroidManifest.xml:179:13-63
-183            android:configChanges="orientation"
-183-->D:\workspace\sportView\demo\AndroidManifest.xml:180:13-48
-184            android:screenOrientation="portrait"
-184-->D:\workspace\sportView\demo\AndroidManifest.xml:181:13-49
-185            android:theme="@style/AppTheme.NoActionBar"
-185-->D:\workspace\sportView\demo\AndroidManifest.xml:182:13-56
-186            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
-186-->D:\workspace\sportView\demo\AndroidManifest.xml:183:13-72
-187
-188        <!-- 文件管理器 -->
-189        <activity
-189-->D:\workspace\sportView\demo\AndroidManifest.xml:186:9-192:75
-190            android:name="com.netease.nim.demo.file.browser.FileBrowserActivity"
-190-->D:\workspace\sportView\demo\AndroidManifest.xml:187:13-61
-191            android:configChanges="orientation"
-191-->D:\workspace\sportView\demo\AndroidManifest.xml:188:13-48
-192            android:label="@string/file_browser"
-192-->D:\workspace\sportView\demo\AndroidManifest.xml:189:13-49
-193            android:screenOrientation="portrait"
-193-->D:\workspace\sportView\demo\AndroidManifest.xml:190:13-49
-194            android:theme="@style/AppTheme.NoActionBar"
-194-->D:\workspace\sportView\demo\AndroidManifest.xml:191:13-56
-195            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
-195-->D:\workspace\sportView\demo\AndroidManifest.xml:192:13-72
-196        <activity
-196-->D:\workspace\sportView\demo\AndroidManifest.xml:193:9-198:70
-197            android:name="com.netease.nim.demo.main.activity.SystemMessageActivity"
-197-->D:\workspace\sportView\demo\AndroidManifest.xml:194:13-64
-198            android:configChanges="keyboardHidden|orientation"
-198-->D:\workspace\sportView\demo\AndroidManifest.xml:195:13-63
-199            android:screenOrientation="portrait"
-199-->D:\workspace\sportView\demo\AndroidManifest.xml:196:13-49
-200            android:theme="@style/AppTheme.NoActionBar"
-200-->D:\workspace\sportView\demo\AndroidManifest.xml:197:13-56
-201            android:windowSoftInputMode="stateHidden|adjustResize" />
-201-->D:\workspace\sportView\demo\AndroidManifest.xml:198:13-67
-202        <activity
-202-->D:\workspace\sportView\demo\AndroidManifest.xml:199:9-204:70
-203            android:name="com.netease.nim.demo.main.activity.CustomNotificationActivity"
-203-->D:\workspace\sportView\demo\AndroidManifest.xml:200:13-69
-204            android:configChanges="keyboardHidden|orientation"
-204-->D:\workspace\sportView\demo\AndroidManifest.xml:201:13-63
-205            android:screenOrientation="portrait"
-205-->D:\workspace\sportView\demo\AndroidManifest.xml:202:13-49
-206            android:theme="@style/AppTheme.NoActionBar"
-206-->D:\workspace\sportView\demo\AndroidManifest.xml:203:13-56
-207            android:windowSoftInputMode="stateHidden|adjustResize" />
-207-->D:\workspace\sportView\demo\AndroidManifest.xml:204:13-67
-208        <activity
-208-->D:\workspace\sportView\demo\AndroidManifest.xml:205:9-210:70
-209            android:name="com.netease.nim.demo.session.activity.MessageHistoryActivity"
-209-->D:\workspace\sportView\demo\AndroidManifest.xml:206:13-68
-210            android:configChanges="keyboardHidden|orientation"
-210-->D:\workspace\sportView\demo\AndroidManifest.xml:207:13-63
-211            android:screenOrientation="portrait"
-211-->D:\workspace\sportView\demo\AndroidManifest.xml:208:13-49
-212            android:theme="@style/AppTheme.NoActionBar"
-212-->D:\workspace\sportView\demo\AndroidManifest.xml:209:13-56
-213            android:windowSoftInputMode="stateHidden|adjustResize" />
-213-->D:\workspace\sportView\demo\AndroidManifest.xml:210:13-67
-214        <activity
-214-->D:\workspace\sportView\demo\AndroidManifest.xml:211:9-216:70
-215            android:name="com.netease.nim.demo.session.activity.MessageInfoActivity"
-215-->D:\workspace\sportView\demo\AndroidManifest.xml:212:13-65
-216            android:configChanges="keyboardHidden|orientation"
-216-->D:\workspace\sportView\demo\AndroidManifest.xml:213:13-63
-217            android:screenOrientation="portrait"
-217-->D:\workspace\sportView\demo\AndroidManifest.xml:214:13-49
-218            android:theme="@style/AppTheme.NoActionBar"
-218-->D:\workspace\sportView\demo\AndroidManifest.xml:215:13-56
-219            android:windowSoftInputMode="stateHidden|adjustResize" />
-219-->D:\workspace\sportView\demo\AndroidManifest.xml:216:13-67
-220        <activity
-220-->D:\workspace\sportView\demo\AndroidManifest.xml:217:9-222:70
-221            android:name="com.netease.nim.demo.team.activity.AdvancedTeamSearchActivity"
-221-->D:\workspace\sportView\demo\AndroidManifest.xml:218:13-69
-222            android:configChanges="keyboardHidden|orientation"
-222-->D:\workspace\sportView\demo\AndroidManifest.xml:219:13-63
-223            android:screenOrientation="portrait"
-223-->D:\workspace\sportView\demo\AndroidManifest.xml:220:13-49
-224            android:theme="@style/AppTheme.NoActionBar"
-224-->D:\workspace\sportView\demo\AndroidManifest.xml:221:13-56
-225            android:windowSoftInputMode="stateHidden|adjustResize" />
-225-->D:\workspace\sportView\demo\AndroidManifest.xml:222:13-67
-226        <activity
-226-->D:\workspace\sportView\demo\AndroidManifest.xml:223:9-228:70
-227            android:name="com.netease.nim.demo.team.activity.AdvancedTeamJoinActivity"
+171        <activity
+171-->D:\workspace\sportView\demo\AndroidManifest.xml:168:9-173:75
+172            android:name="com.netease.nim.demo.contact.activity.UserProfileSettingActivity"
+172-->D:\workspace\sportView\demo\AndroidManifest.xml:169:13-72
+173            android:configChanges="orientation"
+173-->D:\workspace\sportView\demo\AndroidManifest.xml:170:13-48
+174            android:screenOrientation="portrait"
+174-->D:\workspace\sportView\demo\AndroidManifest.xml:171:13-49
+175            android:theme="@style/AppTheme.NoActionBar"
+175-->D:\workspace\sportView\demo\AndroidManifest.xml:172:13-56
+176            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+176-->D:\workspace\sportView\demo\AndroidManifest.xml:173:13-72
+177        <activity
+177-->D:\workspace\sportView\demo\AndroidManifest.xml:174:9-179:75
+178            android:name="com.netease.nim.demo.contact.activity.UserProfileEditItemActivity"
+178-->D:\workspace\sportView\demo\AndroidManifest.xml:175:13-73
+179            android:configChanges="orientation"
+179-->D:\workspace\sportView\demo\AndroidManifest.xml:176:13-48
+180            android:screenOrientation="portrait"
+180-->D:\workspace\sportView\demo\AndroidManifest.xml:177:13-49
+181            android:theme="@style/AppTheme.NoActionBar"
+181-->D:\workspace\sportView\demo\AndroidManifest.xml:178:13-56
+182            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+182-->D:\workspace\sportView\demo\AndroidManifest.xml:179:13-72
+183        <activity
+183-->D:\workspace\sportView\demo\AndroidManifest.xml:180:9-185:75
+184            android:name="com.netease.nim.demo.contact.activity.BlackListActivity"
+184-->D:\workspace\sportView\demo\AndroidManifest.xml:181:13-63
+185            android:configChanges="orientation"
+185-->D:\workspace\sportView\demo\AndroidManifest.xml:182:13-48
+186            android:screenOrientation="portrait"
+186-->D:\workspace\sportView\demo\AndroidManifest.xml:183:13-49
+187            android:theme="@style/AppTheme.NoActionBar"
+187-->D:\workspace\sportView\demo\AndroidManifest.xml:184:13-56
+188            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+188-->D:\workspace\sportView\demo\AndroidManifest.xml:185:13-72
+189
+190        <!-- 文件管理器 -->
+191        <activity
+191-->D:\workspace\sportView\demo\AndroidManifest.xml:188:9-194:75
+192            android:name="com.netease.nim.demo.file.browser.FileBrowserActivity"
+192-->D:\workspace\sportView\demo\AndroidManifest.xml:189:13-61
+193            android:configChanges="orientation"
+193-->D:\workspace\sportView\demo\AndroidManifest.xml:190:13-48
+194            android:label="@string/file_browser"
+194-->D:\workspace\sportView\demo\AndroidManifest.xml:191:13-49
+195            android:screenOrientation="portrait"
+195-->D:\workspace\sportView\demo\AndroidManifest.xml:192:13-49
+196            android:theme="@style/AppTheme.NoActionBar"
+196-->D:\workspace\sportView\demo\AndroidManifest.xml:193:13-56
+197            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+197-->D:\workspace\sportView\demo\AndroidManifest.xml:194:13-72
+198        <activity
+198-->D:\workspace\sportView\demo\AndroidManifest.xml:195:9-200:70
+199            android:name="com.netease.nim.demo.main.activity.SystemMessageActivity"
+199-->D:\workspace\sportView\demo\AndroidManifest.xml:196:13-64
+200            android:configChanges="keyboardHidden|orientation"
+200-->D:\workspace\sportView\demo\AndroidManifest.xml:197:13-63
+201            android:screenOrientation="portrait"
+201-->D:\workspace\sportView\demo\AndroidManifest.xml:198:13-49
+202            android:theme="@style/AppTheme.NoActionBar"
+202-->D:\workspace\sportView\demo\AndroidManifest.xml:199:13-56
+203            android:windowSoftInputMode="stateHidden|adjustResize" />
+203-->D:\workspace\sportView\demo\AndroidManifest.xml:200:13-67
+204        <activity
+204-->D:\workspace\sportView\demo\AndroidManifest.xml:201:9-206:70
+205            android:name="com.netease.nim.demo.main.activity.CustomNotificationActivity"
+205-->D:\workspace\sportView\demo\AndroidManifest.xml:202:13-69
+206            android:configChanges="keyboardHidden|orientation"
+206-->D:\workspace\sportView\demo\AndroidManifest.xml:203:13-63
+207            android:screenOrientation="portrait"
+207-->D:\workspace\sportView\demo\AndroidManifest.xml:204:13-49
+208            android:theme="@style/AppTheme.NoActionBar"
+208-->D:\workspace\sportView\demo\AndroidManifest.xml:205:13-56
+209            android:windowSoftInputMode="stateHidden|adjustResize" />
+209-->D:\workspace\sportView\demo\AndroidManifest.xml:206:13-67
+210        <activity
+210-->D:\workspace\sportView\demo\AndroidManifest.xml:207:9-212:70
+211            android:name="com.netease.nim.demo.session.activity.MessageHistoryActivity"
+211-->D:\workspace\sportView\demo\AndroidManifest.xml:208:13-68
+212            android:configChanges="keyboardHidden|orientation"
+212-->D:\workspace\sportView\demo\AndroidManifest.xml:209:13-63
+213            android:screenOrientation="portrait"
+213-->D:\workspace\sportView\demo\AndroidManifest.xml:210:13-49
+214            android:theme="@style/AppTheme.NoActionBar"
+214-->D:\workspace\sportView\demo\AndroidManifest.xml:211:13-56
+215            android:windowSoftInputMode="stateHidden|adjustResize" />
+215-->D:\workspace\sportView\demo\AndroidManifest.xml:212:13-67
+216        <activity
+216-->D:\workspace\sportView\demo\AndroidManifest.xml:213:9-218:70
+217            android:name="com.netease.nim.demo.session.activity.MessageInfoActivity"
+217-->D:\workspace\sportView\demo\AndroidManifest.xml:214:13-65
+218            android:configChanges="keyboardHidden|orientation"
+218-->D:\workspace\sportView\demo\AndroidManifest.xml:215:13-63
+219            android:screenOrientation="portrait"
+219-->D:\workspace\sportView\demo\AndroidManifest.xml:216:13-49
+220            android:theme="@style/AppTheme.NoActionBar"
+220-->D:\workspace\sportView\demo\AndroidManifest.xml:217:13-56
+221            android:windowSoftInputMode="stateHidden|adjustResize" />
+221-->D:\workspace\sportView\demo\AndroidManifest.xml:218:13-67
+222        <activity
+222-->D:\workspace\sportView\demo\AndroidManifest.xml:219:9-224:70
+223            android:name="com.netease.nim.demo.team.activity.AdvancedTeamSearchActivity"
+223-->D:\workspace\sportView\demo\AndroidManifest.xml:220:13-69
+224            android:configChanges="keyboardHidden|orientation"
+224-->D:\workspace\sportView\demo\AndroidManifest.xml:221:13-63
+225            android:screenOrientation="portrait"
+225-->D:\workspace\sportView\demo\AndroidManifest.xml:222:13-49
+226            android:theme="@style/AppTheme.NoActionBar"
+226-->D:\workspace\sportView\demo\AndroidManifest.xml:223:13-56
+227            android:windowSoftInputMode="stateHidden|adjustResize" />
 227-->D:\workspace\sportView\demo\AndroidManifest.xml:224:13-67
-228            android:configChanges="keyboardHidden|orientation"
-228-->D:\workspace\sportView\demo\AndroidManifest.xml:225:13-63
-229            android:screenOrientation="portrait"
-229-->D:\workspace\sportView\demo\AndroidManifest.xml:226:13-49
-230            android:theme="@style/AppTheme.NoActionBar"
-230-->D:\workspace\sportView\demo\AndroidManifest.xml:227:13-56
-231            android:windowSoftInputMode="stateHidden|adjustResize" />
-231-->D:\workspace\sportView\demo\AndroidManifest.xml:228:13-67
-232        <activity
-232-->D:\workspace\sportView\demo\AndroidManifest.xml:229:9-234:67
-233            android:name="com.netease.nim.demo.main.activity.TeamListActivity"
-233-->D:\workspace\sportView\demo\AndroidManifest.xml:230:13-59
-234            android:configChanges="keyboardHidden|orientation"
-234-->D:\workspace\sportView\demo\AndroidManifest.xml:231:13-63
-235            android:screenOrientation="portrait"
-235-->D:\workspace\sportView\demo\AndroidManifest.xml:232:13-49
-236            android:theme="@style/AppTheme.NoActionBar"
-236-->D:\workspace\sportView\demo\AndroidManifest.xml:233:13-56
-237            android:windowSoftInputMode="stateHidden|adjustPan" />
-237-->D:\workspace\sportView\demo\AndroidManifest.xml:234:13-64
-238
-239        <!-- 全局搜索 -->
-240        <activity
-240-->D:\workspace\sportView\demo\AndroidManifest.xml:237:9-242:62
-241            android:name="com.netease.nim.demo.main.activity.GlobalSearchActivity"
-241-->D:\workspace\sportView\demo\AndroidManifest.xml:238:13-63
-242            android:configChanges="keyboardHidden|orientation"
-242-->D:\workspace\sportView\demo\AndroidManifest.xml:239:13-63
-243            android:screenOrientation="portrait"
-243-->D:\workspace\sportView\demo\AndroidManifest.xml:240:13-49
-244            android:theme="@style/global_search_bg"
-244-->D:\workspace\sportView\demo\AndroidManifest.xml:241:13-52
-245            android:windowSoftInputMode="stateUnspecified" />
-245-->D:\workspace\sportView\demo\AndroidManifest.xml:242:13-59
-246
-247        <!-- 查看阅后即焚 -->
-248        <activity
-248-->D:\workspace\sportView\demo\AndroidManifest.xml:245:9-248:59
-249            android:name="com.netease.nim.demo.session.activity.WatchSnapChatPictureActivity"
-249-->D:\workspace\sportView\demo\AndroidManifest.xml:246:13-74
-250            android:configChanges="keyboardHidden"
-250-->D:\workspace\sportView\demo\AndroidManifest.xml:247:13-51
-251            android:theme="@style/AppTheme.NoActionBar" />
-251-->D:\workspace\sportView\demo\AndroidManifest.xml:248:13-56
-252        <!-- map -->
-253        <!-- <activity -->
-254        <!-- android:name=".location.activity.LocationAmapActivity" -->
-255        <!-- android:configChanges="keyboardHidden|orientation" -->
-256        <!-- android:label="@string/location_map" -->
-257        <!-- android:screenOrientation="portrait" -->
-258        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
-259        <!-- <activity -->
-260        <!-- android:name=".location.activity.NavigationAmapActivity" -->
-261        <!-- android:configChanges="keyboardHidden|orientation" -->
-262        <!-- android:label="@string/location_navigate" -->
-263        <!-- android:screenOrientation="portrait" -->
-264        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
-265
-266
-267        <!-- 音视频 -->
-268        <activity
-268-->D:\workspace\sportView\demo\AndroidManifest.xml:265:9-270:63
-269            android:name="com.netease.nim.demo.avchat.activity.AVChatActivity"
-269-->D:\workspace\sportView\demo\AndroidManifest.xml:266:13-59
-270            android:launchMode="singleInstance"
-270-->D:\workspace\sportView\demo\AndroidManifest.xml:267:13-48
-271            android:screenOrientation="portrait"
-271-->D:\workspace\sportView\demo\AndroidManifest.xml:268:13-49
-272            android:theme="@style/FullScreenTheme"
-272-->D:\workspace\sportView\demo\AndroidManifest.xml:269:13-51
-273            android:windowSoftInputMode="stateAlwaysHidden" />
-273-->D:\workspace\sportView\demo\AndroidManifest.xml:270:13-60
-274
-275        <!-- 白板 -->
-276        <activity
-276-->D:\workspace\sportView\demo\AndroidManifest.xml:273:9-278:63
-277            android:name="com.netease.nim.demo.rts.activity.RTSActivity"
-277-->D:\workspace\sportView\demo\AndroidManifest.xml:274:13-53
-278            android:launchMode="singleInstance"
-278-->D:\workspace\sportView\demo\AndroidManifest.xml:275:13-48
-279            android:screenOrientation="portrait"
-279-->D:\workspace\sportView\demo\AndroidManifest.xml:276:13-49
-280            android:theme="@style/AppTheme.NoActionBar"
-280-->D:\workspace\sportView\demo\AndroidManifest.xml:277:13-56
-281            android:windowSoftInputMode="stateAlwaysHidden" />
-281-->D:\workspace\sportView\demo\AndroidManifest.xml:278:13-60
-282
-283        <!-- 消息历史搜索 -->
-284        <activity
-284-->D:\workspace\sportView\demo\AndroidManifest.xml:281:9-286:72
-285            android:name="com.netease.nim.demo.session.search.SearchMessageActivity"
-285-->D:\workspace\sportView\demo\AndroidManifest.xml:282:13-65
-286            android:configChanges="keyboardHidden|orientation"
-286-->D:\workspace\sportView\demo\AndroidManifest.xml:283:13-63
-287            android:screenOrientation="portrait"
-287-->D:\workspace\sportView\demo\AndroidManifest.xml:284:13-49
-288            android:theme="@style/global_search_bg"
-288-->D:\workspace\sportView\demo\AndroidManifest.xml:285:13-52
-289            android:windowSoftInputMode="adjustPan|stateUnspecified" />
-289-->D:\workspace\sportView\demo\AndroidManifest.xml:286:13-69
-290        <activity
-290-->D:\workspace\sportView\demo\AndroidManifest.xml:287:9-292:70
-291            android:name="com.netease.nim.demo.session.search.DisplayMessageActivity"
-291-->D:\workspace\sportView\demo\AndroidManifest.xml:288:13-66
-292            android:configChanges="keyboardHidden|orientation"
-292-->D:\workspace\sportView\demo\AndroidManifest.xml:289:13-63
-293            android:screenOrientation="portrait"
-293-->D:\workspace\sportView\demo\AndroidManifest.xml:290:13-49
-294            android:theme="@style/AppTheme.NoActionBar"
-294-->D:\workspace\sportView\demo\AndroidManifest.xml:291:13-56
-295            android:windowSoftInputMode="stateHidden|adjustResize" />
-295-->D:\workspace\sportView\demo\AndroidManifest.xml:292:13-67
-296
-297        <!-- 聊天室 -->
-298        <activity
-298-->D:\workspace\sportView\demo\AndroidManifest.xml:295:9-299:70
-299            android:name="com.netease.nim.demo.chatroom.activity.ChatRoomActivity"
-299-->D:\workspace\sportView\demo\AndroidManifest.xml:296:13-63
-300            android:screenOrientation="portrait"
-300-->D:\workspace\sportView\demo\AndroidManifest.xml:297:13-49
-301            android:theme="@style/AppTheme.NoActionBar"
-301-->D:\workspace\sportView\demo\AndroidManifest.xml:298:13-56
-302            android:windowSoftInputMode="stateHidden|adjustResize" />
-302-->D:\workspace\sportView\demo\AndroidManifest.xml:299:13-67
-303
-304        <!-- NRTC Settings -->
-305        <activity
-305-->D:\workspace\sportView\demo\AndroidManifest.xml:302:9-304:52
-306            android:name="com.netease.nim.demo.avchat.activity.AVChatSettingsActivity"
-306-->D:\workspace\sportView\demo\AndroidManifest.xml:303:13-67
-307            android:screenOrientation="portrait" />
-307-->D:\workspace\sportView\demo\AndroidManifest.xml:304:13-49
-308
-309        <!-- 声明云信后台服务 -->
-310        <service
-310-->D:\workspace\sportView\demo\AndroidManifest.xml:307:9-309:39
-311            android:name="com.netease.nimlib.service.NimService"
-311-->D:\workspace\sportView\demo\AndroidManifest.xml:308:13-65
-312            android:process=":core" />
-312-->D:\workspace\sportView\demo\AndroidManifest.xml:309:13-36
-313
-314        <!-- 运行后台辅助服务 -->
-315        <service
-315-->D:\workspace\sportView\demo\AndroidManifest.xml:312:9-314:39
-316            android:name="com.netease.nimlib.service.NimService$Aux"
-316-->D:\workspace\sportView\demo\AndroidManifest.xml:313:13-69
-317            android:process=":core" />
-317-->D:\workspace\sportView\demo\AndroidManifest.xml:314:13-36
-318
-319        <!-- 云信SDK的监视系统启动和网络变化的广播接收器，用户开机自启动以及网络变化时候重新登录 -->
-320        <receiver
-320-->D:\workspace\sportView\demo\AndroidManifest.xml:317:9-325:20
-321            android:name="com.netease.nimlib.service.NimReceiver"
-321-->D:\workspace\sportView\demo\AndroidManifest.xml:318:13-66
-322            android:exported="false"
-322-->D:\workspace\sportView\demo\AndroidManifest.xml:319:13-37
-323            android:process=":core" >
-323-->D:\workspace\sportView\demo\AndroidManifest.xml:320:13-36
-324            <intent-filter>
-324-->D:\workspace\sportView\demo\AndroidManifest.xml:321:13-324:29
-325                <action android:name="android.intent.action.BOOT_COMPLETED" />
-325-->D:\workspace\sportView\demo\AndroidManifest.xml:322:17-79
-325-->D:\workspace\sportView\demo\AndroidManifest.xml:322:25-76
-326                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
-326-->D:\workspace\sportView\demo\AndroidManifest.xml:323:17-79
-326-->D:\workspace\sportView\demo\AndroidManifest.xml:323:25-76
-327            </intent-filter>
-328        </receiver>
-329
-330        <!-- 云信进程间通信receiver -->
-331        <receiver android:name="com.netease.nimlib.service.ResponseReceiver" />
-331-->D:\workspace\sportView\demo\AndroidManifest.xml:328:9-80
-331-->D:\workspace\sportView\demo\AndroidManifest.xml:328:19-77
-332
-333        <!-- 申明自定义通知的广播接收器，第三方APP集成时，action中的com.netease.nim.demo请替换为自己的包名 -->
-334        <!-- 需要权限申明 <uses-permission android:name="com.netease.nim.demo.permission.RECEIVE_MSG"/> -->
-335        <receiver
-335-->D:\workspace\sportView\demo\AndroidManifest.xml:332:9-339:20
-336            android:name="com.netease.nim.demo.receiver.CustomNotificationReceiver"
-336-->D:\workspace\sportView\demo\AndroidManifest.xml:333:13-64
-337            android:enabled="true"
-337-->D:\workspace\sportView\demo\AndroidManifest.xml:334:13-35
-338            android:exported="false" >
-338-->D:\workspace\sportView\demo\AndroidManifest.xml:335:13-37
-339            <intent-filter>
-339-->D:\workspace\sportView\demo\AndroidManifest.xml:336:13-338:29
-340                <action android:name="com.netease.nim.demo.ACTION.RECEIVE_CUSTOM_NOTIFICATION" />
-340-->D:\workspace\sportView\demo\AndroidManifest.xml:337:17-98
-340-->D:\workspace\sportView\demo\AndroidManifest.xml:337:25-95
-341            </intent-filter>
-342        </receiver>
-343
-344        <!-- 申明白板会话的广播接收器，第三方APP集成时，action中的com.netease.nim.demo请替换为自己的包名 -->
-345        <receiver
-345-->D:\workspace\sportView\demo\AndroidManifest.xml:342:9-349:20
-346            android:name="com.netease.nimlib.receiver.RTSBroadcastReceiver"
-346-->D:\workspace\sportView\demo\AndroidManifest.xml:343:13-76
-347            android:enabled="true"
-347-->D:\workspace\sportView\demo\AndroidManifest.xml:344:13-35
-348            android:exported="false" >
-348-->D:\workspace\sportView\demo\AndroidManifest.xml:345:13-37
-349            <intent-filter>
-349-->D:\workspace\sportView\demo\AndroidManifest.xml:346:13-348:29
-350                <action android:name="com.netease.nim.demo.ACTION.RECEIVE_RTS_NOTIFICATION" />
-350-->D:\workspace\sportView\demo\AndroidManifest.xml:347:17-95
-350-->D:\workspace\sportView\demo\AndroidManifest.xml:347:25-92
-351            </intent-filter>
-352        </receiver>
-353
-354        <!-- 申明本地电话状态（通话状态）的广播接收器，第三方APP集成时音视频模块时，如果需要网络通话与本地电话互斥，请加上此接收器 -->
-355        <receiver android:name="com.netease.nimlib.receiver.IncomingCallReceiver" >
-355-->D:\workspace\sportView\demo\AndroidManifest.xml:352:9-356:20
-355-->D:\workspace\sportView\demo\AndroidManifest.xml:352:19-82
-356            <intent-filter>
-356-->D:\workspace\sportView\demo\AndroidManifest.xml:353:13-355:29
-357                <action android:name="android.intent.action.PHONE_STATE" />
-357-->D:\workspace\sportView\demo\AndroidManifest.xml:354:17-76
-357-->D:\workspace\sportView\demo\AndroidManifest.xml:354:25-73
-358            </intent-filter>
-359        </receiver>
-360
-361        <!-- cosine -->
-362        <service
-362-->D:\workspace\sportView\demo\AndroidManifest.xml:359:9-361:41
-363            android:name="com.netease.cosine.core.CosineService"
-363-->D:\workspace\sportView\demo\AndroidManifest.xml:360:13-65
-364            android:process=":cosine" />
-364-->D:\workspace\sportView\demo\AndroidManifest.xml:361:13-38
-365
-366        <receiver
-366-->D:\workspace\sportView\demo\AndroidManifest.xml:363:9-366:41
-367            android:name="com.netease.cosine.target.CosineReceiver"
-367-->D:\workspace\sportView\demo\AndroidManifest.xml:364:13-68
-368            android:exported="true"
-368-->D:\workspace\sportView\demo\AndroidManifest.xml:365:13-36
-369            android:process=":cosine" />
-369-->D:\workspace\sportView\demo\AndroidManifest.xml:366:13-38
-370
-371        <!-- cosine target SDK integrated -->
-372        <meta-data
-372-->D:\workspace\sportView\demo\AndroidManifest.xml:369:9-371:32
-373            android:name="com.netease.cosine.target"
-373-->D:\workspace\sportView\demo\AndroidManifest.xml:370:13-53
-374            android:value="" />
-374-->D:\workspace\sportView\demo\AndroidManifest.xml:371:13-29
-375        <meta-data
-375-->D:\workspace\sportView\demo\AndroidManifest.xml:372:9-374:70
-376            android:name="com.netease.cosine.target.receiver"
-376-->D:\workspace\sportView\demo\AndroidManifest.xml:373:13-62
-377            android:value="com.netease.nimlib.service.NimReceiver" />
-377-->D:\workspace\sportView\demo\AndroidManifest.xml:374:13-67
-378
-379        <activity
-379-->D:\workspace\sportView\demo\AndroidManifest.xml:376:9-381:20
-380            android:name="ls.main.activities.MainMenuActivity"
-380-->D:\workspace\sportView\demo\AndroidManifest.xml:377:13-63
-381            android:launchMode="singleTop"
-381-->D:\workspace\sportView\demo\AndroidManifest.xml:378:13-43
-382            android:screenOrientation="portrait" >
-382-->D:\workspace\sportView\demo\AndroidManifest.xml:379:13-49
-383        </activity>
-384        <activity
-384-->D:\workspace\sportView\demo\AndroidManifest.xml:382:9-384:52
-385            android:name="ls.main.activities.TestActivity"
-385-->D:\workspace\sportView\demo\AndroidManifest.xml:383:13-59
-386            android:screenOrientation="portrait" />
-386-->D:\workspace\sportView\demo\AndroidManifest.xml:384:13-49
-387        <activity android:name="ls.main.activities.LikeActivity" />
-387-->D:\workspace\sportView\demo\AndroidManifest.xml:385:9-68
-387-->D:\workspace\sportView\demo\AndroidManifest.xml:385:19-65
-388        <activity android:name="ls.main.logup.activity.LogupActivity" >
-388-->D:\workspace\sportView\demo\AndroidManifest.xml:386:9-388:20
-388-->D:\workspace\sportView\demo\AndroidManifest.xml:386:19-70
-389            main
-390        </activity>
-391        <activity
-391-->D:\workspace\sportView\demo\AndroidManifest.xml:389:9-391:46
-392            android:name="ls.main.activities.Running.RunningActivity"
-392-->D:\workspace\sportView\demo\AndroidManifest.xml:390:13-70
-393            android:launchMode="singleTop" />
-393-->D:\workspace\sportView\demo\AndroidManifest.xml:391:13-43
-394        <activity android:name="ls.main.activities.Running.RecordActivity" />
-394-->D:\workspace\sportView\demo\AndroidManifest.xml:392:9-78
-394-->D:\workspace\sportView\demo\AndroidManifest.xml:392:19-75
-395        <activity android:name="ls.main.activities.Running.RecordShowActivity" />
-395-->D:\workspace\sportView\demo\AndroidManifest.xml:393:9-82
-395-->D:\workspace\sportView\demo\AndroidManifest.xml:393:19-79
-396
-397        <service android:name="com.amap.api.location.APSService" />
-397-->D:\workspace\sportView\demo\AndroidManifest.xml:395:9-68
-397-->D:\workspace\sportView\demo\AndroidManifest.xml:395:18-65
-398        <!--
-399 ATTENTION: This was auto-generated to add Google Play services to your project for
-400     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
-401        -->
-402        <meta-data
-402-->D:\workspace\sportView\demo\AndroidManifest.xml:400:9-402:69
-403            android:name="com.google.android.gms.version"
-403-->D:\workspace\sportView\demo\AndroidManifest.xml:401:13-58
-404            android:value="@integer/google_play_services_version" />
-404-->D:\workspace\sportView\demo\AndroidManifest.xml:402:13-66
-405
-406        <activity
-406-->D:\workspace\sportView\demo\AndroidManifest.xml:404:9-406:75
-407            android:name="ls.main.activities.Running.LockActivity"
-407-->D:\workspace\sportView\demo\AndroidManifest.xml:405:13-67
-408            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-408-->D:\workspace\sportView\demo\AndroidManifest.xml:406:13-72
-409        <activity
-409-->D:\workspace\sportView\demo\AndroidManifest.xml:407:9-410:72
-410            android:name="ls.main.activities.Running.ChartActivity"
-410-->D:\workspace\sportView\demo\AndroidManifest.xml:408:13-68
-411            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-411-->D:\workspace\sportView\demo\AndroidManifest.xml:410:13-69
-412        <activity
-412-->D:\workspace\sportView\demo\AndroidManifest.xml:411:9-413:64
-413            android:name="ls.main.activities.Running.ReadyGoActivity"
-413-->D:\workspace\sportView\demo\AndroidManifest.xml:412:13-70
-414            android:theme="@android:style/Theme.Translucent" />
-414-->D:\workspace\sportView\demo\AndroidManifest.xml:413:13-61
-415        <activity android:name="ls.main.activities.Running.LastestRunningActivity" />
-415-->D:\workspace\sportView\demo\AndroidManifest.xml:414:9-86
-415-->D:\workspace\sportView\demo\AndroidManifest.xml:414:19-83
-416        <activity android:name="ls.main.activities.ImageBrowserActivity" />
-416-->D:\workspace\sportView\demo\AndroidManifest.xml:415:9-76
-416-->D:\workspace\sportView\demo\AndroidManifest.xml:415:19-73
-417        <activity
-417-->D:\workspace\sportView\demo\AndroidManifest.xml:416:9-417:46
-418            android:name="ls.main.activities.Running.MyRunningActivity"
-418-->D:\workspace\sportView\demo\AndroidManifest.xml:416:19-78
-419            android:launchMode="singleTask" />
-419-->D:\workspace\sportView\demo\AndroidManifest.xml:417:13-44
-420        <activity android:name="ls.main.activities.Running.BmiActivity" />
-420-->D:\workspace\sportView\demo\AndroidManifest.xml:418:9-75
-420-->D:\workspace\sportView\demo\AndroidManifest.xml:418:19-72
-421        <activity android:name="ls.main.activities.Running.TargetOfDayActivity" />
-421-->D:\workspace\sportView\demo\AndroidManifest.xml:419:9-83
-421-->D:\workspace\sportView\demo\AndroidManifest.xml:419:19-80
-422        <activity android:name="ls.main.activities.Running.TodayActivity" />
-422-->D:\workspace\sportView\demo\AndroidManifest.xml:420:9-86
-422-->D:\workspace\sportView\demo\AndroidManifest.xml:420:19-74
-423        <!-- 会话窗口 -->
-424        <!--
-425             UI组件中包含了语音选文字功能，该界面是全屏显示，为了视觉上的美观，该界面主题ActionBar使用Overlay模式。
-426             如果开发者不需要该功能或效果，使用普通主题即可。 同时，还需要将message_activity.xml这个layout中的根节点的paddingTop去掉。
-427        -->
-428        <activity
-428-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-21:70
-429            android:name="com.netease.nim.uikit.session.activity.P2PMessageActivity"
-429-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-85
-430            android:configChanges="keyboardHidden|orientation"
-430-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-63
-431            android:screenOrientation="portrait"
-431-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-49
-432            android:theme="@style/AppTheme.NoActionBar"
-432-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-56
-433            android:windowSoftInputMode="stateHidden|adjustResize" />
-433-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-67
-434        <activity
-434-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-27:70
-435            android:name="com.netease.nim.uikit.session.activity.TeamMessageActivity"
-435-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-86
-436            android:configChanges="keyboardHidden|orientation"
-436-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-63
-437            android:screenOrientation="portrait"
-437-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-49
-438            android:theme="@style/AppTheme.NoActionBar"
-438-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-56
-439            android:windowSoftInputMode="stateHidden|adjustResize" /> <!-- 群聊 -->
-439-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-67
-440        <activity
-440-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-35:70
-441            android:name="com.netease.nim.uikit.team.activity.NormalTeamInfoActivity"
-441-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-86
-442            android:configChanges="keyboardHidden|orientation"
-442-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-63
-443            android:screenOrientation="portrait"
-443-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-49
-444            android:theme="@style/AppTheme.NoActionBar"
-444-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-56
-445            android:windowSoftInputMode="stateHidden|adjustResize" />
-445-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-67
-446        <activity
-446-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-41:70
-447            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity"
-447-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-88
-448            android:configChanges="keyboardHidden|orientation"
-448-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-63
-449            android:screenOrientation="portrait"
-449-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-49
-450            android:theme="@style/AppTheme.NoActionBar"
-450-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-56
-451            android:windowSoftInputMode="stateHidden|adjustResize" />
-451-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-67
-452        <activity
-452-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-47:70
-453            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity"
-453-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-90
-454            android:configChanges="keyboardHidden|orientation"
-454-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-63
-455            android:screenOrientation="portrait"
-455-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-49
-456            android:theme="@style/AppTheme.NoActionBar"
-456-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-56
-457            android:windowSoftInputMode="stateHidden|adjustResize" />
-457-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-67
-458        <activity
-458-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:9-53:70
-459            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity"
-459-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-92
-460            android:configChanges="keyboardHidden|orientation"
-460-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-63
-461            android:screenOrientation="portrait"
-461-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-49
-462            android:theme="@style/AppTheme.NoActionBar"
-462-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-56
-463            android:windowSoftInputMode="stateHidden|adjustResize" />
-463-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-67
-464        <activity
-464-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-59:70
-465            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity"
-465-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-94
-466            android:configChanges="keyboardHidden|orientation"
-466-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-63
-467            android:screenOrientation="portrait"
-467-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-49
-468            android:theme="@style/AppTheme.NoActionBar"
-468-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-56
-469            android:windowSoftInputMode="stateHidden|adjustResize" />
-469-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-67
-470        <activity
-470-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:9-65:70
-471            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity"
-471-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-92
-472            android:configChanges="keyboardHidden|orientation"
-472-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-63
-473            android:screenOrientation="portrait"
-473-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-49
-474            android:theme="@style/AppTheme.NoActionBar"
-474-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-56
-475            android:windowSoftInputMode="stateHidden|adjustResize" />
-475-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-67
-476        <activity
-476-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:9-71:70
-477            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamCreateAnnounceActivity"
-477-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-98
-478            android:configChanges="keyboardHidden|orientation"
-478-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-63
-479            android:screenOrientation="portrait"
-479-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:13-49
-480            android:theme="@style/AppTheme.NoActionBar"
-480-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-56
-481            android:windowSoftInputMode="stateHidden|adjustResize" />
-481-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:13-67
-482        <activity
-482-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:9-77:70
-483            android:name="com.netease.nim.uikit.team.activity.TeamPropertySettingActivity"
-483-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-91
-484            android:configChanges="keyboardHidden|orientation"
-484-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-63
-485            android:screenOrientation="portrait"
-485-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:13-49
-486            android:theme="@style/AppTheme.NoActionBar"
-486-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-56
-487            android:windowSoftInputMode="stateHidden|adjustResize" /> <!-- 联系人选择器 -->
-487-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-67
-488        <activity
-488-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:9-86:67
-489            android:name="com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity"
-489-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:13-97
-490            android:configChanges="keyboardHidden|orientation"
-490-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:13-63
-491            android:label="@string/contact_selector"
-491-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:13-53
-492            android:screenOrientation="portrait"
-492-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-49
-493            android:theme="@style/AppTheme.NoActionBar"
-493-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:13-56
-494            android:windowSoftInputMode="stateHidden|adjustPan" /> <!-- 照片选择 -->
-494-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:13-64
-495        <activity
-495-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:89:9-92:59
-496            android:name="com.netease.nim.uikit.common.media.picker.activity.PickImageActivity"
-496-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:90:13-96
-497            android:screenOrientation="portrait"
-497-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:13-49
-498            android:theme="@style/AppTheme.NoActionBar" />
-498-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:92:13-56
-499        <activity
-499-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:93:9-96:59
-500            android:name="com.netease.nim.uikit.common.media.picker.activity.CropImageActivity"
-500-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:94:13-96
-501            android:screenOrientation="portrait"
-501-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:13-49
-502            android:theme="@style/AppTheme.NoActionBar" />
-502-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:96:13-56
-503        <activity
-503-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:97:9-100:59
-504            android:name="com.netease.nim.uikit.common.media.picker.activity.PickerAlbumActivity"
-504-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:98:13-98
-505            android:screenOrientation="portrait"
-505-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:99:13-49
-506            android:theme="@style/AppTheme.NoActionBar" />
-506-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:100:13-56
-507        <activity
-507-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:9-104:59
-508            android:name="com.netease.nim.uikit.common.media.picker.activity.PickerAlbumPreviewActivity"
-508-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:102:13-105
-509            android:screenOrientation="portrait"
-509-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:13-49
-510            android:theme="@style/AppTheme.NoActionBar" />
-510-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:104:13-56
-511        <activity
-511-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:105:9-110:70
-512            android:name="com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity"
-512-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:106:13-108
-513            android:configChanges="keyboardHidden|orientation"
-513-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:107:13-63
-514            android:screenOrientation="portrait"
-514-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:108:13-49
-515            android:theme="@style/AppTheme.NoActionBar"
-515-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:109:13-56
-516            android:windowSoftInputMode="stateHidden|adjustResize" />
-516-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:110:13-67
-517        <activity
-517-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:111:9-117:70
-518            android:name="com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity"
-518-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:112:13-109
-519            android:configChanges="keyboardHidden|orientation"
-519-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:113:13-63
-520            android:label="@string/input_panel_take"
-520-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:114:13-53
-521            android:screenOrientation="portrait"
-521-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:115:13-49
-522            android:theme="@style/AppTheme.NoActionBar"
-522-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:116:13-56
-523            android:windowSoftInputMode="stateHidden|adjustResize" /> <!-- 视频 -->
-523-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:117:13-67
-524        <activity
-524-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:120:9-125:70
-525            android:name="com.netease.nim.uikit.session.activity.CaptureVideoActivity"
-525-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:121:13-87
-526            android:configChanges="keyboardHidden|orientation"
-526-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:122:13-63
-527            android:screenOrientation="portrait"
-527-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:123:13-49
-528            android:theme="@style/AppTheme.NoActionBar"
-528-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:13-56
-529            android:windowSoftInputMode="stateHidden|adjustResize" />
-529-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:13-67
-530        <activity
-530-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:126:9-130:48
-531            android:name="com.netease.nim.uikit.session.activity.WatchVideoActivity"
-531-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:127:13-85
-532            android:configChanges="keyboardHidden|orientation|screenSize"
-532-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:128:13-74
-533            android:label="@string/video_play"
-533-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:129:13-47
-534            android:theme="@style/DarkTheme" /> <!-- 查看大图 -->
-534-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:130:13-45
-535        <activity
-535-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:133:9-136:59
-536            android:name="com.netease.nim.uikit.session.activity.WatchMessagePictureActivity"
-536-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:134:13-94
-537            android:configChanges="keyboardHidden"
-537-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:135:13-51
-538            android:theme="@style/AppTheme.NoActionBar" />
-538-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:136:13-56
-539        <activity
-539-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
-540            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-540-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
-541            android:exported="false"
-541-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
-542            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-542-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
-543
-544        <provider
-544-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
-545            android:name="com.google.firebase.provider.FirebaseInitProvider"
-545-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
-546            android:authorities="com.netease.nim.demo.firebaseinitprovider"
-546-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
-547            android:exported="false"
-547-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
-548            android:initOrder="100" />
-548-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
-549
-550        <service
-550-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
-551            android:name="com.google.firebase.components.ComponentDiscoveryService"
-551-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:33:13-84
-552            android:directBootAware="true"
-552-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
-553            android:exported="false" />
-553-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:35:13-37
-554    </application>
-555
-556</manifest>
+228        <activity
+228-->D:\workspace\sportView\demo\AndroidManifest.xml:225:9-230:70
+229            android:name="com.netease.nim.demo.team.activity.AdvancedTeamJoinActivity"
+229-->D:\workspace\sportView\demo\AndroidManifest.xml:226:13-67
+230            android:configChanges="keyboardHidden|orientation"
+230-->D:\workspace\sportView\demo\AndroidManifest.xml:227:13-63
+231            android:screenOrientation="portrait"
+231-->D:\workspace\sportView\demo\AndroidManifest.xml:228:13-49
+232            android:theme="@style/AppTheme.NoActionBar"
+232-->D:\workspace\sportView\demo\AndroidManifest.xml:229:13-56
+233            android:windowSoftInputMode="stateHidden|adjustResize" />
+233-->D:\workspace\sportView\demo\AndroidManifest.xml:230:13-67
+234        <activity
+234-->D:\workspace\sportView\demo\AndroidManifest.xml:231:9-236:67
+235            android:name="com.netease.nim.demo.main.activity.TeamListActivity"
+235-->D:\workspace\sportView\demo\AndroidManifest.xml:232:13-59
+236            android:configChanges="keyboardHidden|orientation"
+236-->D:\workspace\sportView\demo\AndroidManifest.xml:233:13-63
+237            android:screenOrientation="portrait"
+237-->D:\workspace\sportView\demo\AndroidManifest.xml:234:13-49
+238            android:theme="@style/AppTheme.NoActionBar"
+238-->D:\workspace\sportView\demo\AndroidManifest.xml:235:13-56
+239            android:windowSoftInputMode="stateHidden|adjustPan" />
+239-->D:\workspace\sportView\demo\AndroidManifest.xml:236:13-64
+240
+241        <!-- 全局搜索 -->
+242        <activity
+242-->D:\workspace\sportView\demo\AndroidManifest.xml:239:9-244:62
+243            android:name="com.netease.nim.demo.main.activity.GlobalSearchActivity"
+243-->D:\workspace\sportView\demo\AndroidManifest.xml:240:13-63
+244            android:configChanges="keyboardHidden|orientation"
+244-->D:\workspace\sportView\demo\AndroidManifest.xml:241:13-63
+245            android:screenOrientation="portrait"
+245-->D:\workspace\sportView\demo\AndroidManifest.xml:242:13-49
+246            android:theme="@style/global_search_bg"
+246-->D:\workspace\sportView\demo\AndroidManifest.xml:243:13-52
+247            android:windowSoftInputMode="stateUnspecified" />
+247-->D:\workspace\sportView\demo\AndroidManifest.xml:244:13-59
+248
+249        <!-- 查看阅后即焚 -->
+250        <activity
+250-->D:\workspace\sportView\demo\AndroidManifest.xml:247:9-250:59
+251            android:name="com.netease.nim.demo.session.activity.WatchSnapChatPictureActivity"
+251-->D:\workspace\sportView\demo\AndroidManifest.xml:248:13-74
+252            android:configChanges="keyboardHidden"
+252-->D:\workspace\sportView\demo\AndroidManifest.xml:249:13-51
+253            android:theme="@style/AppTheme.NoActionBar" />
+253-->D:\workspace\sportView\demo\AndroidManifest.xml:250:13-56
+254        <!-- map -->
+255        <!-- <activity -->
+256        <!-- android:name=".location.activity.LocationAmapActivity" -->
+257        <!-- android:configChanges="keyboardHidden|orientation" -->
+258        <!-- android:label="@string/location_map" -->
+259        <!-- android:screenOrientation="portrait" -->
+260        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+261        <!-- <activity -->
+262        <!-- android:name=".location.activity.NavigationAmapActivity" -->
+263        <!-- android:configChanges="keyboardHidden|orientation" -->
+264        <!-- android:label="@string/location_navigate" -->
+265        <!-- android:screenOrientation="portrait" -->
+266        <!-- android:theme="@style/AppTheme.NoActionBar" /> -->
+267
+268
+269        <!-- 音视频 -->
+270        <activity
+270-->D:\workspace\sportView\demo\AndroidManifest.xml:267:9-272:63
+271            android:name="com.netease.nim.demo.avchat.activity.AVChatActivity"
+271-->D:\workspace\sportView\demo\AndroidManifest.xml:268:13-59
+272            android:launchMode="singleInstance"
+272-->D:\workspace\sportView\demo\AndroidManifest.xml:269:13-48
+273            android:screenOrientation="portrait"
+273-->D:\workspace\sportView\demo\AndroidManifest.xml:270:13-49
+274            android:theme="@style/FullScreenTheme"
+274-->D:\workspace\sportView\demo\AndroidManifest.xml:271:13-51
+275            android:windowSoftInputMode="stateAlwaysHidden" />
+275-->D:\workspace\sportView\demo\AndroidManifest.xml:272:13-60
+276
+277        <!-- 白板 -->
+278        <activity
+278-->D:\workspace\sportView\demo\AndroidManifest.xml:275:9-280:63
+279            android:name="com.netease.nim.demo.rts.activity.RTSActivity"
+279-->D:\workspace\sportView\demo\AndroidManifest.xml:276:13-53
+280            android:launchMode="singleInstance"
+280-->D:\workspace\sportView\demo\AndroidManifest.xml:277:13-48
+281            android:screenOrientation="portrait"
+281-->D:\workspace\sportView\demo\AndroidManifest.xml:278:13-49
+282            android:theme="@style/AppTheme.NoActionBar"
+282-->D:\workspace\sportView\demo\AndroidManifest.xml:279:13-56
+283            android:windowSoftInputMode="stateAlwaysHidden" />
+283-->D:\workspace\sportView\demo\AndroidManifest.xml:280:13-60
+284
+285        <!-- 消息历史搜索 -->
+286        <activity
+286-->D:\workspace\sportView\demo\AndroidManifest.xml:283:9-288:72
+287            android:name="com.netease.nim.demo.session.search.SearchMessageActivity"
+287-->D:\workspace\sportView\demo\AndroidManifest.xml:284:13-65
+288            android:configChanges="keyboardHidden|orientation"
+288-->D:\workspace\sportView\demo\AndroidManifest.xml:285:13-63
+289            android:screenOrientation="portrait"
+289-->D:\workspace\sportView\demo\AndroidManifest.xml:286:13-49
+290            android:theme="@style/global_search_bg"
+290-->D:\workspace\sportView\demo\AndroidManifest.xml:287:13-52
+291            android:windowSoftInputMode="adjustPan|stateUnspecified" />
+291-->D:\workspace\sportView\demo\AndroidManifest.xml:288:13-69
+292        <activity
+292-->D:\workspace\sportView\demo\AndroidManifest.xml:289:9-294:70
+293            android:name="com.netease.nim.demo.session.search.DisplayMessageActivity"
+293-->D:\workspace\sportView\demo\AndroidManifest.xml:290:13-66
+294            android:configChanges="keyboardHidden|orientation"
+294-->D:\workspace\sportView\demo\AndroidManifest.xml:291:13-63
+295            android:screenOrientation="portrait"
+295-->D:\workspace\sportView\demo\AndroidManifest.xml:292:13-49
+296            android:theme="@style/AppTheme.NoActionBar"
+296-->D:\workspace\sportView\demo\AndroidManifest.xml:293:13-56
+297            android:windowSoftInputMode="stateHidden|adjustResize" />
+297-->D:\workspace\sportView\demo\AndroidManifest.xml:294:13-67
+298
+299        <!-- 聊天室 -->
+300        <activity
+300-->D:\workspace\sportView\demo\AndroidManifest.xml:297:9-301:70
+301            android:name="com.netease.nim.demo.chatroom.activity.ChatRoomActivity"
+301-->D:\workspace\sportView\demo\AndroidManifest.xml:298:13-63
+302            android:screenOrientation="portrait"
+302-->D:\workspace\sportView\demo\AndroidManifest.xml:299:13-49
+303            android:theme="@style/AppTheme.NoActionBar"
+303-->D:\workspace\sportView\demo\AndroidManifest.xml:300:13-56
+304            android:windowSoftInputMode="stateHidden|adjustResize" />
+304-->D:\workspace\sportView\demo\AndroidManifest.xml:301:13-67
+305
+306        <!-- NRTC Settings -->
+307        <activity
+307-->D:\workspace\sportView\demo\AndroidManifest.xml:304:9-306:52
+308            android:name="com.netease.nim.demo.avchat.activity.AVChatSettingsActivity"
+308-->D:\workspace\sportView\demo\AndroidManifest.xml:305:13-67
+309            android:screenOrientation="portrait" />
+309-->D:\workspace\sportView\demo\AndroidManifest.xml:306:13-49
+310
+311        <!-- 声明云信后台服务 -->
+312        <service
+312-->D:\workspace\sportView\demo\AndroidManifest.xml:309:9-311:39
+313            android:name="com.netease.nimlib.service.NimService"
+313-->D:\workspace\sportView\demo\AndroidManifest.xml:310:13-65
+314            android:process=":core" />
+314-->D:\workspace\sportView\demo\AndroidManifest.xml:311:13-36
+315
+316        <!-- 运行后台辅助服务 -->
+317        <service
+317-->D:\workspace\sportView\demo\AndroidManifest.xml:314:9-316:39
+318            android:name="com.netease.nimlib.service.NimService$Aux"
+318-->D:\workspace\sportView\demo\AndroidManifest.xml:315:13-69
+319            android:process=":core" />
+319-->D:\workspace\sportView\demo\AndroidManifest.xml:316:13-36
+320
+321        <!-- 云信SDK的监视系统启动和网络变化的广播接收器，用户开机自启动以及网络变化时候重新登录 -->
+322        <receiver
+322-->D:\workspace\sportView\demo\AndroidManifest.xml:319:9-327:20
+323            android:name="com.netease.nimlib.service.NimReceiver"
+323-->D:\workspace\sportView\demo\AndroidManifest.xml:320:13-66
+324            android:exported="false"
+324-->D:\workspace\sportView\demo\AndroidManifest.xml:321:13-37
+325            android:process=":core" >
+325-->D:\workspace\sportView\demo\AndroidManifest.xml:322:13-36
+326            <intent-filter>
+326-->D:\workspace\sportView\demo\AndroidManifest.xml:323:13-326:29
+327                <action android:name="android.intent.action.BOOT_COMPLETED" />
+327-->D:\workspace\sportView\demo\AndroidManifest.xml:324:17-79
+327-->D:\workspace\sportView\demo\AndroidManifest.xml:324:25-76
+328                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+328-->D:\workspace\sportView\demo\AndroidManifest.xml:325:17-79
+328-->D:\workspace\sportView\demo\AndroidManifest.xml:325:25-76
+329            </intent-filter>
+330        </receiver>
+331
+332        <!-- 云信进程间通信receiver -->
+333        <receiver android:name="com.netease.nimlib.service.ResponseReceiver" />
+333-->D:\workspace\sportView\demo\AndroidManifest.xml:330:9-80
+333-->D:\workspace\sportView\demo\AndroidManifest.xml:330:19-77
+334
+335        <!-- 申明自定义通知的广播接收器，第三方APP集成时，action中的com.netease.nim.demo请替换为自己的包名 -->
+336        <!-- 需要权限申明 <uses-permission android:name="com.netease.nim.demo.permission.RECEIVE_MSG"/> -->
+337        <receiver
+337-->D:\workspace\sportView\demo\AndroidManifest.xml:334:9-341:20
+338            android:name="com.netease.nim.demo.receiver.CustomNotificationReceiver"
+338-->D:\workspace\sportView\demo\AndroidManifest.xml:335:13-64
+339            android:enabled="true"
+339-->D:\workspace\sportView\demo\AndroidManifest.xml:336:13-35
+340            android:exported="false" >
+340-->D:\workspace\sportView\demo\AndroidManifest.xml:337:13-37
+341            <intent-filter>
+341-->D:\workspace\sportView\demo\AndroidManifest.xml:338:13-340:29
+342                <action android:name="com.netease.nim.demo.ACTION.RECEIVE_CUSTOM_NOTIFICATION" />
+342-->D:\workspace\sportView\demo\AndroidManifest.xml:339:17-98
+342-->D:\workspace\sportView\demo\AndroidManifest.xml:339:25-95
+343            </intent-filter>
+344        </receiver>
+345
+346        <!-- 申明白板会话的广播接收器，第三方APP集成时，action中的com.netease.nim.demo请替换为自己的包名 -->
+347        <receiver
+347-->D:\workspace\sportView\demo\AndroidManifest.xml:344:9-351:20
+348            android:name="com.netease.nimlib.receiver.RTSBroadcastReceiver"
+348-->D:\workspace\sportView\demo\AndroidManifest.xml:345:13-76
+349            android:enabled="true"
+349-->D:\workspace\sportView\demo\AndroidManifest.xml:346:13-35
+350            android:exported="false" >
+350-->D:\workspace\sportView\demo\AndroidManifest.xml:347:13-37
+351            <intent-filter>
+351-->D:\workspace\sportView\demo\AndroidManifest.xml:348:13-350:29
+352                <action android:name="com.netease.nim.demo.ACTION.RECEIVE_RTS_NOTIFICATION" />
+352-->D:\workspace\sportView\demo\AndroidManifest.xml:349:17-95
+352-->D:\workspace\sportView\demo\AndroidManifest.xml:349:25-92
+353            </intent-filter>
+354        </receiver>
+355
+356        <!-- 申明本地电话状态（通话状态）的广播接收器，第三方APP集成时音视频模块时，如果需要网络通话与本地电话互斥，请加上此接收器 -->
+357        <receiver android:name="com.netease.nimlib.receiver.IncomingCallReceiver" >
+357-->D:\workspace\sportView\demo\AndroidManifest.xml:354:9-358:20
+357-->D:\workspace\sportView\demo\AndroidManifest.xml:354:19-82
+358            <intent-filter>
+358-->D:\workspace\sportView\demo\AndroidManifest.xml:355:13-357:29
+359                <action android:name="android.intent.action.PHONE_STATE" />
+359-->D:\workspace\sportView\demo\AndroidManifest.xml:356:17-76
+359-->D:\workspace\sportView\demo\AndroidManifest.xml:356:25-73
+360            </intent-filter>
+361        </receiver>
+362
+363        <!-- cosine -->
+364        <service
+364-->D:\workspace\sportView\demo\AndroidManifest.xml:361:9-363:41
+365            android:name="com.netease.cosine.core.CosineService"
+365-->D:\workspace\sportView\demo\AndroidManifest.xml:362:13-65
+366            android:process=":cosine" />
+366-->D:\workspace\sportView\demo\AndroidManifest.xml:363:13-38
+367
+368        <receiver
+368-->D:\workspace\sportView\demo\AndroidManifest.xml:365:9-368:41
+369            android:name="com.netease.cosine.target.CosineReceiver"
+369-->D:\workspace\sportView\demo\AndroidManifest.xml:366:13-68
+370            android:exported="true"
+370-->D:\workspace\sportView\demo\AndroidManifest.xml:367:13-36
+371            android:process=":cosine" />
+371-->D:\workspace\sportView\demo\AndroidManifest.xml:368:13-38
+372
+373        <!-- cosine target SDK integrated -->
+374        <meta-data
+374-->D:\workspace\sportView\demo\AndroidManifest.xml:371:9-373:32
+375            android:name="com.netease.cosine.target"
+375-->D:\workspace\sportView\demo\AndroidManifest.xml:372:13-53
+376            android:value="" />
+376-->D:\workspace\sportView\demo\AndroidManifest.xml:373:13-29
+377        <meta-data
+377-->D:\workspace\sportView\demo\AndroidManifest.xml:374:9-376:70
+378            android:name="com.netease.cosine.target.receiver"
+378-->D:\workspace\sportView\demo\AndroidManifest.xml:375:13-62
+379            android:value="com.netease.nimlib.service.NimReceiver" />
+379-->D:\workspace\sportView\demo\AndroidManifest.xml:376:13-67
+380
+381        <activity
+381-->D:\workspace\sportView\demo\AndroidManifest.xml:378:9-383:20
+382            android:name="ls.main.activities.MainMenuActivity"
+382-->D:\workspace\sportView\demo\AndroidManifest.xml:379:13-63
+383            android:launchMode="singleTop"
+383-->D:\workspace\sportView\demo\AndroidManifest.xml:380:13-43
+384            android:screenOrientation="portrait" >
+384-->D:\workspace\sportView\demo\AndroidManifest.xml:381:13-49
+385        </activity>
+386        <activity
+386-->D:\workspace\sportView\demo\AndroidManifest.xml:384:9-386:52
+387            android:name="ls.main.activities.TestActivity"
+387-->D:\workspace\sportView\demo\AndroidManifest.xml:385:13-59
+388            android:screenOrientation="portrait" />
+388-->D:\workspace\sportView\demo\AndroidManifest.xml:386:13-49
+389        <activity android:name="ls.main.activities.LikeActivity" />
+389-->D:\workspace\sportView\demo\AndroidManifest.xml:387:9-68
+389-->D:\workspace\sportView\demo\AndroidManifest.xml:387:19-65
+390        <activity android:name="ls.main.logup.activity.LogupActivity" >
+390-->D:\workspace\sportView\demo\AndroidManifest.xml:388:9-390:20
+390-->D:\workspace\sportView\demo\AndroidManifest.xml:388:19-70
+391            main
+392        </activity>
+393        <activity
+393-->D:\workspace\sportView\demo\AndroidManifest.xml:391:9-393:46
+394            android:name="ls.main.activities.Running.RunningActivity"
+394-->D:\workspace\sportView\demo\AndroidManifest.xml:392:13-70
+395            android:launchMode="singleTop" />
+395-->D:\workspace\sportView\demo\AndroidManifest.xml:393:13-43
+396        <activity android:name="ls.main.activities.Running.RecordActivity" />
+396-->D:\workspace\sportView\demo\AndroidManifest.xml:394:9-78
+396-->D:\workspace\sportView\demo\AndroidManifest.xml:394:19-75
+397        <activity android:name="ls.main.activities.Running.RecordShowActivity" />
+397-->D:\workspace\sportView\demo\AndroidManifest.xml:395:9-82
+397-->D:\workspace\sportView\demo\AndroidManifest.xml:395:19-79
+398
+399        <service android:name="com.amap.api.location.APSService" />
+399-->D:\workspace\sportView\demo\AndroidManifest.xml:397:9-68
+399-->D:\workspace\sportView\demo\AndroidManifest.xml:397:18-65
+400        <!--
+401 ATTENTION: This was auto-generated to add Google Play services to your project for
+402     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+403        -->
+404        <meta-data
+404-->D:\workspace\sportView\demo\AndroidManifest.xml:402:9-404:69
+405            android:name="com.google.android.gms.version"
+405-->D:\workspace\sportView\demo\AndroidManifest.xml:403:13-58
+406            android:value="@integer/google_play_services_version" />
+406-->D:\workspace\sportView\demo\AndroidManifest.xml:404:13-66
+407
+408        <activity
+408-->D:\workspace\sportView\demo\AndroidManifest.xml:406:9-408:75
+409            android:name="ls.main.activities.Running.LockActivity"
+409-->D:\workspace\sportView\demo\AndroidManifest.xml:407:13-67
+410            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+410-->D:\workspace\sportView\demo\AndroidManifest.xml:408:13-72
+411        <activity
+411-->D:\workspace\sportView\demo\AndroidManifest.xml:409:9-412:72
+412            android:name="ls.main.activities.Running.ChartActivity"
+412-->D:\workspace\sportView\demo\AndroidManifest.xml:410:13-68
+413            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+413-->D:\workspace\sportView\demo\AndroidManifest.xml:412:13-69
+414        <activity
+414-->D:\workspace\sportView\demo\AndroidManifest.xml:413:9-415:64
+415            android:name="ls.main.activities.Running.ReadyGoActivity"
+415-->D:\workspace\sportView\demo\AndroidManifest.xml:414:13-70
+416            android:theme="@android:style/Theme.Translucent" />
+416-->D:\workspace\sportView\demo\AndroidManifest.xml:415:13-61
+417        <activity android:name="ls.main.activities.Running.LastestRunningActivity" />
+417-->D:\workspace\sportView\demo\AndroidManifest.xml:416:9-86
+417-->D:\workspace\sportView\demo\AndroidManifest.xml:416:19-83
+418        <activity android:name="ls.main.activities.ImageBrowserActivity" />
+418-->D:\workspace\sportView\demo\AndroidManifest.xml:417:9-76
+418-->D:\workspace\sportView\demo\AndroidManifest.xml:417:19-73
+419        <activity
+419-->D:\workspace\sportView\demo\AndroidManifest.xml:418:9-419:46
+420            android:name="ls.main.activities.Running.MyRunningActivity"
+420-->D:\workspace\sportView\demo\AndroidManifest.xml:418:19-78
+421            android:launchMode="singleTask" />
+421-->D:\workspace\sportView\demo\AndroidManifest.xml:419:13-44
+422        <activity android:name="ls.main.activities.Running.BmiActivity" />
+422-->D:\workspace\sportView\demo\AndroidManifest.xml:420:9-75
+422-->D:\workspace\sportView\demo\AndroidManifest.xml:420:19-72
+423        <activity android:name="ls.main.activities.Running.TargetOfDayActivity" />
+423-->D:\workspace\sportView\demo\AndroidManifest.xml:421:9-83
+423-->D:\workspace\sportView\demo\AndroidManifest.xml:421:19-80
+424        <activity android:name="ls.main.activities.Running.TodayActivity" />
+424-->D:\workspace\sportView\demo\AndroidManifest.xml:422:9-86
+424-->D:\workspace\sportView\demo\AndroidManifest.xml:422:19-74
+425        <!-- 会话窗口 -->
+426        <!--
+427             UI组件中包含了语音选文字功能，该界面是全屏显示，为了视觉上的美观，该界面主题ActionBar使用Overlay模式。
+428             如果开发者不需要该功能或效果，使用普通主题即可。 同时，还需要将message_activity.xml这个layout中的根节点的paddingTop去掉。
+429        -->
+430        <activity
+430-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-21:70
+431            android:name="com.netease.nim.uikit.session.activity.P2PMessageActivity"
+431-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-85
+432            android:configChanges="keyboardHidden|orientation"
+432-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-63
+433            android:screenOrientation="portrait"
+433-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-49
+434            android:theme="@style/AppTheme.NoActionBar"
+434-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-56
+435            android:windowSoftInputMode="stateHidden|adjustResize" />
+435-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-67
+436        <activity
+436-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-27:70
+437            android:name="com.netease.nim.uikit.session.activity.TeamMessageActivity"
+437-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-86
+438            android:configChanges="keyboardHidden|orientation"
+438-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-63
+439            android:screenOrientation="portrait"
+439-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-49
+440            android:theme="@style/AppTheme.NoActionBar"
+440-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-56
+441            android:windowSoftInputMode="stateHidden|adjustResize" /> <!-- 群聊 -->
+441-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-67
+442        <activity
+442-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-35:70
+443            android:name="com.netease.nim.uikit.team.activity.NormalTeamInfoActivity"
+443-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-86
+444            android:configChanges="keyboardHidden|orientation"
+444-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-63
+445            android:screenOrientation="portrait"
+445-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-49
+446            android:theme="@style/AppTheme.NoActionBar"
+446-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-56
+447            android:windowSoftInputMode="stateHidden|adjustResize" />
+447-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-67
+448        <activity
+448-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-41:70
+449            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity"
+449-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-88
+450            android:configChanges="keyboardHidden|orientation"
+450-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-63
+451            android:screenOrientation="portrait"
+451-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-49
+452            android:theme="@style/AppTheme.NoActionBar"
+452-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-56
+453            android:windowSoftInputMode="stateHidden|adjustResize" />
+453-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-67
+454        <activity
+454-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-47:70
+455            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity"
+455-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-90
+456            android:configChanges="keyboardHidden|orientation"
+456-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-63
+457            android:screenOrientation="portrait"
+457-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-49
+458            android:theme="@style/AppTheme.NoActionBar"
+458-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-56
+459            android:windowSoftInputMode="stateHidden|adjustResize" />
+459-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-67
+460        <activity
+460-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:9-53:70
+461            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity"
+461-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-92
+462            android:configChanges="keyboardHidden|orientation"
+462-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-63
+463            android:screenOrientation="portrait"
+463-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-49
+464            android:theme="@style/AppTheme.NoActionBar"
+464-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-56
+465            android:windowSoftInputMode="stateHidden|adjustResize" />
+465-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-67
+466        <activity
+466-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-59:70
+467            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity"
+467-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-94
+468            android:configChanges="keyboardHidden|orientation"
+468-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-63
+469            android:screenOrientation="portrait"
+469-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-49
+470            android:theme="@style/AppTheme.NoActionBar"
+470-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-56
+471            android:windowSoftInputMode="stateHidden|adjustResize" />
+471-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-67
+472        <activity
+472-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:9-65:70
+473            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity"
+473-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-92
+474            android:configChanges="keyboardHidden|orientation"
+474-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-63
+475            android:screenOrientation="portrait"
+475-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-49
+476            android:theme="@style/AppTheme.NoActionBar"
+476-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-56
+477            android:windowSoftInputMode="stateHidden|adjustResize" />
+477-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-67
+478        <activity
+478-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:9-71:70
+479            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamCreateAnnounceActivity"
+479-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-98
+480            android:configChanges="keyboardHidden|orientation"
+480-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-63
+481            android:screenOrientation="portrait"
+481-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:13-49
+482            android:theme="@style/AppTheme.NoActionBar"
+482-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-56
+483            android:windowSoftInputMode="stateHidden|adjustResize" />
+483-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:13-67
+484        <activity
+484-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:9-77:70
+485            android:name="com.netease.nim.uikit.team.activity.TeamPropertySettingActivity"
+485-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-91
+486            android:configChanges="keyboardHidden|orientation"
+486-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-63
+487            android:screenOrientation="portrait"
+487-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:13-49
+488            android:theme="@style/AppTheme.NoActionBar"
+488-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-56
+489            android:windowSoftInputMode="stateHidden|adjustResize" /> <!-- 联系人选择器 -->
+489-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-67
+490        <activity
+490-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:9-86:67
+491            android:name="com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity"
+491-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:13-97
+492            android:configChanges="keyboardHidden|orientation"
+492-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:13-63
+493            android:label="@string/contact_selector"
+493-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:13-53
+494            android:screenOrientation="portrait"
+494-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-49
+495            android:theme="@style/AppTheme.NoActionBar"
+495-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:13-56
+496            android:windowSoftInputMode="stateHidden|adjustPan" /> <!-- 照片选择 -->
+496-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:13-64
+497        <activity
+497-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:89:9-92:59
+498            android:name="com.netease.nim.uikit.common.media.picker.activity.PickImageActivity"
+498-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:90:13-96
+499            android:screenOrientation="portrait"
+499-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:13-49
+500            android:theme="@style/AppTheme.NoActionBar" />
+500-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:92:13-56
+501        <activity
+501-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:93:9-96:59
+502            android:name="com.netease.nim.uikit.common.media.picker.activity.CropImageActivity"
+502-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:94:13-96
+503            android:screenOrientation="portrait"
+503-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:13-49
+504            android:theme="@style/AppTheme.NoActionBar" />
+504-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:96:13-56
+505        <activity
+505-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:97:9-100:59
+506            android:name="com.netease.nim.uikit.common.media.picker.activity.PickerAlbumActivity"
+506-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:98:13-98
+507            android:screenOrientation="portrait"
+507-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:99:13-49
+508            android:theme="@style/AppTheme.NoActionBar" />
+508-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:100:13-56
+509        <activity
+509-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:9-104:59
+510            android:name="com.netease.nim.uikit.common.media.picker.activity.PickerAlbumPreviewActivity"
+510-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:102:13-105
+511            android:screenOrientation="portrait"
+511-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:13-49
+512            android:theme="@style/AppTheme.NoActionBar" />
+512-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:104:13-56
+513        <activity
+513-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:105:9-110:70
+514            android:name="com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity"
+514-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:106:13-108
+515            android:configChanges="keyboardHidden|orientation"
+515-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:107:13-63
+516            android:screenOrientation="portrait"
+516-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:108:13-49
+517            android:theme="@style/AppTheme.NoActionBar"
+517-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:109:13-56
+518            android:windowSoftInputMode="stateHidden|adjustResize" />
+518-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:110:13-67
+519        <activity
+519-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:111:9-117:70
+520            android:name="com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity"
+520-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:112:13-109
+521            android:configChanges="keyboardHidden|orientation"
+521-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:113:13-63
+522            android:label="@string/input_panel_take"
+522-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:114:13-53
+523            android:screenOrientation="portrait"
+523-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:115:13-49
+524            android:theme="@style/AppTheme.NoActionBar"
+524-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:116:13-56
+525            android:windowSoftInputMode="stateHidden|adjustResize" /> <!-- 视频 -->
+525-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:117:13-67
+526        <activity
+526-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:120:9-125:70
+527            android:name="com.netease.nim.uikit.session.activity.CaptureVideoActivity"
+527-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:121:13-87
+528            android:configChanges="keyboardHidden|orientation"
+528-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:122:13-63
+529            android:screenOrientation="portrait"
+529-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:123:13-49
+530            android:theme="@style/AppTheme.NoActionBar"
+530-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:13-56
+531            android:windowSoftInputMode="stateHidden|adjustResize" />
+531-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:13-67
+532        <activity
+532-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:126:9-130:48
+533            android:name="com.netease.nim.uikit.session.activity.WatchVideoActivity"
+533-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:127:13-85
+534            android:configChanges="keyboardHidden|orientation|screenSize"
+534-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:128:13-74
+535            android:label="@string/video_play"
+535-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:129:13-47
+536            android:theme="@style/DarkTheme" /> <!-- 查看大图 -->
+536-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:130:13-45
+537        <activity
+537-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:133:9-136:59
+538            android:name="com.netease.nim.uikit.session.activity.WatchMessagePictureActivity"
+538-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:134:13-94
+539            android:configChanges="keyboardHidden"
+539-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:135:13-51
+540            android:theme="@style/AppTheme.NoActionBar" />
+540-->[:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:136:13-56
+541        <activity
+541-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+542            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+542-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+543            android:exported="false"
+543-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+544            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+544-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+545
+546        <provider
+546-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+547            android:name="com.google.firebase.provider.FirebaseInitProvider"
+547-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+548            android:authorities="com.netease.nim.demo.firebaseinitprovider"
+548-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+549            android:exported="false"
+549-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+550            android:initOrder="100" />
+550-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+551
+552        <service
+552-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+553            android:name="com.google.firebase.components.ComponentDiscoveryService"
+553-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:33:13-84
+554            android:directBootAware="true"
+554-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+555            android:exported="false" />
+555-->[com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:35:13-37
+556    </application>
+557
+558</manifest>

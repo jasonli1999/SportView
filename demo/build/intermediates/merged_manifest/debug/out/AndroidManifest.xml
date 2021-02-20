@@ -87,7 +87,9 @@
         <!-- <uses-library -->
         <!-- android:name="com.google.android.maps" -->
         <!-- android:required="false" /> -->
-
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
 
         <!-- 导航页 -->
         <activity

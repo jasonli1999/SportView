@@ -77,8 +77,7 @@ public class HomeFragment extends BaseFragment {
         lv_content.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 
             @Override
-            public void onItemClick(AdapterView<?> parent, View view,
-                                    int position, long id) {
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 NewsList.T1411113472760Bean bean = data.get(position - 1);
                 System.out.println("postition-----" + position);
                 Intent intent = new Intent(activity, TestActivity.class);
@@ -100,10 +99,10 @@ public class HomeFragment extends BaseFragment {
 
     private void getJSONByVolley(final int start) {
 
-        // String url
-        // ="http://c.m.163.com/nc/article/list/T1411113472760/0-10.html";
-        String url = "http://c.m.163.com/nc/article/list/T1411113472760/"
-                + start + "-10.html";
+         String url
+         ="http://c.m.163.com/nc/article/list/T1411113472760/0-10.html";
+//        String url = "http://c.m.163.com/nc/article/list/T1411113472760/"
+//                + start + "-10.html";
 //        String url = "http://c.m.163.com/nc/article/list/T1411113472760/0-10.html";
         RequestQueue mQueue = Volley.newRequestQueue(activity);
         StringRequest stringRequest = new StringRequest(url,

@@ -42,8 +42,8 @@ public class MainMenuActivity extends UI implements OnCheckedChangeListener, OnC
     }
 
     private void initView() {
-        rg_tab = (RadioGroup) findViewById(R.id.rg_tab);
-        iv_add = (ImageView) findViewById(R.id.iv_add);
+        rg_tab = findViewById(R.id.rg_tab);
+        iv_add = findViewById(R.id.iv_add);
 
         rg_tab.setOnCheckedChangeListener(this);
         iv_add.setOnClickListener(this);

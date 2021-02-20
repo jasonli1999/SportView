@@ -181,8 +181,8 @@ public class LoginActivity extends UI implements OnKeyListener {
                 if (registerMode) {
                     register();
                 } else {
-                    //fakeLoginTest(); // 假登录代码示例
-                    login();
+                    fakeLoginTest(); // 假登录代码示例
+//                    login();
                 }
             }
         });
@@ -491,6 +491,11 @@ public class LoginActivity extends UI implements OnKeyListener {
      * *********** 假登录示例：假登录后，可以查看该用户数据，但向云信发送数据会失败；随后手动登录后可以发数据 **************
      */
     private void fakeLoginTest() {
+
+        startActivity(new Intent(this, MainMenuActivity.class));
+
+
+
         // 获取账号、密码；账号用于假登录，密码在手动登录时需要
         final String account = loginAccountEdit.getEditableText().toString().toLowerCase();
         final String token = tokenFromPassword(loginPasswordEdit.getEditableText().toString());
