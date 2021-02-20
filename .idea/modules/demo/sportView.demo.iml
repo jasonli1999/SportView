@@ -46,10 +46,10 @@
     <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.13.2" level="project" />
     <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.http.legacy" level="project" />
-    <orderEntry type="library" name="Gradle: ./demo/libs/AMap_3DMap_V3.3.2_20160525.jar" level="project" />
-    <orderEntry type="library" name="Gradle: ./demo/libs/AMap_Location_V2.4.1_20160414.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./demo/libs/HelloCharts.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./demo/libs/SwitchLayout1.0.jar" level="project" />
+    <orderEntry type="library" name="Gradle: ./demo/libs/AMap_3DMap_V3.3.2_20160525.jar" level="project" />
+    <orderEntry type="library" name="Gradle: ./demo/libs/AMap_Location_V2.4.1_20160414.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./demo/libs/cosinesdk.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./demo/libs/nim-chatroom-2.6.0.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./demo/libs/nim-rts-2.6.0.jar" level="project" />
@@ -62,6 +62,9 @@
     <orderEntry type="library" name="Gradle: com.google.code.gson:gson:2.8.6" level="project" />
     <orderEntry type="library" name="Gradle: eu.the4thfloor.volley:com.android.volley:2015.05.28" level="project" />
     <orderEntry type="library" name="Gradle: com.google.auto.value:auto-value-annotations:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.amap.api:3dmap:7.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.amap.api:location:5.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.amap.api:search:7.4.0" level="project" />
     <orderEntry type="library" name="Gradle: ./uikit/libs/fastjson-1.1.34.android.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./uikit/libs/nim-avchat-2.6.0.jar" level="project" />
     <orderEntry type="library" name="Gradle: ./uikit/libs/nim-basesdk-2.6.0.jar" level="project" />
