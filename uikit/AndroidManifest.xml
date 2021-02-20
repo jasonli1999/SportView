@@ -3,7 +3,7 @@
 
     <uses-sdk
         android:minSdkVersion="9"
-        android:targetSdkVersion="19" />
+        android:targetSdkVersion="30" />
 
     <application>
         <!-- 会话窗口 -->

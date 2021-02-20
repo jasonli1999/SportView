@@ -28,8 +28,6 @@ import android.graphics.Paint.Style;
 import android.os.Build;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
@@ -43,12 +41,14 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import androidx.viewpager.widget.ViewPager;
+
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.main.reminder.ReminderItem;
 import com.netease.nim.demo.main.reminder.ReminderSettings;
 import com.netease.nim.uikit.common.util.sys.ScreenUtil;
 
-public class PagerSlidingTabStrip extends HorizontalScrollView implements OnPageChangeListener {
+public class PagerSlidingTabStrip extends HorizontalScrollView implements ViewPager.OnPageChangeListener {
 
     // @formatter:off
     private static final int[] ATTRS = new int[]{android.R.attr.textSize, android.R.attr.textColor};

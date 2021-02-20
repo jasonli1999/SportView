@@ -49,7 +49,7 @@ public class LoginSyncDataStatusObserver {
      */
     public void registerLoginSyncDataStatus(boolean register) {
         LogUtil.i(TAG, "observe login sync data completed event on Application create");
-        NIMClient.getService(AuthServiceObserver.class).observeLoginSyncDataStatus(loginSyncStatusObserver, register);
+//        NIMClient.getService(AuthServiceObserver.class).observeLoginSyncDataStatus(loginSyncStatusObserver, register);
     }
 
     Observer<LoginSyncStatus> loginSyncStatusObserver = new Observer<LoginSyncStatus>() {

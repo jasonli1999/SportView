@@ -1,12 +1,13 @@
 package com.netease.nim.demo.chatroom.fragment;
 
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import androidx.viewpager.widget.ViewPager;
 
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.chatroom.activity.ChatRoomActivity;
@@ -89,7 +90,7 @@ public class ChatRoomFragment extends ChatRoomTabFragment implements ViewPager.O
         adapter = new ChatRoomTabPagerAdapter(getFragmentManager(), getActivity(), viewPager);
         viewPager.setOffscreenPageLimit(adapter.getCacheCount());
         // page swtich animation
-        viewPager.setPageTransformer(true, new FadeInOutPageTransformer());
+        viewPager.setPageTransformer(true, (ViewPager.PageTransformer) new FadeInOutPageTransformer());
         // ADAPTER
         viewPager.setAdapter(adapter);
         // TAKE OVER CHANGE

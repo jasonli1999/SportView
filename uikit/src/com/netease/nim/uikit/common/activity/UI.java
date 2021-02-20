@@ -5,15 +5,18 @@ import android.content.Context;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.text.TextUtils;
 import android.view.KeyEvent;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+
+
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.Toolbar;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import com.netease.nim.uikit.common.fragment.TFragment;
 import com.netease.nim.uikit.common.util.log.LogUtil;
@@ -76,8 +79,9 @@ public abstract class UI extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public void setToolBar(int toolBarId, ToolBarOptions options) {
-        toolbar = (Toolbar) findViewById(toolBarId);
+        toolbar = findViewById(toolBarId);
         if (options.titleId != 0) {
             toolbar.setTitle(options.titleId);
         }
@@ -100,8 +104,9 @@ public abstract class UI extends AppCompatActivity {
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     public void setToolBar(int toolbarId, int titleId, int logoId) {
-        toolbar = (Toolbar) findViewById(toolbarId);
+        toolbar = findViewById(toolbarId);
         toolbar.setTitle(titleId);
         toolbar.setLogo(logoId);
         setSupportActionBar(toolbar);
@@ -115,6 +120,7 @@ public abstract class UI extends AppCompatActivity {
         onBackPressed();
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     public void setTitle(CharSequence title) {
         super.setTitle(title);

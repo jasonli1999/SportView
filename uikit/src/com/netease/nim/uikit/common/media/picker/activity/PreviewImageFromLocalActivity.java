@@ -5,10 +5,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.text.TextUtils;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -16,6 +15,9 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.RequiresApi;
+import androidx.viewpager.widget.ViewPager;
 
 import com.netease.nim.uikit.R;
 import com.netease.nim.uikit.common.activity.UI;
@@ -113,6 +115,7 @@ public class PreviewImageFromLocalActivity extends UI {
 		initViewPager();		
 	}
     
+	@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 	private void restoreList() {
 		if (tempIndex != -1) {
 			imageViewPager.setAdapter(imageViewPagerAdapter);
@@ -122,6 +125,7 @@ public class PreviewImageFromLocalActivity extends UI {
 		}
 	}
 
+	@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 	private void setTitleIndex(int index) {
 		if (selectImageList.size() <= 0) {
 			setTitle("");
@@ -201,7 +205,7 @@ public class PreviewImageFromLocalActivity extends UI {
 	 */
 	private void initViewPager() {
 		imageViewPager = (ViewPager) findViewById(R.id.viewPagerImage);
-		imageViewPager.setOnPageChangeListener(new OnPageChangeListener() {
+		imageViewPager.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 			@Override
 			public void onPageScrollStateChanged(int arg0) {
 			}
@@ -210,6 +214,7 @@ public class PreviewImageFromLocalActivity extends UI {
 			public void onPageScrolled(int arg0, float arg1, int arg2) {
 			}
 
+			@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 			@Override
 			public void onPageSelected(int arg0) {
 				setTitleIndex(arg0);
@@ -243,6 +248,7 @@ public class PreviewImageFromLocalActivity extends UI {
 		PreviewImageFromLocalActivity.this.finish();
 	}
 
+	@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 	@Override
 	public void onResume() {
 		// restore the data source

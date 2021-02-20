@@ -3,9 +3,13 @@ package com.netease.nim.uikit.common.media.picker.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.widget.Toolbar;
+
+import androidx.annotation.RequiresApi;
 
 import com.netease.nim.uikit.R;
 import com.netease.nim.uikit.common.activity.UI;
@@ -44,6 +48,7 @@ public class CropImageActivity extends UI {
         activity.startActivityForResult(intent, requestCode);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -63,6 +68,8 @@ public class CropImageActivity extends UI {
         cropImageView.clear();
         super.onDestroy();
     }
+
+
 
     private void processIntent() {
         Intent intent = getIntent();
@@ -109,5 +116,10 @@ public class CropImageActivity extends UI {
         } else if (v.getId() == R.id.cancel_btn) {
             finish();
         }
+    }
+
+    @Override
+    public void onPointerCaptureChanged(boolean hasCapture) {
+
     }
 }

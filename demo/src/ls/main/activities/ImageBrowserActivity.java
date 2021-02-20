@@ -3,12 +3,12 @@ package ls.main.activities;
 import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.provider.MediaStore;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
 import com.netease.nim.demo.R;
 
@@ -71,7 +71,7 @@ public class ImageBrowserActivity extends AppCompatActivity implements View.OnCl
             tv_image_index.setVisibility(View.GONE);
         }
 
-        vp_image_brower.setOnPageChangeListener(new OnPageChangeListener() {
+        vp_image_brower.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
 
             @Override
             public void onPageSelected(int arg0) {

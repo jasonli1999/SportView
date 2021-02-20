@@ -1,8 +1,10 @@
 package com.netease.nim.demo.common.ui.viewpager;
 
 import android.annotation.SuppressLint;
-import android.support.v4.view.ViewPager;
 import android.view.View;
+
+import androidx.viewpager.widget.ViewPager;
+
 /**
  * Viewpager 页面切换动画，只支持3.0以上版本
  * <p/>

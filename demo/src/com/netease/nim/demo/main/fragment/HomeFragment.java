@@ -1,11 +1,11 @@
 package com.netease.nim.demo.main.fragment;
 
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import androidx.viewpager.widget.ViewPager;
 
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.common.ui.viewpager.FadeInOutPageTransformer;
@@ -24,7 +24,7 @@ import com.netease.nimlib.sdk.msg.SystemMessageService;
 /**
  * 云信主界面（导航页）
  */
-public class HomeFragment extends TFragment implements OnPageChangeListener, ReminderManager.UnreadNumChangedCallback {
+public class HomeFragment extends TFragment implements ViewPager.OnPageChangeListener, ReminderManager.UnreadNumChangedCallback {
 
     private PagerSlidingTabStrip tabs;
 

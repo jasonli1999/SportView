@@ -1,13 +1,14 @@
 package com.netease.nim.uikit.session.module.input;
 
 import android.content.Context;
-import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.view.Gravity;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.GridView;
+
+import androidx.viewpager.widget.PagerAdapter;
+import androidx.viewpager.widget.ViewPager;
 
 import com.netease.nim.uikit.R;
 import com.netease.nim.uikit.session.actions.BaseAction;
@@ -18,7 +19,7 @@ import java.util.List;
 /**
  * Created by hzxuwen on 2015/3/10.
  */
-public class ActionsPagerAdapter extends PagerAdapter{
+public class ActionsPagerAdapter extends PagerAdapter {
 
     private final int ITEM_COUNT_PER_GRID_VIEW = 8;
 

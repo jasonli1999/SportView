@@ -22,8 +22,7 @@ import ls.main.fragments.FragmentController;
 import ls.main.utils.ToastUtils;
 
 
-public class MainMenuActivity extends UI implements
-        OnCheckedChangeListener, OnClickListener {
+public class MainMenuActivity extends UI implements OnCheckedChangeListener, OnClickListener {
 
     private RadioGroup rg_tab;
     private ImageView iv_add;

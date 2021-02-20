@@ -19,7 +19,7 @@
         android:id="@+id/notificationLayout"
         layout="@layout/video_call_peer_close_cameral"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"></include>
+        android:layout_height="match_parent"/>
 
     <FrameLayout
         android:id="@+id/small_size_preview_layout"

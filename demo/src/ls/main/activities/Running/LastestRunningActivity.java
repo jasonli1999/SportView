@@ -1,7 +1,8 @@
 package ls.main.activities.Running;
 
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.netease.nim.demo.R;
 

@@ -3,17 +3,19 @@ package com.netease.nim.uikit.common.media.picker.activity;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
-import android.support.v4.app.Fragment;
-import android.support.v4.view.ViewPager;
-import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.RequiresApi;
+import androidx.fragment.app.Fragment;
+import androidx.viewpager.widget.ViewPager;
 
 import com.netease.nim.uikit.R;
 import com.netease.nim.uikit.common.activity.UI;
@@ -32,7 +34,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
-public class PickerAlbumPreviewActivity extends UI implements OnClickListener, OnPageChangeListener {
+public class PickerAlbumPreviewActivity extends UI implements OnClickListener, ViewPager.OnPageChangeListener {
 	
 	public static final int RESULT_FROM_USER  = RESULT_FIRST_USER + 1;
 	
@@ -47,8 +49,8 @@ public class PickerAlbumPreviewActivity extends UI implements OnClickListener, O
 		activity.startActivityForResult(intent, RequestCode.PICKER_IMAGE_PREVIEW);
 	}
 	
-	public static void start(Fragment fragment, List<PhotoInfo> photos, int position, boolean supportOrig, 
-			boolean isOrig, List<PhotoInfo> selectPhotoList, int mutiSelectLimitSize) {
+	public static void start(Fragment fragment, List<PhotoInfo> photos, int position, boolean supportOrig,
+							 boolean isOrig, List<PhotoInfo> selectPhotoList, int mutiSelectLimitSize) {
 		Intent intent = PickerContract.makePreviewDataIntent(photos, selectPhotoList);
 		intent.setClass(fragment.getActivity(), PickerAlbumPreviewActivity.class);
 		intent.putExtra(Extras.EXTRA_PREVIEW_CURRENT_POS, position);
@@ -93,6 +95,7 @@ public class PickerAlbumPreviewActivity extends UI implements OnClickListener, O
 
 	private int mutiSelectLimitSize;
 	
+	@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.nim_picker_image_preview_activity);
@@ -124,7 +127,8 @@ public class PickerAlbumPreviewActivity extends UI implements OnClickListener, O
 		previewSelectBtn.setOnClickListener(this);
 	}
 	
-	private void initUI(){		
+	@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+	private void initUI(){
 		previewOperationBar = (LinearLayout) findViewById(R.id.picker_image_preview_operator_bar);
 		originalImage = (ImageButton) findViewById(R.id.picker_image_preview_orignal_image);
 		originalImage.setOnClickListener(this);
@@ -162,6 +166,7 @@ public class PickerAlbumPreviewActivity extends UI implements OnClickListener, O
 		}
 	}
 	
+	@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 	private void setTitleIndex(int index) {
 		if (totalSize <= 0) {
 			setTitle("");
@@ -223,6 +228,7 @@ public class PickerAlbumPreviewActivity extends UI implements OnClickListener, O
 		}
 	}
 	
+	@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 	private void restoreList() {
 		if (tempIndex != -1) {
 			imageViewPager.setAdapter(imageViewPagerAdapter);
@@ -293,6 +299,7 @@ public class PickerAlbumPreviewActivity extends UI implements OnClickListener, O
         }
 	}
 	
+	@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 	@Override
 	public void onResume() {
 		// restore the data source

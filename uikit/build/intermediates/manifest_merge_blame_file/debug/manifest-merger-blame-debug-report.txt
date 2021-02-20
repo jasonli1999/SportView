@@ -1,0 +1,254 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.netease.nim.uikit" >
+4
+5    <uses-sdk
+5-->D:\workspace\sportView\uikit\AndroidManifest.xml:4:5-6:41
+6        android:minSdkVersion="1"
+6-->D:\workspace\sportView\uikit\AndroidManifest.xml:5:9-34
+7        android:targetSdkVersion="30" />
+7-->D:\workspace\sportView\uikit\AndroidManifest.xml:6:9-38
+8
+9    <application>
+9-->D:\workspace\sportView\uikit\AndroidManifest.xml:8:5-134:19
+10
+11        <!-- 会话窗口 -->
+12        <!--
+13             UI组件中包含了语音选文字功能，该界面是全屏显示，为了视觉上的美观，该界面主题ActionBar使用Overlay模式。
+14             如果开发者不需要该功能或效果，使用普通主题即可。 同时，还需要将message_activity.xml这个layout中的根节点的paddingTop去掉。
+15        -->
+16        <activity
+16-->D:\workspace\sportView\uikit\AndroidManifest.xml:12:9-17:70
+17            android:name="com.netease.nim.uikit.session.activity.P2PMessageActivity"
+17-->D:\workspace\sportView\uikit\AndroidManifest.xml:13:13-85
+18            android:configChanges="keyboardHidden|orientation"
+18-->D:\workspace\sportView\uikit\AndroidManifest.xml:14:13-63
+19            android:screenOrientation="portrait"
+19-->D:\workspace\sportView\uikit\AndroidManifest.xml:15:13-49
+20            android:theme="@style/AppTheme.NoActionBar"
+20-->D:\workspace\sportView\uikit\AndroidManifest.xml:16:13-56
+21            android:windowSoftInputMode="stateHidden|adjustResize" />
+21-->D:\workspace\sportView\uikit\AndroidManifest.xml:17:13-67
+22        <activity
+22-->D:\workspace\sportView\uikit\AndroidManifest.xml:18:9-23:70
+23            android:name="com.netease.nim.uikit.session.activity.TeamMessageActivity"
+23-->D:\workspace\sportView\uikit\AndroidManifest.xml:19:13-86
+24            android:configChanges="keyboardHidden|orientation"
+24-->D:\workspace\sportView\uikit\AndroidManifest.xml:20:13-63
+25            android:screenOrientation="portrait"
+25-->D:\workspace\sportView\uikit\AndroidManifest.xml:21:13-49
+26            android:theme="@style/AppTheme.NoActionBar"
+26-->D:\workspace\sportView\uikit\AndroidManifest.xml:22:13-56
+27            android:windowSoftInputMode="stateHidden|adjustResize" />
+27-->D:\workspace\sportView\uikit\AndroidManifest.xml:23:13-67
+28
+29        <!-- 群聊 -->
+30        <activity
+30-->D:\workspace\sportView\uikit\AndroidManifest.xml:26:9-31:70
+31            android:name="com.netease.nim.uikit.team.activity.NormalTeamInfoActivity"
+31-->D:\workspace\sportView\uikit\AndroidManifest.xml:27:13-86
+32            android:configChanges="keyboardHidden|orientation"
+32-->D:\workspace\sportView\uikit\AndroidManifest.xml:28:13-63
+33            android:screenOrientation="portrait"
+33-->D:\workspace\sportView\uikit\AndroidManifest.xml:29:13-49
+34            android:theme="@style/AppTheme.NoActionBar"
+34-->D:\workspace\sportView\uikit\AndroidManifest.xml:30:13-56
+35            android:windowSoftInputMode="stateHidden|adjustResize" />
+35-->D:\workspace\sportView\uikit\AndroidManifest.xml:31:13-67
+36        <activity
+36-->D:\workspace\sportView\uikit\AndroidManifest.xml:32:9-37:70
+37            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity"
+37-->D:\workspace\sportView\uikit\AndroidManifest.xml:33:13-88
+38            android:configChanges="keyboardHidden|orientation"
+38-->D:\workspace\sportView\uikit\AndroidManifest.xml:34:13-63
+39            android:screenOrientation="portrait"
+39-->D:\workspace\sportView\uikit\AndroidManifest.xml:35:13-49
+40            android:theme="@style/AppTheme.NoActionBar"
+40-->D:\workspace\sportView\uikit\AndroidManifest.xml:36:13-56
+41            android:windowSoftInputMode="stateHidden|adjustResize" />
+41-->D:\workspace\sportView\uikit\AndroidManifest.xml:37:13-67
+42        <activity
+42-->D:\workspace\sportView\uikit\AndroidManifest.xml:38:9-43:70
+43            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity"
+43-->D:\workspace\sportView\uikit\AndroidManifest.xml:39:13-90
+44            android:configChanges="keyboardHidden|orientation"
+44-->D:\workspace\sportView\uikit\AndroidManifest.xml:40:13-63
+45            android:screenOrientation="portrait"
+45-->D:\workspace\sportView\uikit\AndroidManifest.xml:41:13-49
+46            android:theme="@style/AppTheme.NoActionBar"
+46-->D:\workspace\sportView\uikit\AndroidManifest.xml:42:13-56
+47            android:windowSoftInputMode="stateHidden|adjustResize" />
+47-->D:\workspace\sportView\uikit\AndroidManifest.xml:43:13-67
+48        <activity
+48-->D:\workspace\sportView\uikit\AndroidManifest.xml:44:9-49:70
+49            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity"
+49-->D:\workspace\sportView\uikit\AndroidManifest.xml:45:13-92
+50            android:configChanges="keyboardHidden|orientation"
+50-->D:\workspace\sportView\uikit\AndroidManifest.xml:46:13-63
+51            android:screenOrientation="portrait"
+51-->D:\workspace\sportView\uikit\AndroidManifest.xml:47:13-49
+52            android:theme="@style/AppTheme.NoActionBar"
+52-->D:\workspace\sportView\uikit\AndroidManifest.xml:48:13-56
+53            android:windowSoftInputMode="stateHidden|adjustResize" />
+53-->D:\workspace\sportView\uikit\AndroidManifest.xml:49:13-67
+54        <activity
+54-->D:\workspace\sportView\uikit\AndroidManifest.xml:50:9-55:70
+55            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity"
+55-->D:\workspace\sportView\uikit\AndroidManifest.xml:51:13-94
+56            android:configChanges="keyboardHidden|orientation"
+56-->D:\workspace\sportView\uikit\AndroidManifest.xml:52:13-63
+57            android:screenOrientation="portrait"
+57-->D:\workspace\sportView\uikit\AndroidManifest.xml:53:13-49
+58            android:theme="@style/AppTheme.NoActionBar"
+58-->D:\workspace\sportView\uikit\AndroidManifest.xml:54:13-56
+59            android:windowSoftInputMode="stateHidden|adjustResize" />
+59-->D:\workspace\sportView\uikit\AndroidManifest.xml:55:13-67
+60        <activity
+60-->D:\workspace\sportView\uikit\AndroidManifest.xml:56:9-61:70
+61            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity"
+61-->D:\workspace\sportView\uikit\AndroidManifest.xml:57:13-92
+62            android:configChanges="keyboardHidden|orientation"
+62-->D:\workspace\sportView\uikit\AndroidManifest.xml:58:13-63
+63            android:screenOrientation="portrait"
+63-->D:\workspace\sportView\uikit\AndroidManifest.xml:59:13-49
+64            android:theme="@style/AppTheme.NoActionBar"
+64-->D:\workspace\sportView\uikit\AndroidManifest.xml:60:13-56
+65            android:windowSoftInputMode="stateHidden|adjustResize" />
+65-->D:\workspace\sportView\uikit\AndroidManifest.xml:61:13-67
+66        <activity
+66-->D:\workspace\sportView\uikit\AndroidManifest.xml:62:9-67:70
+67            android:name="com.netease.nim.uikit.team.activity.AdvancedTeamCreateAnnounceActivity"
+67-->D:\workspace\sportView\uikit\AndroidManifest.xml:63:13-98
+68            android:configChanges="keyboardHidden|orientation"
+68-->D:\workspace\sportView\uikit\AndroidManifest.xml:64:13-63
+69            android:screenOrientation="portrait"
+69-->D:\workspace\sportView\uikit\AndroidManifest.xml:65:13-49
+70            android:theme="@style/AppTheme.NoActionBar"
+70-->D:\workspace\sportView\uikit\AndroidManifest.xml:66:13-56
+71            android:windowSoftInputMode="stateHidden|adjustResize" />
+71-->D:\workspace\sportView\uikit\AndroidManifest.xml:67:13-67
+72        <activity
+72-->D:\workspace\sportView\uikit\AndroidManifest.xml:68:9-73:70
+73            android:name="com.netease.nim.uikit.team.activity.TeamPropertySettingActivity"
+73-->D:\workspace\sportView\uikit\AndroidManifest.xml:69:13-91
+74            android:configChanges="keyboardHidden|orientation"
+74-->D:\workspace\sportView\uikit\AndroidManifest.xml:70:13-63
+75            android:screenOrientation="portrait"
+75-->D:\workspace\sportView\uikit\AndroidManifest.xml:71:13-49
+76            android:theme="@style/AppTheme.NoActionBar"
+76-->D:\workspace\sportView\uikit\AndroidManifest.xml:72:13-56
+77            android:windowSoftInputMode="stateHidden|adjustResize" />
+77-->D:\workspace\sportView\uikit\AndroidManifest.xml:73:13-67
+78
+79        <!-- 联系人选择器 -->
+80        <activity
+80-->D:\workspace\sportView\uikit\AndroidManifest.xml:76:9-82:67
+81            android:name="com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity"
+81-->D:\workspace\sportView\uikit\AndroidManifest.xml:77:13-97
+82            android:configChanges="keyboardHidden|orientation"
+82-->D:\workspace\sportView\uikit\AndroidManifest.xml:78:13-63
+83            android:label="@string/contact_selector"
+83-->D:\workspace\sportView\uikit\AndroidManifest.xml:79:13-53
+84            android:screenOrientation="portrait"
+84-->D:\workspace\sportView\uikit\AndroidManifest.xml:80:13-49
+85            android:theme="@style/AppTheme.NoActionBar"
+85-->D:\workspace\sportView\uikit\AndroidManifest.xml:81:13-56
+86            android:windowSoftInputMode="stateHidden|adjustPan" />
+86-->D:\workspace\sportView\uikit\AndroidManifest.xml:82:13-64
+87
+88        <!-- 照片选择 -->
+89        <activity
+89-->D:\workspace\sportView\uikit\AndroidManifest.xml:85:9-88:59
+90            android:name="com.netease.nim.uikit.common.media.picker.activity.PickImageActivity"
+90-->D:\workspace\sportView\uikit\AndroidManifest.xml:86:13-96
+91            android:screenOrientation="portrait"
+91-->D:\workspace\sportView\uikit\AndroidManifest.xml:87:13-49
+92            android:theme="@style/AppTheme.NoActionBar" />
+92-->D:\workspace\sportView\uikit\AndroidManifest.xml:88:13-56
+93        <activity
+93-->D:\workspace\sportView\uikit\AndroidManifest.xml:89:9-92:58
+94            android:name="com.netease.nim.uikit.common.media.picker.activity.CropImageActivity"
+94-->D:\workspace\sportView\uikit\AndroidManifest.xml:90:13-96
+95            android:screenOrientation="portrait"
+95-->D:\workspace\sportView\uikit\AndroidManifest.xml:91:13-49
+96            android:theme="@style/AppTheme.NoActionBar" />
+96-->D:\workspace\sportView\uikit\AndroidManifest.xml:92:13-56
+97        <activity
+97-->D:\workspace\sportView\uikit\AndroidManifest.xml:93:9-96:59
+98            android:name="com.netease.nim.uikit.common.media.picker.activity.PickerAlbumActivity"
+98-->D:\workspace\sportView\uikit\AndroidManifest.xml:94:13-98
+99            android:screenOrientation="portrait"
+99-->D:\workspace\sportView\uikit\AndroidManifest.xml:95:13-49
+100            android:theme="@style/AppTheme.NoActionBar" />
+100-->D:\workspace\sportView\uikit\AndroidManifest.xml:96:13-56
+101        <activity
+101-->D:\workspace\sportView\uikit\AndroidManifest.xml:97:9-100:59
+102            android:name="com.netease.nim.uikit.common.media.picker.activity.PickerAlbumPreviewActivity"
+102-->D:\workspace\sportView\uikit\AndroidManifest.xml:98:13-105
+103            android:screenOrientation="portrait"
+103-->D:\workspace\sportView\uikit\AndroidManifest.xml:99:13-49
+104            android:theme="@style/AppTheme.NoActionBar" />
+104-->D:\workspace\sportView\uikit\AndroidManifest.xml:100:13-56
+105        <activity
+105-->D:\workspace\sportView\uikit\AndroidManifest.xml:101:9-106:58
+106            android:name="com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity"
+106-->D:\workspace\sportView\uikit\AndroidManifest.xml:102:13-108
+107            android:configChanges="keyboardHidden|orientation"
+107-->D:\workspace\sportView\uikit\AndroidManifest.xml:103:13-63
+108            android:screenOrientation="portrait"
+108-->D:\workspace\sportView\uikit\AndroidManifest.xml:104:13-49
+109            android:theme="@style/AppTheme.NoActionBar"
+109-->D:\workspace\sportView\uikit\AndroidManifest.xml:106:13-56
+110            android:windowSoftInputMode="stateHidden|adjustResize" />
+110-->D:\workspace\sportView\uikit\AndroidManifest.xml:105:13-67
+111        <activity
+111-->D:\workspace\sportView\uikit\AndroidManifest.xml:107:9-113:70
+112            android:name="com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity"
+112-->D:\workspace\sportView\uikit\AndroidManifest.xml:108:13-109
+113            android:configChanges="keyboardHidden|orientation"
+113-->D:\workspace\sportView\uikit\AndroidManifest.xml:109:13-63
+114            android:label="@string/input_panel_take"
+114-->D:\workspace\sportView\uikit\AndroidManifest.xml:110:13-53
+115            android:screenOrientation="portrait"
+115-->D:\workspace\sportView\uikit\AndroidManifest.xml:111:13-49
+116            android:theme="@style/AppTheme.NoActionBar"
+116-->D:\workspace\sportView\uikit\AndroidManifest.xml:112:13-56
+117            android:windowSoftInputMode="stateHidden|adjustResize" />
+117-->D:\workspace\sportView\uikit\AndroidManifest.xml:113:13-67
+118
+119        <!-- 视频 -->
+120        <activity
+120-->D:\workspace\sportView\uikit\AndroidManifest.xml:116:9-121:58
+121            android:name="com.netease.nim.uikit.session.activity.CaptureVideoActivity"
+121-->D:\workspace\sportView\uikit\AndroidManifest.xml:117:13-87
+122            android:configChanges="keyboardHidden|orientation"
+122-->D:\workspace\sportView\uikit\AndroidManifest.xml:118:13-63
+123            android:screenOrientation="portrait"
+123-->D:\workspace\sportView\uikit\AndroidManifest.xml:119:13-49
+124            android:theme="@style/AppTheme.NoActionBar"
+124-->D:\workspace\sportView\uikit\AndroidManifest.xml:121:13-56
+125            android:windowSoftInputMode="stateHidden|adjustResize" />
+125-->D:\workspace\sportView\uikit\AndroidManifest.xml:120:13-67
+126        <activity
+126-->D:\workspace\sportView\uikit\AndroidManifest.xml:123:9-127:48
+127            android:name="com.netease.nim.uikit.session.activity.WatchVideoActivity"
+127-->D:\workspace\sportView\uikit\AndroidManifest.xml:124:13-85
+128            android:configChanges="keyboardHidden|orientation|screenSize"
+128-->D:\workspace\sportView\uikit\AndroidManifest.xml:125:13-74
+129            android:label="@string/video_play"
+129-->D:\workspace\sportView\uikit\AndroidManifest.xml:126:13-47
+130            android:theme="@style/DarkTheme" />
+130-->D:\workspace\sportView\uikit\AndroidManifest.xml:127:13-45
+131
+132        <!-- 查看大图 -->
+133        <activity
+133-->D:\workspace\sportView\uikit\AndroidManifest.xml:130:9-133:58
+134            android:name="com.netease.nim.uikit.session.activity.WatchMessagePictureActivity"
+134-->D:\workspace\sportView\uikit\AndroidManifest.xml:131:13-94
+135            android:configChanges="keyboardHidden"
+135-->D:\workspace\sportView\uikit\AndroidManifest.xml:132:13-51
+136            android:theme="@style/AppTheme.NoActionBar" />
+136-->D:\workspace\sportView\uikit\AndroidManifest.xml:133:13-56
+137    </application>
+138
+139</manifest>

@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.ApplicationInfo;
 import android.content.pm.PackageManager;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.InputFilter;
@@ -17,6 +18,8 @@ import android.view.View.OnClickListener;
 import android.view.View.OnKeyListener;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.RequiresApi;
 
 import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
@@ -96,6 +99,7 @@ public class LoginActivity extends UI implements OnKeyListener {
         return false;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -478,10 +482,8 @@ public class LoginActivity extends UI implements OnKeyListener {
         String text = activity.getResources().getString(strResId);
         TextView textView = findView(R.id.action_bar_right_clickable_textview);
         textView.setText(text);
-        if (textView != null) {
-            textView.setBackgroundResource(R.drawable.register_right_top_btn_selector);
-            textView.setPadding(ScreenUtil.dip2px(10), 0, ScreenUtil.dip2px(10), 0);
-        }
+        textView.setBackgroundResource(R.drawable.register_right_top_btn_selector);
+        textView.setPadding(ScreenUtil.dip2px(10), 0, ScreenUtil.dip2px(10), 0);
         return textView;
     }
 

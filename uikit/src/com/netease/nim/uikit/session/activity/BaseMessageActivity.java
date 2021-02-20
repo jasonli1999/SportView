@@ -1,14 +1,18 @@
 package com.netease.nim.uikit.session.activity;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+
+
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.widget.Toolbar;
 
 import com.netease.nim.uikit.R;
 import com.netease.nim.uikit.common.activity.UI;
@@ -34,6 +38,7 @@ public abstract class BaseMessageActivity extends UI {
     protected abstract int getContentViewId();
     protected abstract void initToolBar();
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -65,6 +70,7 @@ public abstract class BaseMessageActivity extends UI {
         }
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     private void parseIntent() {
         sessionId = getIntent().getStringExtra(Extras.EXTRA_ACCOUNT);
         customization = (SessionCustomization) getIntent().getSerializableExtra(Extras.EXTRA_CUSTOMIZATION);
@@ -75,6 +81,7 @@ public abstract class BaseMessageActivity extends UI {
     }
 
     // 添加action bar的右侧按钮及响应事件
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     private void addRightCustomViewOnActionBar(UI activity, List<SessionCustomization.OptionsButton> buttons) {
         if (buttons == null || buttons.size() == 0) {
             return;

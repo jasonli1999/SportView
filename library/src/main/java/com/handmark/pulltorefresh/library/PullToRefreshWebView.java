@@ -112,8 +112,9 @@ public class PullToRefreshWebView extends PullToRefreshBase<WebView> {
 
 	@Override
 	protected boolean isReadyForPullEnd() {
-		float exactContentHeight = FloatMath.floor(mRefreshableView.getContentHeight() * mRefreshableView.getScale());
-		return mRefreshableView.getScrollY() >= (exactContentHeight - mRefreshableView.getHeight());
+//		float exactContentHeight = FloatMath.floor(mRefreshableView.getContentHeight() * mRefreshableView.getScale());
+//		return mRefreshableView.getScrollY() >= (exactContentHeight - mRefreshableView.getHeight());
+		return true;
 	}
 
 	@Override
@@ -158,8 +159,9 @@ public class PullToRefreshWebView extends PullToRefreshBase<WebView> {
 		}
 
 		private int getScrollRange() {
-			return (int) Math.max(0, FloatMath.floor(mRefreshableView.getContentHeight() * mRefreshableView.getScale())
-					- (getHeight() - getPaddingBottom() - getPaddingTop()));
+//			return (int) Math.max(0, FloatMath.floor(mRefreshableView.getContentHeight() * mRefreshableView.getScale())
+//					- (getHeight() - getPaddingBottom() - getPaddingTop()));
+			return 100;
 		}
 	}
 }

@@ -13,6 +13,8 @@ import android.os.Environment;
 import android.text.TextUtils;
 import android.util.Log;
 
+import androidx.multidex.MultiDex;
+
 import com.netease.nim.demo.avchat.AVChatProfile;
 import com.netease.nim.demo.avchat.activity.AVChatActivity;
 import com.netease.nim.demo.common.util.crash.AppCrashHandler;
@@ -94,7 +96,12 @@ public class NimApplication extends Application {
 
             // 注册语言变化监听
             registerLocaleReceiver(true);
+
+
+            MultiDex.install(this);
         }
+
+
     }
 
     private LoginInfo getLoginInfo() {

@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\workspace\\sportView\\demo\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en\\values-en.xml",
+            "map": [
+                {
+                    "source": "D:\\workspace\\sportView\\demo\\res\\values-en\\strings.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,13,9,6,7,8,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "57,100,194,289,1013,653,372,464,569,740,825,920",
+                        "endColumns": "41,92,93,81,88,85,90,103,82,83,93,91",
+                        "endOffsets": "94,188,283,366,1097,734,458,563,647,819,914,1007"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,97,190,284,366,455,541,632,736,819,903,997",
+                        "endColumns": "41,92,93,81,88,85,90,103,82,83,93,91",
+                        "endOffsets": "92,185,279,361,450,536,627,731,814,898,992,1084"
+                    }
+                }
+            ]
+        }
+    ]
+}

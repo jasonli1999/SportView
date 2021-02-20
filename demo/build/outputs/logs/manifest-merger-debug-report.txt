@@ -1,992 +1,1130 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:2:1-420:12
-	xmlns:android
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:2:11-69
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:2:1-423:12
+INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml:2:1-423:12
+INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml:2:1-423:12
+INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml:2:1-423:12
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2e6ef2cbe6ab2f112f2af40a78fc96c4\multidex-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-139:12
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3eb9b4d2850248eeef9c4bdeffdc17cc\xUtils-2.6.14\AndroidManifest.xml:2:1-13:12
+MERGED from [:library] D:\workspace\sportView\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-13:12
+MERGED from [:dialog_library] D:\workspace\sportView\dialog_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9773cf80f63a729525da08ed7d917aac\navigation-ui-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0b040ae6fd7360855475a012c5af81a6\material-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bd6b1c45a89fcd0f59a0d3667b9c7977\constraintlayout-2.0.1\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\44b21666f861b2b454523071d69d07d7\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appindexing:19.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a55209bf81229885b6bc78938bca77d9\jetified-firebase-appindexing-19.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\78be485c09b159ccd6437b5ce26410a0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9d3d448a3878af78f8d5e2175d6f4332\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a5f1739a336003917307af1b7a40c6ec\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4a9be6be89a34c4336fa489463f820c4\navigation-fragment-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\082141e7a08ecc0568dc277abb6b2eb2\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6a8e87f523c55e5b29d9c4a3f69e8c47\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5fcf58f467c61301f7dd22175ddca6ba\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3b91b187821fc6e4f6300506297b769e\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fcc32fb6a5b1c720640eae2793bf295e\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:15:1-39:12
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9d7f67681f895f1fe07c3c5b0ee7486\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c49d23abb52f9b6fd6c2394142b78e2f\jetified-play-services-basement-17.5.0\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\351f62b5f38951fe44a0db260f7616e8\fragment-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2b34ee8a43eb2965f51e618654188afe\transition-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f2c4dfe6979f9a4d20d84f8f6a5aab99\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\76a75c6502d93031e6f1d463ce4e8940\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\921fb1c1970f14455564b73ac43ed75b\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\eb26039d970d0f3cff3a2fc211910401\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9b319768499df63b1d0933a3c55ff3e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\19ba019dbf22e650e8e95d7507462ba8\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1157edd5c2607e00a22deb5d6f6102e9\navigation-runtime-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c88f19f14aa8f15dd275dbaec09f63d\jetified-activity-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6b72cfb142d1a6e6733b45de4a60b27\navigation-common-2.3.3\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1b49f6b12087442447a2c9046372b97f\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0af003b0069357e1c6faec8aa2b97d1d\jetified-firebase-components-16.0.0\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2a378d3baacb6241cc32bc4e8264339a\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e61f3b3a2699d2c73b6d814c8ed40d8c\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ac846bd1991b3727d0d9b0a2719ca5c8\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7f050f7f6c6c3cfd1b005dbb5aa8afc3\lifecycle-runtime-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\054d779a91766207571d826869795163\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\07966c8c4706ffeaf638d555f4c86fb0\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41c41c2fbc05e9a19fa443c48f799c3d\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\634f2f03e50a0eb4514a8d791ceb2f13\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5e93b9f41c3983a761aa6e19533f24ec\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\644567d122746ae95b6522d27232d273\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d5bf5d996d4f8c184f67d9a87d8531c0\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3fd5b4b866d23b43b0e15439a0ee99e7\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml:2:1-423:12
+INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml:2:1-423:12
+INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml:2:1-423:12
 	package
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:3:5-35
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:4:5-35
+		INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml
+		INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml
 	android:versionName
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:6:5-32
-		INJECTED from D:\beif\nim_demo\demo\AndroidManifest.xml
-		INJECTED from D:\beif\nim_demo\demo\AndroidManifest.xml
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:7:5-32
+		INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml
+		INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:3:5-51
+	xmlns:android
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:2:11-69
+	tools:ignore
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:8:5-29
 	android:versionCode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:5:5-29
-		INJECTED from D:\beif\nim_demo\demo\AndroidManifest.xml
-		INJECTED from D:\beif\nim_demo\demo\AndroidManifest.xml
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:6:5-29
+		INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml
+		INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml
 	android:installLocation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:4:5-35
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:5:5-35
 uses-permission#android.permission.INTERNET
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:11:5-67
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:13:5-67
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:11:22-64
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:13:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:12:5-76
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:14:5-76
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:12:22-73
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:14:22-73
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:13:5-79
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:15:5-79
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:13:22-76
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:15:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:14:5-81
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:16:5-81
+	tools:ignore
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:38:9-37
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:14:22-78
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:16:22-78
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:18:5-76
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:20:5-76
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:18:22-73
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:20:22-73
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:19:5-79
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:21:5-79
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:19:22-76
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:21:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:20:5-81
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:20:22-78
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:22:22-78
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:21:5-73
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:23:5-73
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:21:22-70
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:23:22-70
 uses-permission#android.permission.GET_TASKS
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:24:5-68
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:26:5-68
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:24:22-65
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:26:22-65
 uses-permission#android.permission.FLASHLIGHT
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:25:5-69
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:27:5-69
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:25:22-66
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:27:22-66
 uses-permission#android.permission.VIBRATE
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:26:5-66
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:28:5-66
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:26:22-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:28:22-63
 uses-permission#android.permission.WAKE_LOCK
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:27:5-68
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:29:5-68
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:27:22-65
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:29:22-65
 uses-permission#android.permission.BLUETOOTH
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:28:5-68
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:30:5-68
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:28:22-65
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:30:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:29:5-74
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:31:5-74
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:29:22-71
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:31:22-71
 uses-permission#android.permission.CHANGE_CONFIGURATION
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:30:5-79
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:32:5-79
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:30:22-76
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:32:22-76
 uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:31:5-80
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:33:5-80
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:31:22-77
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:33:22-77
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:34:5-80
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:36:5-80
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:34:22-77
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:36:22-77
 uses-permission#android.permission.CAMERA
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:38:5-65
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:41:5-65
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:38:22-62
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:41:22-62
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:39:5-71
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:42:5-71
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:39:22-68
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:42:22-68
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:40:5-75
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:43:5-75
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:40:22-72
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:43:22-72
 uses-permission#android.permission.ACCESS_LOCATION_EXTRA_COMMANDS
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:50:5-89
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:54:5-89
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:50:22-86
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:54:22-86
 permission#com.netease.nim.demo.permission.RECEIVE_MSG
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:55:5-57:47
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:59:5-61:47
 	android:protectionLevel
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:57:9-44
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:61:9-44
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:56:9-67
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:60:9-67
 uses-permission#com.netease.nim.demo.permission.RECEIVE_MSG
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:60:5-83
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:64:5-83
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:60:22-80
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:64:22-80
 application
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:62:5-418:19
-MERGED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:9:5-137:19
-MERGED from [com.android.support:appcompat-v7:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:design:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\design\24.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.jiechic.library:xUtils:2.6.14] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.jiechic.library\xUtils\2.6.14\AndroidManifest.xml:11:5-20
-MERGED from [nim_demo:library:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\library\unspecified\AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:design:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\design\24.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:19:5-20
-MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:20:5-24:19
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.github.justzak:dialog_library:1.0.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.github.justzak\dialog_library\1.0.1\AndroidManifest.xml:11:5-12:19
-MERGED from [com.android.support:appcompat-v7:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:25:5-20
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:66:5-421:19
+MERGED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-137:19
+MERGED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-137:19
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3eb9b4d2850248eeef9c4bdeffdc17cc\xUtils-2.6.14\AndroidManifest.xml:11:5-20
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3eb9b4d2850248eeef9c4bdeffdc17cc\xUtils-2.6.14\AndroidManifest.xml:11:5-20
+MERGED from [:library] D:\workspace\sportView\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-20
+MERGED from [:library] D:\workspace\sportView\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-20
+MERGED from [:dialog_library] D:\workspace\sportView\dialog_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-12:19
+MERGED from [:dialog_library] D:\workspace\sportView\dialog_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-12:19
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0b040ae6fd7360855475a012c5af81a6\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0b040ae6fd7360855475a012c5af81a6\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bd6b1c45a89fcd0f59a0d3667b9c7977\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bd6b1c45a89fcd0f59a0d3667b9c7977\constraintlayout-2.0.1\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-appindexing:19.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a55209bf81229885b6bc78938bca77d9\jetified-firebase-appindexing-19.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-appindexing:19.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a55209bf81229885b6bc78938bca77d9\jetified-firebase-appindexing-19.2.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:25:5-37:19
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9d7f67681f895f1fe07c3c5b0ee7486\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9d7f67681f895f1fe07c3c5b0ee7486\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c49d23abb52f9b6fd6c2394142b78e2f\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c49d23abb52f9b6fd6c2394142b78e2f\jetified-play-services-basement-17.5.0\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.core:core:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1b49f6b12087442447a2c9046372b97f\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1b49f6b12087442447a2c9046372b97f\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:24:18-86
 	android:label
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:66:9-41
-	android:allowBackup
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:64:9-35
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:70:9-41
 	android:icon
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:65:9-42
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:69:9-42
+	android:allowBackup
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:68:9-35
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:67:9-52
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:71:9-52
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:63:9-39
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:67:9-39
 meta-data#com.amap.api.v2.apikey
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:68:9-70:64
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:69:13-50
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:72:9-74:64
 	android:value
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:70:13-61
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:74:13-61
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:73:13-50
 meta-data#com.netease.nim.appKey
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:76:9-78:64
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:77:13-50
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:80:9-82:64
 	android:value
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:78:13-61
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:82:13-61
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:81:13-50
 activity#com.netease.nim.demo.main.activity.WelcomeActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:86:9-100:24
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:93:13-52
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:90:9-103:24
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:91:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:95:13-49
 	android:label
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:89:13-45
-	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:88:13-63
-	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:92:13-65
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:87:13-58
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:93:13-45
 	android:launchMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:90:13-43
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER+android.intent.category.MULTIWINDOW_LAUNCHER
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:94:13-99:29
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:94:13-43
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:97:13-52
+	android:configChanges
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:92:13-63
+	android:theme
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:96:13-65
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:91:13-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER+category:name:android.intent.category.MULTIWINDOW_LAUNCHER
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:98:13-102:29
 action#android.intent.action.MAIN
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:95:17-69
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:99:17-69
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:95:25-66
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:99:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:97:17-77
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:100:17-77
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:97:27-74
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:100:27-74
 category#android.intent.category.MULTIWINDOW_LAUNCHER
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:98:17-89
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:101:17-89
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:98:27-86
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:101:27-86
 activity#com.netease.nim.demo.main.activity.MainActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:103:9-110:55
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:110:13-52
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:106:9-113:55
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:108:13-49
-	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:105:13-63
-	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:109:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:111:13-49
+	android:launchMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:110:13-43
 	android:hardwareAccelerated
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:106:13-47
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:109:13-47
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:113:13-52
+	android:configChanges
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:108:13-63
+	android:theme
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:112:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:104:13-55
-	android:launchMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:107:13-43
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:107:13-55
 activity#com.netease.nim.demo.main.activity.MultiportActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:113:9-118:70
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:118:13-67
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:116:9-121:70
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:116:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:119:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:121:13-67
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:115:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:118:13-63
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:117:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:120:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:114:13-60
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:117:13-60
 activity#com.netease.nim.demo.login.LoginActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:121:9-129:24
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:127:13-67
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:124:9-132:24
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:125:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:128:13-49
 	android:label
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:124:13-42
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:127:13-42
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:130:13-67
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:123:13-48
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:126:13-48
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:126:13-46
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:129:13-46
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:122:13-48
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:125:13-48
 activity#com.netease.nim.demo.main.activity.AboutActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:132:9-138:75
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:138:13-72
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:135:9-141:75
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:136:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:139:13-49
 	android:label
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:135:13-42
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:138:13-42
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:141:13-72
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:134:13-48
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:137:13-48
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:137:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:140:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:133:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:136:13-56
 activity#com.netease.nim.demo.main.activity.SettingsActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:139:9-144:63
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:144:13-60
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:142:9-147:63
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:142:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:145:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:147:13-60
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:141:13-48
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:144:13-48
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:143:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:146:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:140:13-59
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:143:13-59
 activity#com.netease.nim.demo.main.activity.NoDisturbActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:145:9-150:75
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:150:13-72
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:148:9-153:75
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:148:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:151:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:153:13-72
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:147:13-48
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:150:13-48
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:149:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:152:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:146:13-60
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:149:13-60
 activity#com.netease.nim.demo.contact.activity.AddFriendActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:151:9-156:75
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:156:13-72
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:154:9-159:75
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:154:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:157:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:159:13-72
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:153:13-48
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:156:13-48
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:155:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:158:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:152:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:155:13-63
 activity#com.netease.nim.demo.contact.activity.UserProfileActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:157:9-162:75
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:162:13-72
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:160:9-165:75
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:160:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:163:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:165:13-72
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:159:13-48
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:162:13-48
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:161:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:164:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:158:13-65
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:161:13-65
 activity#com.netease.nim.demo.contact.activity.UserProfileSettingActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:163:9-168:75
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:168:13-72
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:166:9-171:75
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:166:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:169:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:171:13-72
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:165:13-48
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:168:13-48
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:167:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:170:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:164:13-72
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:167:13-72
 activity#com.netease.nim.demo.contact.activity.UserProfileEditItemActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:169:9-174:75
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:174:13-72
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:172:9-177:75
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:172:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:175:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:177:13-72
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:171:13-48
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:174:13-48
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:173:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:176:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:170:13-73
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:173:13-73
 activity#com.netease.nim.demo.contact.activity.BlackListActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:175:9-180:75
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:180:13-72
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:178:9-183:75
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:178:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:181:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:183:13-72
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:177:13-48
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:180:13-48
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:179:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:182:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:176:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:179:13-63
 activity#com.netease.nim.demo.file.browser.FileBrowserActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:183:9-189:75
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:189:13-72
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:186:9-192:75
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:187:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:190:13-49
 	android:label
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:186:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:189:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:192:13-72
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:185:13-48
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:188:13-48
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:188:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:191:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:184:13-61
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:187:13-61
 activity#com.netease.nim.demo.main.activity.SystemMessageActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:190:9-195:70
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:195:13-67
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:193:9-198:70
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:193:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:196:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:198:13-67
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:192:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:195:13-63
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:194:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:197:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:191:13-64
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:194:13-64
 activity#com.netease.nim.demo.main.activity.CustomNotificationActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:196:9-201:70
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:201:13-67
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:199:9-204:70
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:199:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:202:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:204:13-67
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:198:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:201:13-63
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:200:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:203:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:197:13-69
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:200:13-69
 activity#com.netease.nim.demo.session.activity.MessageHistoryActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:202:9-207:70
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:207:13-67
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:205:9-210:70
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:205:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:208:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:210:13-67
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:204:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:207:13-63
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:206:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:209:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:203:13-68
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:206:13-68
 activity#com.netease.nim.demo.session.activity.MessageInfoActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:208:9-213:70
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:213:13-67
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:211:9-216:70
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:211:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:214:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:216:13-67
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:210:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:213:13-63
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:212:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:215:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:209:13-65
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:212:13-65
 activity#com.netease.nim.demo.team.activity.AdvancedTeamSearchActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:214:9-219:70
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:219:13-67
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:217:9-222:70
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:217:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:220:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:222:13-67
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:216:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:219:13-63
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:218:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:221:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:215:13-69
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:218:13-69
 activity#com.netease.nim.demo.team.activity.AdvancedTeamJoinActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:220:9-225:70
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:225:13-67
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:223:9-228:70
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:223:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:226:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:228:13-67
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:222:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:225:13-63
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:224:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:227:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:221:13-67
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:224:13-67
 activity#com.netease.nim.demo.main.activity.TeamListActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:226:9-231:67
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:231:13-64
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:229:9-234:67
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:229:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:232:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:234:13-64
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:228:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:231:13-63
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:230:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:233:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:227:13-59
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:230:13-59
 activity#com.netease.nim.demo.main.activity.GlobalSearchActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:234:9-239:62
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:239:13-59
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:237:9-242:62
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:237:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:240:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:242:13-59
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:236:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:239:13-63
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:238:13-52
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:241:13-52
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:235:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:238:13-63
 activity#com.netease.nim.demo.session.activity.WatchSnapChatPictureActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:242:9-245:59
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:245:9-248:59
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:244:13-51
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:247:13-51
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:245:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:248:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:243:13-74
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:246:13-74
 activity#com.netease.nim.demo.avchat.activity.AVChatActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:262:9-267:63
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:267:13-60
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:265:9-270:63
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:265:13-49
-	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:266:13-51
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:263:13-59
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:268:13-49
 	android:launchMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:264:13-48
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:267:13-48
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:270:13-60
+	android:theme
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:269:13-51
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:266:13-59
 activity#com.netease.nim.demo.rts.activity.RTSActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:270:9-275:63
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:275:13-60
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:273:9-278:63
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:273:13-49
-	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:274:13-56
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:271:13-53
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:276:13-49
 	android:launchMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:272:13-48
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:275:13-48
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:278:13-60
+	android:theme
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:277:13-56
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:274:13-53
 activity#com.netease.nim.demo.session.search.SearchMessageActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:278:9-283:72
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:283:13-69
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:281:9-286:72
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:281:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:284:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:286:13-69
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:280:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:283:13-63
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:282:13-52
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:285:13-52
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:279:13-65
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:282:13-65
 activity#com.netease.nim.demo.session.search.DisplayMessageActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:284:9-289:70
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:289:13-67
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:287:9-292:70
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:287:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:290:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:292:13-67
 	android:configChanges
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:286:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:289:13-63
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:288:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:291:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:285:13-66
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:288:13-66
 activity#com.netease.nim.demo.chatroom.activity.ChatRoomActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:292:9-296:70
-	android:windowSoftInputMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:296:13-67
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:295:9-299:70
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:294:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:297:13-49
+	android:windowSoftInputMode
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:299:13-67
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:295:13-56
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:298:13-56
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:293:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:296:13-63
 activity#com.netease.nim.demo.avchat.activity.AVChatSettingsActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:299:9-301:52
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:302:9-304:52
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:301:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:304:13-49
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:300:13-67
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:303:13-67
 service#com.netease.nimlib.service.NimService
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:304:9-306:39
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:307:9-309:39
 	android:process
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:306:13-36
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:309:13-36
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:305:13-65
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:308:13-65
 service#com.netease.nimlib.service.NimService$Aux
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:309:9-311:39
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:312:9-314:39
 	android:process
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:311:13-36
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:314:13-36
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:310:13-69
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:313:13-69
 receiver#com.netease.nimlib.service.NimReceiver
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:314:9-322:20
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:317:9-325:20
 	android:process
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:317:13-36
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:320:13-36
 	android:exported
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:316:13-37
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:319:13-37
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:315:13-66
-intent-filter#android.intent.action.BOOT_COMPLETED+android.net.conn.CONNECTIVITY_CHANGE
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:318:13-321:29
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:318:13-66
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:321:13-324:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:319:17-79
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:322:17-79
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:319:25-76
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:322:25-76
 action#android.net.conn.CONNECTIVITY_CHANGE
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:320:17-79
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:323:17-79
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:320:25-76
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:323:25-76
 receiver#com.netease.nimlib.service.ResponseReceiver
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:325:9-80
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:328:9-80
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:325:19-77
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:328:19-77
 receiver#com.netease.nim.demo.receiver.CustomNotificationReceiver
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:329:9-336:20
-	android:exported
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:332:13-37
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:332:9-339:20
 	android:enabled
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:331:13-35
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:334:13-35
+	android:exported
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:335:13-37
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:330:13-64
-intent-filter#com.netease.nim.demo.ACTION.RECEIVE_CUSTOM_NOTIFICATION
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:333:13-335:29
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:333:13-64
+intent-filter#action:name:com.netease.nim.demo.ACTION.RECEIVE_CUSTOM_NOTIFICATION
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:336:13-338:29
 action#com.netease.nim.demo.ACTION.RECEIVE_CUSTOM_NOTIFICATION
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:334:17-98
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:337:17-98
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:334:25-95
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:337:25-95
 receiver#com.netease.nimlib.receiver.RTSBroadcastReceiver
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:339:9-346:20
-	android:exported
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:342:13-37
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:342:9-349:20
 	android:enabled
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:341:13-35
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:340:13-76
-intent-filter#com.netease.nim.demo.ACTION.RECEIVE_RTS_NOTIFICATION
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:343:13-345:29
-action#com.netease.nim.demo.ACTION.RECEIVE_RTS_NOTIFICATION
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:344:17-95
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:344:25-92
-receiver#com.netease.nimlib.receiver.IncomingCallReceiver
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:349:9-353:20
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:349:19-82
-intent-filter#android.intent.action.PHONE_STATE
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:350:13-352:29
-action#android.intent.action.PHONE_STATE
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:351:17-76
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:351:25-73
-service#com.netease.cosine.core.CosineService
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:356:9-358:41
-	android:process
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:358:13-38
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:357:13-65
-receiver#com.netease.cosine.target.CosineReceiver
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:360:9-363:41
-	android:process
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:363:13-38
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:344:13-35
 	android:exported
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:362:13-36
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:345:13-37
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:361:13-68
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:343:13-76
+intent-filter#action:name:com.netease.nim.demo.ACTION.RECEIVE_RTS_NOTIFICATION
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:346:13-348:29
+action#com.netease.nim.demo.ACTION.RECEIVE_RTS_NOTIFICATION
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:347:17-95
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:347:25-92
+receiver#com.netease.nimlib.receiver.IncomingCallReceiver
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:352:9-356:20
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:352:19-82
+intent-filter#action:name:android.intent.action.PHONE_STATE
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:353:13-355:29
+action#android.intent.action.PHONE_STATE
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:354:17-76
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:354:25-73
+service#com.netease.cosine.core.CosineService
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:359:9-361:41
+	android:process
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:361:13-38
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:360:13-65
+receiver#com.netease.cosine.target.CosineReceiver
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:363:9-366:41
+	android:process
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:366:13-38
+	android:exported
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:365:13-36
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:364:13-68
 meta-data#com.netease.cosine.target
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:366:9-368:32
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:367:13-53
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:369:9-371:32
 	android:value
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:368:13-29
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:371:13-29
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:370:13-53
 meta-data#com.netease.cosine.target.receiver
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:369:9-371:70
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:370:13-62
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:372:9-374:70
 	android:value
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:371:13-67
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:374:13-67
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:373:13-62
 activity#ls.main.activities.MainMenuActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:373:9-378:20
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:376:9-381:20
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:376:13-49
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:374:13-63
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:379:13-49
 	android:launchMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:375:13-43
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:378:13-43
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:377:13-63
 activity#ls.main.activities.TestActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:379:9-381:52
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:382:9-384:52
 	android:screenOrientation
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:381:13-49
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:384:13-49
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:380:13-59
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:383:13-59
 activity#ls.main.activities.LikeActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:382:9-68
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:385:9-68
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:382:19-65
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:385:19-65
 activity#ls.main.logup.activity.LogupActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:383:9-385:20
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:386:9-388:20
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:383:19-70
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:386:19-70
 activity#ls.main.activities.Running.RunningActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:386:9-388:46
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:387:13-70
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:389:9-391:46
 	android:launchMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:388:13-43
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:391:13-43
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:390:13-70
 activity#ls.main.activities.Running.RecordActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:389:9-78
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:392:9-78
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:389:19-75
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:392:19-75
 activity#ls.main.activities.Running.RecordShowActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:390:9-82
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:393:9-82
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:390:19-79
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:393:19-79
 service#com.amap.api.location.APSService
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:392:9-68
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:395:9-68
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:392:18-65
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:395:18-65
 meta-data#com.google.android.gms.version
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:397:9-399:69
-MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:21:9-23:69
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:398:13-58
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:400:9-402:69
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c49d23abb52f9b6fd6c2394142b78e2f\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c49d23abb52f9b6fd6c2394142b78e2f\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:399:13-66
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:402:13-66
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:401:13-58
 activity#ls.main.activities.Running.LockActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:401:9-403:75
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:404:9-406:75
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:403:13-72
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:406:13-72
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:402:13-67
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:405:13-67
 activity#ls.main.activities.Running.ChartActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:404:9-407:72
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:407:9-410:72
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:407:13-69
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:410:13-69
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:405:13-68
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:408:13-68
 activity#ls.main.activities.Running.ReadyGoActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:408:9-410:64
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:411:9-413:64
 	android:theme
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:410:13-61
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:413:13-61
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:409:13-70
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:412:13-70
 activity#ls.main.activities.Running.LastestRunningActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:411:9-86
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:414:9-86
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:411:19-83
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:414:19-83
 activity#ls.main.activities.ImageBrowserActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:412:9-76
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:415:9-76
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:412:19-73
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:415:19-73
 activity#ls.main.activities.Running.MyRunningActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:413:9-414:46
-	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:413:19-78
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:416:9-417:46
 	android:launchMode
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:414:13-44
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:417:13-44
+	android:name
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:416:19-78
 activity#ls.main.activities.Running.BmiActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:415:9-75
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:418:9-75
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:415:19-72
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:418:19-72
 activity#ls.main.activities.Running.TargetOfDayActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:416:9-83
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:419:9-83
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:416:19-80
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:419:19-80
 activity#ls.main.activities.Running.TodayActivity
-ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:417:9-86
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:420:9-86
 	android:name
-		ADDED from D:\beif\nim_demo\demo\AndroidManifest.xml:417:19-74
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:420:19-74
 uses-sdk
-INJECTED from D:\beif\nim_demo\demo\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:appcompat-v7:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:design:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\design\24.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:recyclerview-v7:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:appcompat-v7:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.jiechic.library:xUtils:2.6.14] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.jiechic.library\xUtils\2.6.14\AndroidManifest.xml:7:5-9:41
-MERGED from [nim_demo:library:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\library\unspecified\AndroidManifest.xml:7:5-9:40
-MERGED from [com.android.support:design:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\design\24.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:recyclerview-v7:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.1.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:appcompat-v7:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.google.android.gms:play-services-appindexing:8.1.0] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.1.0\AndroidManifest.xml:18:5-42
-MERGED from [com.google.android.gms:play-services-basement:8.1.0] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.1.0\AndroidManifest.xml:18:5-42
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.github.justzak:dialog_library:1.0.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.github.justzak\dialog_library\1.0.1\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-vector-drawable:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\AndroidManifest.xml:21:5-23:54
+INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml
+INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2e6ef2cbe6ab2f112f2af40a78fc96c4\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2e6ef2cbe6ab2f112f2af40a78fc96c4\multidex-2.0.0\AndroidManifest.xml:20:5-43
+MERGED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3eb9b4d2850248eeef9c4bdeffdc17cc\xUtils-2.6.14\AndroidManifest.xml:7:5-9:41
+MERGED from [com.jiechic.library:xUtils:2.6.14] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3eb9b4d2850248eeef9c4bdeffdc17cc\xUtils-2.6.14\AndroidManifest.xml:7:5-9:41
+MERGED from [:library] D:\workspace\sportView\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:library] D:\workspace\sportView\library\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:dialog_library] D:\workspace\sportView\dialog_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:dialog_library] D:\workspace\sportView\dialog_library\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9773cf80f63a729525da08ed7d917aac\navigation-ui-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-ui:2.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9773cf80f63a729525da08ed7d917aac\navigation-ui-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0b040ae6fd7360855475a012c5af81a6\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0b040ae6fd7360855475a012c5af81a6\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bd6b1c45a89fcd0f59a0d3667b9c7977\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\bd6b1c45a89fcd0f59a0d3667b9c7977\constraintlayout-2.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\44b21666f861b2b454523071d69d07d7\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\44b21666f861b2b454523071d69d07d7\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-appindexing:19.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a55209bf81229885b6bc78938bca77d9\jetified-firebase-appindexing-19.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-appindexing:19.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a55209bf81229885b6bc78938bca77d9\jetified-firebase-appindexing-19.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\78be485c09b159ccd6437b5ce26410a0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\78be485c09b159ccd6437b5ce26410a0\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9d3d448a3878af78f8d5e2175d6f4332\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9d3d448a3878af78f8d5e2175d6f4332\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a5f1739a336003917307af1b7a40c6ec\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\a5f1739a336003917307af1b7a40c6ec\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4a9be6be89a34c4336fa489463f820c4\navigation-fragment-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-fragment:2.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\4a9be6be89a34c4336fa489463f820c4\navigation-fragment-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\082141e7a08ecc0568dc277abb6b2eb2\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\082141e7a08ecc0568dc277abb6b2eb2\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6a8e87f523c55e5b29d9c4a3f69e8c47\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\6a8e87f523c55e5b29d9c4a3f69e8c47\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5fcf58f467c61301f7dd22175ddca6ba\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5fcf58f467c61301f7dd22175ddca6ba\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3b91b187821fc6e4f6300506297b769e\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3b91b187821fc6e4f6300506297b769e\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fcc32fb6a5b1c720640eae2793bf295e\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\fcc32fb6a5b1c720640eae2793bf295e\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9d7f67681f895f1fe07c3c5b0ee7486\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d9d7f67681f895f1fe07c3c5b0ee7486\jetified-play-services-tasks-17.2.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c49d23abb52f9b6fd6c2394142b78e2f\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\c49d23abb52f9b6fd6c2394142b78e2f\jetified-play-services-basement-17.5.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\351f62b5f38951fe44a0db260f7616e8\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.4] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\351f62b5f38951fe44a0db260f7616e8\fragment-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2b34ee8a43eb2965f51e618654188afe\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2b34ee8a43eb2965f51e618654188afe\transition-1.3.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f2c4dfe6979f9a4d20d84f8f6a5aab99\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\f2c4dfe6979f9a4d20d84f8f6a5aab99\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\76a75c6502d93031e6f1d463ce4e8940\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\76a75c6502d93031e6f1d463ce4e8940\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\921fb1c1970f14455564b73ac43ed75b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\921fb1c1970f14455564b73ac43ed75b\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\eb26039d970d0f3cff3a2fc211910401\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\eb26039d970d0f3cff3a2fc211910401\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9b319768499df63b1d0933a3c55ff3e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\9b319768499df63b1d0933a3c55ff3e7\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\19ba019dbf22e650e8e95d7507462ba8\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\19ba019dbf22e650e8e95d7507462ba8\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1157edd5c2607e00a22deb5d6f6102e9\navigation-runtime-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-runtime:2.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1157edd5c2607e00a22deb5d6f6102e9\navigation-runtime-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c88f19f14aa8f15dd275dbaec09f63d\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3c88f19f14aa8f15dd275dbaec09f63d\jetified-activity-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6b72cfb142d1a6e6733b45de4a60b27\navigation-common-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.3.3] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e6b72cfb142d1a6e6733b45de4a60b27\navigation-common-2.3.3\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.1] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8dbd859d1cd89239b42e7382b4fc40d7\core-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1b49f6b12087442447a2c9046372b97f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\1b49f6b12087442447a2c9046372b97f\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0af003b0069357e1c6faec8aa2b97d1d\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:16.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\0af003b0069357e1c6faec8aa2b97d1d\jetified-firebase-components-16.0.0\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2a378d3baacb6241cc32bc4e8264339a\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\2a378d3baacb6241cc32bc4e8264339a\jetified-lifecycle-viewmodel-savedstate-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e61f3b3a2699d2c73b6d814c8ed40d8c\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\e61f3b3a2699d2c73b6d814c8ed40d8c\lifecycle-viewmodel-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ac846bd1991b3727d0d9b0a2719ca5c8\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\ac846bd1991b3727d0d9b0a2719ca5c8\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7f050f7f6c6c3cfd1b005dbb5aa8afc3\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\7f050f7f6c6c3cfd1b005dbb5aa8afc3\lifecycle-runtime-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\054d779a91766207571d826869795163\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\054d779a91766207571d826869795163\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\07966c8c4706ffeaf638d555f4c86fb0\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\07966c8c4706ffeaf638d555f4c86fb0\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41c41c2fbc05e9a19fa443c48f799c3d\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\41c41c2fbc05e9a19fa443c48f799c3d\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\634f2f03e50a0eb4514a8d791ceb2f13\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\634f2f03e50a0eb4514a8d791ceb2f13\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5e93b9f41c3983a761aa6e19533f24ec\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\5e93b9f41c3983a761aa6e19533f24ec\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\644567d122746ae95b6522d27232d273\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\644567d122746ae95b6522d27232d273\lifecycle-livedata-core-2.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d5bf5d996d4f8c184f67d9a87d8531c0\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\d5bf5d996d4f8c184f67d9a87d8531c0\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3fd5b4b866d23b43b0e15439a0ee99e7\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\3fd5b4b866d23b43b0e15439a0ee99e7\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml
+INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from D:\beif\nim_demo\demo\AndroidManifest.xml
-		INJECTED from D:\beif\nim_demo\demo\AndroidManifest.xml
+		INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml
+		INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from D:\beif\nim_demo\demo\AndroidManifest.xml
-		INJECTED from D:\beif\nim_demo\demo\AndroidManifest.xml
-	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.1.1] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\AndroidManifest.xml:23:9-75
+		INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml
+		INJECTED from D:\workspace\sportView\demo\AndroidManifest.xml
 activity#com.netease.nim.uikit.session.activity.P2PMessageActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:16:9-21:70
-	android:windowSoftInputMode
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:21:13-67
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-21:70
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:19:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-49
+	android:windowSoftInputMode
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-67
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:18:13-63
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-63
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:20:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:17:13-85
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-85
 activity#com.netease.nim.uikit.session.activity.TeamMessageActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:22:9-27:70
-	android:windowSoftInputMode
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:27:13-67
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-27:70
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:25:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-49
+	android:windowSoftInputMode
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-67
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:24:13-63
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-63
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:26:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:23:13-86
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-86
 activity#com.netease.nim.uikit.team.activity.NormalTeamInfoActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:30:9-35:70
-	android:windowSoftInputMode
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:35:13-67
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:9-35:70
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:33:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-49
+	android:windowSoftInputMode
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-67
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:32:13-63
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-63
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:34:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:31:13-86
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-86
 activity#com.netease.nim.uikit.team.activity.AdvancedTeamInfoActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:36:9-41:70
-	android:windowSoftInputMode
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:41:13-67
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:9-41:70
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:39:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-49
+	android:windowSoftInputMode
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-67
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:38:13-63
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-63
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:40:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:37:13-88
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:13-88
 activity#com.netease.nim.uikit.team.activity.AdvancedTeamMemberActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:42:9-47:70
-	android:windowSoftInputMode
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:47:13-67
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:9-47:70
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:45:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-49
+	android:windowSoftInputMode
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-67
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:44:13-63
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-63
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:46:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:43:13-90
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:13-90
 activity#com.netease.nim.uikit.team.activity.AdvancedTeamAnnounceActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:48:9-53:70
-	android:windowSoftInputMode
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:53:13-67
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:9-53:70
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:51:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-49
+	android:windowSoftInputMode
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-67
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:50:13-63
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-63
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:52:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:49:13-92
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:13-92
 activity#com.netease.nim.uikit.team.activity.AdvancedTeamMemberInfoActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:54:9-59:70
-	android:windowSoftInputMode
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:59:13-67
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:9-59:70
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:57:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:57:13-49
+	android:windowSoftInputMode
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:59:13-67
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:56:13-63
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:56:13-63
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:58:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:58:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:55:13-94
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:55:13-94
 activity#com.netease.nim.uikit.team.activity.AdvancedTeamNicknameActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:60:9-65:70
-	android:windowSoftInputMode
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:65:13-67
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:60:9-65:70
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:63:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:63:13-49
+	android:windowSoftInputMode
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:65:13-67
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:62:13-63
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:62:13-63
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:64:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:64:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:61:13-92
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:61:13-92
 activity#com.netease.nim.uikit.team.activity.AdvancedTeamCreateAnnounceActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:66:9-71:70
-	android:windowSoftInputMode
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:71:13-67
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:66:9-71:70
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:69:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:69:13-49
+	android:windowSoftInputMode
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:71:13-67
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:68:13-63
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:68:13-63
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:70:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:70:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:67:13-98
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:67:13-98
 activity#com.netease.nim.uikit.team.activity.TeamPropertySettingActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:72:9-77:70
-	android:windowSoftInputMode
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:77:13-67
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:72:9-77:70
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:75:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:75:13-49
+	android:windowSoftInputMode
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:77:13-67
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:74:13-63
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:74:13-63
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:76:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:76:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:73:13-91
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:73:13-91
 activity#com.netease.nim.uikit.contact_selector.activity.ContactSelectActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:80:9-86:67
-	android:windowSoftInputMode
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:86:13-64
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:80:9-86:67
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:84:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:84:13-49
 	android:label
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:83:13-53
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:83:13-53
+	android:windowSoftInputMode
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:86:13-64
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:82:13-63
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:82:13-63
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:85:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:85:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:81:13-97
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:81:13-97
 activity#com.netease.nim.uikit.common.media.picker.activity.PickImageActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:89:9-92:59
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:89:9-92:59
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:91:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:91:13-49
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:92:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:92:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:90:13-96
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:90:13-96
 activity#com.netease.nim.uikit.common.media.picker.activity.CropImageActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:93:9-96:59
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:93:9-96:59
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:95:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:95:13-49
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:96:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:96:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:94:13-96
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:94:13-96
 activity#com.netease.nim.uikit.common.media.picker.activity.PickerAlbumActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:97:9-100:59
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:97:9-100:59
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:99:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:99:13-49
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:100:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:100:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:98:13-98
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:98:13-98
 activity#com.netease.nim.uikit.common.media.picker.activity.PickerAlbumPreviewActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:101:9-104:59
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:101:9-104:59
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:103:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:103:13-49
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:104:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:104:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:102:13-105
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:102:13-105
 activity#com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromLocalActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:105:9-110:70
-	android:windowSoftInputMode
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:110:13-67
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:105:9-110:70
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:108:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:108:13-49
+	android:windowSoftInputMode
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:110:13-67
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:107:13-63
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:107:13-63
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:109:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:109:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:106:13-108
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:106:13-108
 activity#com.netease.nim.uikit.common.media.picker.activity.PreviewImageFromCameraActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:111:9-117:70
-	android:windowSoftInputMode
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:117:13-67
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:111:9-117:70
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:115:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:115:13-49
 	android:label
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:114:13-53
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:114:13-53
+	android:windowSoftInputMode
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:117:13-67
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:113:13-63
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:113:13-63
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:116:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:116:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:112:13-109
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:112:13-109
 activity#com.netease.nim.uikit.session.activity.CaptureVideoActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:120:9-125:70
-	android:windowSoftInputMode
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:125:13-67
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:120:9-125:70
 	android:screenOrientation
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:123:13-49
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:123:13-49
+	android:windowSoftInputMode
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:125:13-67
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:122:13-63
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:122:13-63
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:124:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:124:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:121:13-87
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:121:13-87
 activity#com.netease.nim.uikit.session.activity.WatchVideoActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:126:9-130:48
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:126:9-130:48
 	android:label
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:129:13-47
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:129:13-47
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:128:13-74
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:128:13-74
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:130:13-45
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:130:13-45
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:127:13-85
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:127:13-85
 activity#com.netease.nim.uikit.session.activity.WatchMessagePictureActivity
-ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:133:9-136:59
+ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:133:9-136:59
 	android:configChanges
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:135:13-51
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:135:13-51
 	android:theme
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:136:13-56
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:136:13-56
 	android:name
-		ADDED from [nim_demo:uikit:unspecified] D:\beif\nim_demo\demo\build\intermediates\exploded-aar\nim_demo\uikit\unspecified\AndroidManifest.xml:134:13-94
+		ADDED from [:uikit] D:\workspace\sportView\uikit\build\intermediates\library_manifest\debug\AndroidManifest.xml:134:13-94
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.5.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\28266df07d794c108049e87976624ebd\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:32:9-36:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:35:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:36:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-common:19.3.0] C:\Users\Administrator\.gradle\caches\transforms-2\files-2.1\8031eb551ff15ad32b300d4bb31e0332\jetified-firebase-common-19.3.0\AndroidManifest.xml:33:13-84
