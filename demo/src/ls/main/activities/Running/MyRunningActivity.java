@@ -27,9 +27,7 @@ import ls.main.bean.OptionBean;
 import ls.main.utils.CircularRingPercentageView;
 
 public class MyRunningActivity extends AppCompatActivity {
-
     private FloatingActionButton btn_go;
-    public static final String EXTRA_NAME = "cheese_name";
     private ListView lv_op ;
     private List<OptionBean> data;
     private String[] titles = {"成就","历史数据","目标里程","体重与身高"};
@@ -41,16 +39,8 @@ public class MyRunningActivity extends AppCompatActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_running);
-        btn_go = (FloatingActionButton) findViewById(R.id.go);
-        btn_go.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MyRunningActivity.this,ReadyGoActivity.class));
-            }
-        });
-
-//        Intent intent = getIntent();
-//        final String cheeseName = intent.getStringExtra(EXTRA_NAME);
+        btn_go = findViewById(R.id.go);
+        btn_go.setOnClickListener(v -> startActivity(new Intent(MyRunningActivity.this,ReadyGoActivity.class)));
         initGPS();
         lv_op = (ListView) findViewById(R.id.lv_option);
         getData();
@@ -112,8 +102,6 @@ public class MyRunningActivity extends AppCompatActivity {
         // 判断GPS模块是否开启，如果没有则开启
         if (!locationManager
                 .isProviderEnabled(LocationManager.GPS_PROVIDER)) {
-//            Toast.makeText(this, "请打开GPS",
-//                    Toast.LENGTH_SHORT).show();
             AlertDialog.Builder dialog = new AlertDialog.Builder(this);
             dialog.setMessage("为了获得更准确的运动记录，请打开GPS");
             dialog.setPositiveButton("确定",

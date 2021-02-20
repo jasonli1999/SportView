@@ -308,7 +308,6 @@ ls/main/activities/Running/MyRunningActivity.java
  ls.main.activities.Running.MyRunningActivity$1
  ls.main.activities.Running.MyRunningActivity$2
  ls.main.activities.Running.MyRunningActivity$3
- ls.main.activities.Running.MyRunningActivity$4
 ls/main/activities/Running/TodayActivity.java
  ls.main.activities.Running.TodayActivity
 com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip.java

@@ -1,5 +1,6 @@
 package ls.main.activities.Running;
 
+import android.annotation.SuppressLint;
 import android.content.DialogInterface;
 import android.database.Cursor;
 import android.graphics.Color;
@@ -36,17 +37,13 @@ import ls.main.utils.MyTimeUtils;
 import ls.main.utils.TitleBuilder;
 
 public class BmiActivity extends AppCompatActivity implements View.OnClickListener {
-//51A9E1  88C703  FFB402  D41E02
     private int[] bmi_level_color = {0xff51A9E1,0xff88C703,0xffFFB402,0xffD41E02};
-
     private LineChartView chart;
     private LineChartData data;
     private int numberOfLines = 1;
     private int maxNumberOfLines = 4;
     private int numberOfPoints = 10;
-
     float[][] randomNumbersTab = new float[maxNumberOfLines][numberOfPoints];
-
     private boolean hasAxes = true;
     private boolean hasAxesNames = true;
     private boolean hasLines = true;
@@ -70,10 +67,9 @@ public class BmiActivity extends AppCompatActivity implements View.OnClickListen
         setContentView(R.layout.activity_bmi);
         db = new DbAdapter(this);
         db.open();
-//        getLatesBmi
         initViews();
 
-
+        resetUI();
     }
 
 
@@ -92,9 +88,6 @@ public class BmiActivity extends AppCompatActivity implements View.OnClickListen
 
         chart = (LineChartView) findViewById(R.id.linechart_weight);
         generateValues();
-
-//       List<Integer> dataList = getTop10List();
-//        generateData(dataList);
         chart.setViewportCalculationEnabled(false);
         resetViewport();
 
@@ -109,26 +102,21 @@ public class BmiActivity extends AppCompatActivity implements View.OnClickListen
         tv_delt_weight = (TextView) findViewById(R.id.tv_delt_weight);
         lastWeight = tv_weight.getText().toString();
 
+        iv_bmi_level.setOnClickListener(this);
 
-        initListener();
-        resetUI();
     }
 
     private List<Integer> getTop10List() {
         Cursor cursor = db.getTop10Bmi();
         List<Integer> dataList = new ArrayList<>();
         while(cursor.moveToNext()){
-            Integer i = new Integer(cursor.getString(cursor.getColumnIndex("weight")));
+            Integer i = Integer.valueOf(cursor.getString(cursor.getColumnIndex("weight")));
             dataList.add(i);
         }
         Collections.reverse(dataList);
         return dataList;
     }
 
-    private void initListener() {
-        iv_bmi_level.setOnClickListener(this);
-
-    }
 
 
 
@@ -187,7 +175,7 @@ public class BmiActivity extends AppCompatActivity implements View.OnClickListen
             Axis axisY = new Axis().setHasLines(true);
 //            axisY.setMaxLabelChars(200);
             if (hasAxesNames) {
-                axisX.setName("最近"+(dataList!=null?dataList.size():0)+"天");
+                axisX.setName("最近" + dataList.size() + "天");
                 axisY.setName("体重(单位：斤)");
             }
             data.setAxisXBottom(axisX);
@@ -227,6 +215,7 @@ public class BmiActivity extends AppCompatActivity implements View.OnClickListen
     }
 
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public void onClick(View v) {
         switch (v.getId()){
@@ -316,7 +305,6 @@ public class BmiActivity extends AppCompatActivity implements View.OnClickListen
                 iv_bmi_level.setImageResource(R.drawable.bmi_1);
                 tv_bmi_level.setText("偏瘦");
                 setTextColor(bmi_level_color[0]);
-//				tv_bim.setTextColor(0xffffff);
             }else if(bmi>=16 & bmi<20){
                 iv_bmi_level.setImageResource(R.drawable.bmi_2);
                 tv_bmi_level.setText("正常");

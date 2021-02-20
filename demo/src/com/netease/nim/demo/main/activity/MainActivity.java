@@ -160,6 +160,7 @@ public class MainActivity extends UI {
 
     @Override
     protected void onNewIntent(Intent intent) {
+        super.onNewIntent(intent);
         setIntent(intent);
         onParseIntent();
     }
@@ -179,6 +180,7 @@ public class MainActivity extends UI {
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
         outState.clear();
     }
 

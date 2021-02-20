@@ -2,10 +2,13 @@ package com.netease.nim.demo.main.activity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+
+import androidx.annotation.RequiresApi;
 
 import com.netease.nim.demo.R;
 import com.netease.nim.uikit.common.activity.UI;
@@ -38,6 +41,7 @@ public class MultiportActivity extends UI {
         context.startActivity(intent);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -1,6 +1,7 @@
 package ls.main.activities;
 
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -23,9 +24,7 @@ import ls.main.utils.ToastUtils;
 
 
 public class MainMenuActivity extends UI implements OnCheckedChangeListener, OnClickListener {
-
-    private RadioGroup rg_tab;
-    private ImageView iv_add;
+    private boolean exit = false;//标识是否可以退出
     private FragmentController controller;
 
     @Override
@@ -38,17 +37,15 @@ public class MainMenuActivity extends UI implements OnCheckedChangeListener, OnC
         controller = FragmentController.getInstance(this, R.id.fl_content);
         controller.showFragment(0);
 
-        initView();
-    }
-
-    private void initView() {
-        rg_tab = findViewById(R.id.rg_tab);
-        iv_add = findViewById(R.id.iv_add);
+        RadioGroup rg_tab = findViewById(R.id.rg_tab);
+        ImageView iv_add = findViewById(R.id.iv_add);
 
         rg_tab.setOnCheckedChangeListener(this);
         iv_add.setOnClickListener(this);
     }
 
+
+    @SuppressLint("NonConstantResourceId")
     @Override
     public void onCheckedChanged(RadioGroup group, int checkedId) {
         switch (checkedId) {
@@ -69,6 +66,7 @@ public class MainMenuActivity extends UI implements OnCheckedChangeListener, OnC
         }
     }
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
@@ -87,14 +85,9 @@ public class MainMenuActivity extends UI implements OnCheckedChangeListener, OnC
         startActivity(intent);
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        Log.e("TAG","Destroy---------------------------------------");
-        controller = null;
 
-    }
-    private boolean exit = false;//标识是否可以退出
+
+    @SuppressLint("HandlerLeak")
     private Handler handler = new Handler(){
         public void handleMessage(android.os.Message msg) {
             if(msg.what==1) {
@@ -108,7 +101,6 @@ public class MainMenuActivity extends UI implements OnCheckedChangeListener, OnC
             if(!exit) {
                 exit = true;
                 ToastUtils.showToast(this,"再按一次就退出应用",0);
-//                Toast.makeText(this, "再按一次就退出应用", 0).show();
                 //发消息延迟2s将exit=false
                 handler.sendEmptyMessageDelayed(1, 2000);
                 return true;//不退出
@@ -116,5 +108,13 @@ public class MainMenuActivity extends UI implements OnCheckedChangeListener, OnC
         }
         System.exit(0);
         return super.onKeyUp(keyCode, event);
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        Log.e("TAG","Destroy---------------------------------------");
+        controller = null;
+
     }
 }

@@ -2,12 +2,15 @@ package com.netease.nim.demo.main.activity;
 
 import android.content.Context;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import androidx.annotation.RequiresApi;
 
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.session.SessionHelper;
@@ -53,6 +56,7 @@ public class TeamListActivity extends UI implements AdapterView.OnItemClickListe
         context.startActivity(intent);
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

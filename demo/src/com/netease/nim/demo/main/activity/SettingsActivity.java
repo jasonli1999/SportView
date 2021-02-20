@@ -11,6 +11,8 @@ import android.widget.AdapterView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import androidx.annotation.RequiresApi;
+
 import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
 import com.netease.nim.demo.avchat.activity.AVChatSettingsActivity;
@@ -42,9 +44,7 @@ public class SettingsActivity extends UI implements SettingsAdapter.SwitchChange
     private static final int TAG_CUSTOM_NOTIFY = 5;
     private static final int TAG_ABOUT = 6;
     private static final int TAG_SPEAKER = 7;
-
     private static final int TAG_NRTC_SETTINGS = 8;
-
     private static final int TAG_MSG_IGNORE = 10;
     private static final int TAG_RING = 11;
     private static final int TAG_LED = 12;
@@ -56,6 +56,7 @@ public class SettingsActivity extends UI implements SettingsAdapter.SwitchChange
     private String noDisturbTime;
     private SettingTemplate disturbItem;
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -121,8 +122,6 @@ public class SettingsActivity extends UI implements SettingsAdapter.SwitchChange
 
     private void initItems() {
         items.clear();
-
-//        items.add(new SettingTemplate(TAG_HEAD, SettingType.TYPE_HEAD));
         items.add(new SettingTemplate(TAG_NOTICE, getString(R.string.msg_notice), SettingType.TYPE_TOGGLE,
                 UserPreferences.getNotificationToggle()));
         items.add(SettingTemplate.addLine());
@@ -143,10 +142,8 @@ public class SettingsActivity extends UI implements SettingsAdapter.SwitchChange
         items.add(disturbItem);
         items.add(SettingTemplate.makeSeperator());
 
-        if(Build.VERSION.SDK_INT >= Build.VERSION_CODES.ICE_CREAM_SANDWICH) {
-            items.add(new SettingTemplate(TAG_NRTC_SETTINGS, getString(R.string.nrtc_settings)));
-            items.add(SettingTemplate.makeSeperator());
-        }
+        items.add(new SettingTemplate(TAG_NRTC_SETTINGS, getString(R.string.nrtc_settings)));
+        items.add(SettingTemplate.makeSeperator());
 
         items.add(new SettingTemplate(TAG_MSG_IGNORE, "过滤通知",
                 SettingType.TYPE_TOGGLE, UserPreferences.getMsgIgnore()));

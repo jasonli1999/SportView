@@ -57,7 +57,7 @@ public class SearchFragment extends BaseFragment {
 		mDilatingDotsProgressBar.setNumberOfDots(3);
 		mDilatingDotsProgressBar.setDotColor(Color.GRAY);
 		mDilatingDotsProgressBar.setDotSpacing(15);
-		lv_shuoshuo = (PullToRefreshListView) view.findViewById(R.id.shuoshuo);
+		lv_shuoshuo = view.findViewById(R.id.shuoshuo);
 		lv_shuoshuo.setMode(PullToRefreshBase.Mode.BOTH);
 		lv_shuoshuo.setOnRefreshListener(new PullToRefreshBase.OnRefreshListener2<ListView>() {
 			@Override
@@ -115,6 +115,9 @@ public class SearchFragment extends BaseFragment {
 		mQueue.add(stringRequest);
 	}
 
+
+	private InfoListAdapter adapter;
+	private List<InfolistItem> data = new ArrayList<>();
 	private void pullDataToUI(List<InfolistItem> infolist,int start) {
 		if(infolist==null){
 			ToastUtils.showToast(activity,"已经到底了",0);
@@ -135,6 +138,5 @@ public class SearchFragment extends BaseFragment {
 			lv_shuoshuo.setAdapter(adapter);
 		}
 	}
-	private InfoListAdapter adapter;
-	private List<InfolistItem> data = new ArrayList<>();
+
 }

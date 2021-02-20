@@ -115,7 +115,11 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan" />
-
+        <activity
+            android:name="ls.main.activities.MainMenuActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
         <!-- 多端登录管理 -->
         <activity
             android:name="com.netease.nim.demo.main.activity.MultiportActivity"
@@ -376,11 +380,6 @@
             android:name="com.netease.cosine.target.receiver"
             android:value="com.netease.nimlib.service.NimReceiver" />
 
-        <activity
-            android:name="ls.main.activities.MainMenuActivity"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait" >
-        </activity>
         <activity
             android:name="ls.main.activities.TestActivity"
             android:screenOrientation="portrait" />

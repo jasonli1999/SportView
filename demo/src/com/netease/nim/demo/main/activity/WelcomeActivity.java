@@ -102,6 +102,7 @@ public class WelcomeActivity extends UI {
 
     @Override
     protected void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
         outState.clear();
     }
 

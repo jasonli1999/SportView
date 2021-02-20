@@ -88,7 +88,6 @@ public class TargetOfDayActivity extends AppCompatActivity implements View.OnCli
                 tv_mile.setText(format.format(miles));
                 break;
             case R.id.btn_target_ok:
-//                Toast.makeText(this,"duration:"+duration+",miles:"+miles,Toast.LENGTH_SHORT).show();
                 TargetDay day = new TargetDay();
                 day.setDuration(duration);
                 day.setMiles(miles);

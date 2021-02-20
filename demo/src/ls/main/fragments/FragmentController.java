@@ -30,7 +30,7 @@ public class FragmentController {
 	}
 
 	private void initFragment() {
-		fragments = new ArrayList<Fragment>();
+		fragments = new ArrayList<>();
 		fragments.add(new HomeFragment());
 		fragments.add(new SessionListFragment());
 		fragments.add(new SearchFragment());

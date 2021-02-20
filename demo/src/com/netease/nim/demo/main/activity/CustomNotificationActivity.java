@@ -13,6 +13,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
+import androidx.annotation.RequiresApi;
+
 import com.alibaba.fastjson.JSONObject;
 import com.netease.nim.demo.DemoCache;
 import com.netease.nim.demo.R;
@@ -89,6 +91,7 @@ public class CustomNotificationActivity extends UI implements TAdapterDelegate {
         return false;
     }
 
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -142,9 +145,7 @@ public class CustomNotificationActivity extends UI implements TAdapterDelegate {
     private void initListView() {
         listView = (MessageListView) findViewById(R.id.messageListView);
         listView.setMode(AutoRefreshListView.Mode.END);
-        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.GINGERBREAD) {
-            listView.setOverScrollMode(View.OVER_SCROLL_NEVER);
-        }
+        listView.setOverScrollMode(View.OVER_SCROLL_NEVER);
 
         // adapter
         listView.setAdapter(adapter);

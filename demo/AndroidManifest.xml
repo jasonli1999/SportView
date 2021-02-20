@@ -112,6 +112,13 @@
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan" />
 
+
+        <activity
+            android:name="ls.main.activities.MainMenuActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+
+        </activity>
         <!-- 多端登录管理 -->
         <activity
             android:name=".main.activity.MultiportActivity"
@@ -320,7 +327,8 @@
             android:process=":core">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                    tools:ignore="BatteryLife" />
             </intent-filter>
         </receiver>
 
@@ -373,12 +381,7 @@
             android:name="com.netease.cosine.target.receiver"
             android:value="com.netease.nimlib.service.NimReceiver" />
 
-        <activity
-            android:name="ls.main.activities.MainMenuActivity"
-            android:launchMode="singleTop"
-            android:screenOrientation="portrait">
 
-        </activity>
         <activity
             android:name="ls.main.activities.TestActivity"
             android:screenOrientation="portrait" />
@@ -417,7 +420,7 @@
             android:launchMode="singleTask"/>
         <activity android:name="ls.main.activities.Running.BmiActivity" />
         <activity android:name="ls.main.activities.Running.TargetOfDayActivity" />
-        <activity android:name="ls.main.activities.Running.TodayActivity"></activity>
+        <activity android:name="ls.main.activities.Running.TodayActivity" />
     </application>
 
 </manifest>

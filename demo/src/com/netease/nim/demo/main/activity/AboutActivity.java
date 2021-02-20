@@ -1,7 +1,10 @@
 package com.netease.nim.demo.main.activity;
 
+import android.os.Build;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import androidx.annotation.RequiresApi;
 
 import com.netease.nim.demo.BuildConfig;
 import com.netease.nim.demo.R;
@@ -13,6 +16,7 @@ public class AboutActivity extends UI{
 	private TextView versionGit;
 	private TextView versionDate;
 
+	@RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

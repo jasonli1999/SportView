@@ -47,6 +47,7 @@ import ls.main.utils.ToastUtils;
 public class TestActivity extends Activity implements OnClickListener {
 
 
+    @SuppressLint("HandlerLeak")
     private Handler handler_send = new Handler(){
         public void handleMessage(android.os.Message msg) {
 
