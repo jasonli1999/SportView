@@ -492,7 +492,7 @@ public class LoginActivity extends UI implements OnKeyListener {
      */
     private void fakeLoginTest() {
 
-        startActivity(new Intent(this, MainMenuActivity.class));
+//        startActivity(new Intent(this, MainMenuActivity.class));
 
 
 

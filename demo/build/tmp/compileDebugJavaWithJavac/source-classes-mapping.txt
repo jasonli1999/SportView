@@ -55,14 +55,8 @@ com/netease/nim/demo/main/helper/CustomNotificationCache.java
  com.netease.nim.demo.main.helper.CustomNotificationCache$InstanceHolder
 com/netease/nim/demo/config/DemoServers.java
  com.netease.nim.demo.config.DemoServers
-ls/main/fragments/SessionListFragment.java
- ls.main.fragments.SessionListFragment
- ls.main.fragments.SessionListFragment$1
- ls.main.fragments.SessionListFragment$2
- ls.main.fragments.SessionListFragment$3
- ls.main.fragments.SessionListFragment$4
- ls.main.fragments.SessionListFragment$5
- ls.main.fragments.SessionListFragment$6
+com/netease/nim/demo/rts/doodle/action/MyEraser.java
+ com.netease.nim.demo.rts.doodle.action.MyEraser
 com/netease/nim/demo/rts/ActionTypeEnum.java
  com.netease.nim.demo.rts.ActionTypeEnum
 ls/main/base/BaseFragment.java
@@ -208,10 +202,8 @@ com/netease/nim/demo/session/action/TipAction.java
  com.netease.nim.demo.session.action.TipAction
 com/netease/nim/demo/common/infra/CallbackWrapper.java
  com.netease.nim.demo.common.infra.CallbackWrapper
-com/netease/nim/demo/main/activity/MainActivity.java
- com.netease.nim.demo.main.activity.MainActivity
- com.netease.nim.demo.main.activity.MainActivity$1
- com.netease.nim.demo.main.activity.MainActivity$2
+ls/main/logup/myutil/view/wheelcity/adapters/AbstractWheelTextAdapter.java
+ ls.main.logup.myutil.view.wheelcity.adapters.AbstractWheelTextAdapter
 com/netease/nim/demo/chatroom/fragment/MasterFragment.java
  com.netease.nim.demo.chatroom.fragment.MasterFragment
  com.netease.nim.demo.chatroom.fragment.MasterFragment$1
@@ -434,10 +426,8 @@ com/netease/nim/demo/chatroom/helper/ChatRoomNotificationHelper.java
  com.netease.nim.demo.chatroom.helper.ChatRoomNotificationHelper$1
 com/netease/nim/demo/BuildConfig.java
  com.netease.nim.demo.BuildConfig
-com/netease/nim/demo/main/activity/SettingsActivity.java
- com.netease.nim.demo.main.activity.SettingsActivity
- com.netease.nim.demo.main.activity.SettingsActivity$1
- com.netease.nim.demo.main.activity.SettingsActivity$2
+com/netease/nim/demo/session/extension/StickerAttachment.java
+ com.netease.nim.demo.session.extension.StickerAttachment
 com/netease/nim/demo/avchat/AVChatVideo.java
  com.netease.nim.demo.avchat.AVChatVideo
  com.netease.nim.demo.avchat.AVChatVideo$1
@@ -449,16 +439,8 @@ ls/main/utils/TitleBuilder.java
  ls.main.utils.TitleBuilder
 com/netease/nim/demo/chatroom/viewholder/ChatRoomMsgViewHolderNotification.java
  com.netease.nim.demo.chatroom.viewholder.ChatRoomMsgViewHolderNotification
-com/netease/nim/demo/login/LoginActivity.java
- com.netease.nim.demo.login.LoginActivity
- com.netease.nim.demo.login.LoginActivity$1
- com.netease.nim.demo.login.LoginActivity$2
- com.netease.nim.demo.login.LoginActivity$3
- com.netease.nim.demo.login.LoginActivity$4
- com.netease.nim.demo.login.LoginActivity$5
- com.netease.nim.demo.login.LoginActivity$6
- com.netease.nim.demo.login.LoginActivity$7
- com.netease.nim.demo.login.LoginActivity$7$1
+com/netease/nim/demo/avchat/AVChatNotification.java
+ com.netease.nim.demo.avchat.AVChatNotification
 com/netease/nim/demo/main/fragment/MainTabFragment.java
  com.netease.nim.demo.main.fragment.MainTabFragment
 com/netease/nim/demo/common/infra/Handlers.java
@@ -664,11 +646,14 @@ com/netease/nim/demo/avchat/activity/AVChatExitCode.java
  com.netease.nim.demo.avchat.activity.AVChatExitCode
 ls/main/utils/ToastUtils.java
  ls.main.utils.ToastUtils
-com/netease/nim/demo/team/TeamCreateHelper.java
- com.netease.nim.demo.team.TeamCreateHelper
- com.netease.nim.demo.team.TeamCreateHelper$1
- com.netease.nim.demo.team.TeamCreateHelper$2
- com.netease.nim.demo.team.TeamCreateHelper$3
+ls/main/fragments/SearchFragment.java
+ ls.main.fragments.SearchFragment
+ ls.main.fragments.SearchFragment$1
+ ls.main.fragments.SearchFragment$2
+ ls.main.fragments.SearchFragment$3
+ ls.main.fragments.SearchFragment$4
+ ls.main.fragments.SearchFragment$4$1
+ ls.main.fragments.SearchFragment$5
 ls/main/logup/myutil/view/wheelcity/OnWheelClickedListener.java
  ls.main.logup.myutil.view.wheelcity.OnWheelClickedListener
 com/netease/nim/demo/common/infra/DefaultTaskRegistry.java
@@ -753,9 +738,8 @@ com/netease/nim/demo/common/infra/TaskExecutor.java
  com.netease.nim.demo.common.infra.TaskExecutor$Config
  com.netease.nim.demo.common.infra.TaskExecutor$PRunnable
  com.netease.nim.demo.common.infra.TaskExecutor$TaskThreadFactory
-com/netease/nim/demo/main/activity/WelcomeActivity.java
- com.netease.nim.demo.main.activity.WelcomeActivity
- com.netease.nim.demo.main.activity.WelcomeActivity$1
+com/netease/nim/demo/common/infra/ObservableTask.java
+ com.netease.nim.demo.common.infra.ObservableTask
 com/netease/nim/demo/contact/helper/UserUpdateHelper.java
  com.netease.nim.demo.contact.helper.UserUpdateHelper
  com.netease.nim.demo.contact.helper.UserUpdateHelper$1
@@ -868,9 +852,9 @@ com/netease/nim/demo/main/fragment/ContactListFragment.java
  com.netease.nim.demo.main.fragment.ContactListFragment$FuncItem
  com.netease.nim.demo.main.fragment.ContactListFragment$FuncItem$FuncViewHolder
  com.netease.nim.demo.main.fragment.ContactListFragment$FuncItem$FuncViewHolder$1
-ls/main/activities/MainMenuActivity.java
- ls.main.activities.MainMenuActivity
- ls.main.activities.MainMenuActivity$1
+com/netease/nim/demo/rts/doodle/SupportActionType.java
+ com.netease.nim.demo.rts.doodle.SupportActionType
+ com.netease.nim.demo.rts.doodle.SupportActionType$SupportActionTypeHolder
 ls/main/utils/DisplayUtils.java
  ls.main.utils.DisplayUtils
 ls/main/adapter/OptionAdapter.java
@@ -924,24 +908,40 @@ ls/main/activities/Running/RecordAdapter.java
  ls.main.activities.Running.RecordAdapter
  ls.main.activities.Running.RecordAdapter$1
  ls.main.activities.Running.RecordAdapter$ViewHolder
-com/netease/nim/demo/avchat/AVChatNotification.java
- com.netease.nim.demo.avchat.AVChatNotification
-com/netease/nim/demo/rts/doodle/action/MyEraser.java
- com.netease.nim.demo.rts.doodle.action.MyEraser
-ls/main/logup/myutil/view/wheelcity/adapters/AbstractWheelTextAdapter.java
- ls.main.logup.myutil.view.wheelcity.adapters.AbstractWheelTextAdapter
-ls/main/fragments/SearchFragment.java
- ls.main.fragments.SearchFragment
- ls.main.fragments.SearchFragment$1
- ls.main.fragments.SearchFragment$2
- ls.main.fragments.SearchFragment$3
- ls.main.fragments.SearchFragment$4
- ls.main.fragments.SearchFragment$4$1
- ls.main.fragments.SearchFragment$5
-com/netease/nim/demo/rts/doodle/SupportActionType.java
- com.netease.nim.demo.rts.doodle.SupportActionType
- com.netease.nim.demo.rts.doodle.SupportActionType$SupportActionTypeHolder
-com/netease/nim/demo/common/infra/ObservableTask.java
- com.netease.nim.demo.common.infra.ObservableTask
-com/netease/nim/demo/session/extension/StickerAttachment.java
- com.netease.nim.demo.session.extension.StickerAttachment
+com/netease/nim/demo/main/activity/SettingsActivity.java
+ com.netease.nim.demo.main.activity.SettingsActivity
+ com.netease.nim.demo.main.activity.SettingsActivity$1
+ com.netease.nim.demo.main.activity.SettingsActivity$2
+com/netease/nim/demo/team/TeamCreateHelper.java
+ com.netease.nim.demo.team.TeamCreateHelper
+ com.netease.nim.demo.team.TeamCreateHelper$1
+ com.netease.nim.demo.team.TeamCreateHelper$2
+ com.netease.nim.demo.team.TeamCreateHelper$3
+ls/main/activities/MainMenuActivity.java
+ ls.main.activities.MainMenuActivity
+ ls.main.activities.MainMenuActivity$1
+com/netease/nim/demo/main/activity/WelcomeActivity.java
+ com.netease.nim.demo.main.activity.WelcomeActivity
+ com.netease.nim.demo.main.activity.WelcomeActivity$1
+com/netease/nim/demo/main/activity/MainActivity.java
+ com.netease.nim.demo.main.activity.MainActivity
+ com.netease.nim.demo.main.activity.MainActivity$1
+ com.netease.nim.demo.main.activity.MainActivity$2
+ls/main/fragments/SessionListFragment.java
+ ls.main.fragments.SessionListFragment
+ ls.main.fragments.SessionListFragment$1
+ ls.main.fragments.SessionListFragment$2
+ ls.main.fragments.SessionListFragment$3
+ ls.main.fragments.SessionListFragment$4
+ ls.main.fragments.SessionListFragment$5
+ ls.main.fragments.SessionListFragment$6
+com/netease/nim/demo/login/LoginActivity.java
+ com.netease.nim.demo.login.LoginActivity
+ com.netease.nim.demo.login.LoginActivity$1
+ com.netease.nim.demo.login.LoginActivity$2
+ com.netease.nim.demo.login.LoginActivity$3
+ com.netease.nim.demo.login.LoginActivity$4
+ com.netease.nim.demo.login.LoginActivity$5
+ com.netease.nim.demo.login.LoginActivity$6
+ com.netease.nim.demo.login.LoginActivity$7
+ com.netease.nim.demo.login.LoginActivity$7$1

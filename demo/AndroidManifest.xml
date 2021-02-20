@@ -6,43 +6,25 @@
     android:versionCode="25"
     android:versionName="2.6.0"
     tools:ignore="ExtraText">
-    <!-- 加入应用需要的权限 -->
-    <!-- 网络相关 -->
+
+
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <!-- 手机状态 -->
-    <uses-permission android:name="android.permission.GET_TASKS" />
     <uses-permission android:name="android.permission.FLASHLIGHT" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
     <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
-    <!-- 读写文件 -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         tools:ignore="ScopedStorage" />
-    <!-- 多媒体 -->
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
-    //定位包、导航包需要的额外权限（注：基础权限也需要）
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
-    <!--允许程序打开网络套接字-->
-    <uses-permission android:name="android.permission.INTERNET" />
-    <!--允许程序设置内置sd卡的写权限-->
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
-        tools:ignore="ScopedStorage" />
     <!--允许程序获取网络状态-->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <!--允许程序访问WiFi网络信息-->
@@ -70,18 +52,10 @@
         <meta-data
             android:name="com.amap.api.v2.apikey"
             android:value="e90bb2a9c37cf7dab1edc07c3f301680" />
-
-        <!-- 如果IDE是Eclipse，此处可将build.gradle中的AMAP_KEY定义拷贝过来。 -->
-        <!-- <meta-data -->
-        <!-- android:name="com.amap.api.v2.apikey" -->
-        <!-- android:value="${AMAP_KEY}" /> -->
         <meta-data
             android:name="com.netease.nim.appKey"
             android:value="411c114eaef2c929392dc836cb4205ab" />
 
-<!--         <uses-library-->
-<!--         android:name="com.google.android.maps"-->
-<!--         android:required="false" />-->
         <uses-library
             android:name="org.apache.http.legacy"
             android:required="false" />
@@ -94,13 +68,14 @@
             android:launchMode="singleTop"
             android:screenOrientation="portrait"
             android:theme="@style/WelcomeEntranceActionBarTheme"
-            android:windowSoftInputMode="adjustPan" >
+            android:windowSoftInputMode="adjustPan">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.MULTIWINDOW_LAUNCHER" />
             </intent-filter>
-            </activity>
+        </activity>
 
         <!-- 主界面 -->
         <activity
@@ -134,9 +109,9 @@
             android:label="@string/login"
             android:screenOrientation="portrait"
             android:theme="@style/LoginTheme"
-            android:windowSoftInputMode="adjustResize|stateHidden" >
+            android:windowSoftInputMode="adjustResize|stateHidden">
 
-            </activity>
+        </activity>
 
         <!-- 关于 -->
         <activity
@@ -327,7 +302,8 @@
             android:process=":core">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"
+                <action
+                    android:name="android.net.conn.CONNECTIVITY_CHANGE"
                     tools:ignore="BatteryLife" />
             </intent-filter>
         </receiver>
@@ -416,8 +392,9 @@
             android:theme="@android:style/Theme.Translucent" />
         <activity android:name="ls.main.activities.Running.LastestRunningActivity" />
         <activity android:name="ls.main.activities.ImageBrowserActivity" />
-        <activity android:name="ls.main.activities.Running.MyRunningActivity"
-            android:launchMode="singleTask"/>
+        <activity
+            android:name="ls.main.activities.Running.MyRunningActivity"
+            android:launchMode="singleTask" />
         <activity android:name="ls.main.activities.Running.BmiActivity" />
         <activity android:name="ls.main.activities.Running.TargetOfDayActivity" />
         <activity android:name="ls.main.activities.Running.TodayActivity" />
