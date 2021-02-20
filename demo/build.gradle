@@ -1,12 +1,5 @@
 apply plugin: 'com.android.application'
 
-static def getGitVersion() {
-    try {
-        return 'git rev-parse --short HEAD'.execute().text.trim()
-    } catch (Throwable ignored) {
-        return "";
-    }
-}
 
 android {
     compileSdkVersion 30
@@ -16,8 +9,8 @@ android {
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 30
-        buildConfigField "String", "GIT_REVISION", "\"${getGitVersion()}\""
-        buildConfigField "String", "BUILD_DATE", "\"${new Date().toLocaleString()}\"";
+        versionCode 1
+        versionName "1.0"
         multiDexEnabled true
         ndk {
             //设置支持的SO库架构（开发者可以根据需要，选择一个或多个平台的so）

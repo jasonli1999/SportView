@@ -153,6 +153,7 @@
     <property name="android-custom-viewC:/Users/Administrator/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/ViewPager.java_SELECTED" value="ViewPager" />
     <property name="android-custom-viewC:/Users/Administrator/AppData/Local/Android/Sdk/sources/android-30/android/widget/Toolbar.java_SELECTED" value="Toolbar" />
     <property name="android-custom-viewD:/workspace/sportView/demo/src/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip.java_SELECTED" value="PagerSlidingTabStrip" />
+    <property name="android-custom-viewD:/workspace/sportView/demo/src/ls/main/fragments/mywidgt/WrapHeightGridView.java_SELECTED" value="WrapHeightGridView" />
     <property name="android-custom-viewD:/workspace/sportView/dialog_library/src/main/java/com/zl/reik/dilatingdotsprogressbar/DilatingDotsProgressBar.java_SELECTED" value="DilatingDotsProgressBar" />
     <property name="android-custom-viewD:/workspace/sportView/library/src/main/java/com/handmark/pulltorefresh/library/PullToRefreshWebView.java_SELECTED" value="PullToRefreshWebView" />
     <property name="android-custom-viewD:/workspace/sportView/library/src/main/java/com/handmark/pulltorefresh/library/extras/PullToRefreshWebView2.java_SELECTED" value="PullToRefreshWebView2" />
@@ -163,11 +164,12 @@
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="device.picker.selection" value="d06daeb27d52" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/demo/res/drawable-xhdpi" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../360Downloads" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo/res/drawable-hdpi" />
     <property name="multi-representation-previewC:/Users/Administrator/.gradle/caches/modules-2/files-2.1/androidx.appcompat/appcompat/1.2.0/13e8ff89631c2e101eb6bddd12c2fb4bbd74b15d/appcompat-1.2.0-sources.jar!/androidx/appcompat/widget/Toolbar.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/Administrator/.gradle/caches/modules-2/files-2.1/androidx.viewpager/viewpager/1.0.0/db045f92188b9d247d5f556866f8861ab68528f0/viewpager-1.0.0-sources.jar!/androidx/viewpager/widget/ViewPager.java_selected" value="Custom views" />
     <property name="multi-representation-previewC:/Users/Administrator/AppData/Local/Android/Sdk/sources/android-30/android/widget/Toolbar.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/workspace/sportView/demo/src/com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip.java_selected" value="Custom views" />
+    <property name="multi-representation-previewD:/workspace/sportView/demo/src/ls/main/fragments/mywidgt/WrapHeightGridView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/workspace/sportView/dialog_library/src/main/java/com/zl/reik/dilatingdotsprogressbar/DilatingDotsProgressBar.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/workspace/sportView/library/src/main/java/com/handmark/pulltorefresh/library/PullToRefreshWebView.java_selected" value="Custom views" />
     <property name="multi-representation-previewD:/workspace/sportView/library/src/main/java/com/handmark/pulltorefresh/library/extras/PullToRefreshWebView2.java_selected" value="Custom views" />
@@ -178,23 +180,28 @@
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\sportView\demo\res\drawable-xhdpi" />
+      <recent name="D:\workspace\sportView\demo\res\drawable-hdpi" />
+      <recent name="D:\workspace\sportView\demo\res\layout" />
+    </key>
     <key name="android.template.packageName">
       <recent name="ls.main.activities.Running" />
       <recent name="ls.main.activities" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="ls.main" />
       <recent name="ls.main.utils" />
+      <recent name="ls.main.activities" />
+      <recent name="ls.main" />
       <recent name="ls.main.adapter" />
       <recent name="ls.main.bean" />
-      <recent name="ls.main.activities.Running" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\sportView\demo\res\drawable-hdpi" />
+      <recent name="D:\workspace\sportView\demo\res\layout-v21" />
       <recent name="D:\beif\nim_demo\demo\res\drawable-xhdpi" />
       <recent name="D:\beif\nim_demo\demo\res\drawable" />
       <recent name="D:\beif\nim_demo\demo\res\drawable-mdpi" />
-      <recent name="D:\beif\nim_demo\demo\res\layout" />
-      <recent name="D:\beif\nim_demo\demo\src\ls\main\utils" />
     </key>
   </component>
   <component name="RunManager" selected="Android App.demo">
@@ -501,6 +508,10 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="691" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1613820852380">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="691" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1613820852380" />
     <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1613800384972">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -509,22 +520,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="785" y="292" key="AndroidCreateXmlResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613816614644" />
-    <state width="1877" height="110" key="GridCell.Tab.0.bottom" timestamp="1613817352942">
+    <state width="1877" height="432" key="GridCell.Tab.0.bottom" timestamp="1613820198471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="110" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613817352942" />
-    <state width="1877" height="110" key="GridCell.Tab.0.center" timestamp="1613817352942">
+    <state width="1877" height="432" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1613820198471" />
+    <state width="1877" height="432" key="GridCell.Tab.0.center" timestamp="1613820198470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="110" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613817352942" />
-    <state width="1877" height="110" key="GridCell.Tab.0.left" timestamp="1613817352942">
+    <state width="1877" height="432" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1613820198470" />
+    <state width="1877" height="432" key="GridCell.Tab.0.left" timestamp="1613820198470">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="110" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613817352942" />
-    <state width="1877" height="110" key="GridCell.Tab.0.right" timestamp="1613817352942">
+    <state width="1877" height="432" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1613820198470" />
+    <state width="1877" height="432" key="GridCell.Tab.0.right" timestamp="1613820198471">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="110" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613817352942" />
+    <state width="1877" height="432" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1613820198471" />
     <state x="740" y="265" key="refactoring.ChangeSignatureDialog" timestamp="1613807020694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -42,6 +42,8 @@ com/netease/nim/demo/NimApplication.java
  com.netease.nim.demo.NimApplication$5
  com.netease.nim.demo.NimApplication$6
  com.netease.nim.demo.NimApplication$7
+ls/main/activities/YinsiActivity.java
+ ls.main.activities.YinsiActivity
 com/netease/nim/demo/common/util/crash/CrashSnapshot.java
  com.netease.nim.demo.common.util.crash.CrashSnapshot
 ls/main/bean/NewsList.java
@@ -321,6 +323,8 @@ com/netease/nim/demo/common/ui/viewpager/PagerSlidingTabStrip.java
  com.netease.nim.demo.common.ui.viewpager.PagerSlidingTabStrip$OnTabDoubleTapListener
  com.netease.nim.demo.common.ui.viewpager.PagerSlidingTabStrip$SavedState
  com.netease.nim.demo.common.ui.viewpager.PagerSlidingTabStrip$SavedState$1
+ls/main/utils/MyDialog.java
+ ls.main.utils.MyDialog
 com/netease/nim/demo/chatroom/fragment/ChatRoomInputPanel.java
  com.netease.nim.demo.chatroom.fragment.ChatRoomInputPanel
 com/netease/nim/demo/main/model/SettingTemplate.java
@@ -848,6 +852,13 @@ com/netease/nim/demo/rts/doodle/action/MyFillCircle.java
  com.netease.nim.demo.rts.doodle.action.MyFillCircle
 ls/main/fragments/UserFragment.java
  ls.main.fragments.UserFragment
+ ls.main.fragments.UserFragment$1
+ ls.main.fragments.UserFragment$2
+ ls.main.fragments.UserFragment$3
+ ls.main.fragments.UserFragment$4
+ ls.main.fragments.UserFragment$5
+ ls.main.fragments.UserFragment$6
+ ls.main.fragments.UserFragment$7
 com/netease/nim/demo/common/util/crash/AppCrashHandler.java
  com.netease.nim.demo.common.util.crash.AppCrashHandler
  com.netease.nim.demo.common.util.crash.AppCrashHandler$1

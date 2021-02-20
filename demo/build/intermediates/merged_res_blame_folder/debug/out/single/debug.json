@@ -48,12 +48,12 @@
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\avchat_video_bottom_logout_normal.png"
     },
     {
-        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_head_icon_6.png.flat",
-        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\head_icon_6.png"
-    },
-    {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_file_ic_detail_gif.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\file_ic_detail_gif.png"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_head_icon_6.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\head_icon_6.png"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable_actionbar_item_background_selector.xml.flat",
@@ -92,20 +92,24 @@
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-mdpi\\ic_stat_notify_msg.png"
     },
     {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable_actionbar_dark_logo.xml.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable\\actionbar_dark_logo.xml"
+    },
+    {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_correct_green_sel.xml.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\correct_green_sel.xml"
     },
     {
-        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable_actionbar_dark_logo.xml.flat",
-        "source": "D:\\workspace\\sportView\\demo\\res\\drawable\\actionbar_dark_logo.xml"
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_txtcolor_gray2green_sel.xml.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\txtcolor_gray2green_sel.xml"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ic_add_friends.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\ic_add_friends.png"
     },
     {
-        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_txtcolor_gray2green_sel.xml.flat",
-        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\txtcolor_gray2green_sel.xml"
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_more_session_selector.xml.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\more_session_selector.xml"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_settings_logout_footer.xml.flat",
@@ -120,12 +124,12 @@
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\back_normal.png"
     },
     {
-        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_avchat_close_video_send.png.flat",
-        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\avchat_close_video_send.png"
-    },
-    {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_back_arrow.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\back_arrow.png"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_avchat_close_video_send.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\avchat_close_video_send.png"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_about_layout.xml.flat",
@@ -138,6 +142,10 @@
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_room_cover_50.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\room_cover_50.png"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_nnn.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\nnn.png"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_main_tab_new_message_notify.png.flat",
@@ -164,12 +172,16 @@
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\avchat_no_pickup.png"
     },
     {
-        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_activity_welcome.xml.flat",
-        "source": "D:\\workspace\\sportView\\demo\\res\\layout\\activity_welcome.xml"
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_left_cancle.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\left_cancle.png"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_avchat_video_mute_pressed.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\avchat_video_mute_pressed.png"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_activity_welcome.xml.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\layout\\activity_welcome.xml"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\color_skin_light_actionbar_bg_color.xml.flat",
@@ -262,10 +274,6 @@
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_more_session_press.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\more_session_press.png"
-    },
-    {
-        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_stat_notify_msg.png.flat",
-        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xxhdpi\\ic_stat_notify_msg.png"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_photo_selector.xml.flat",
@@ -400,6 +408,10 @@
         "source": "D:\\workspace\\sportView\\demo\\res\\layout\\chat_room_tab_layout.xml"
     },
     {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_ys6.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\ys6.png"
+    },
+    {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_admin_icon.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\admin_icon.png"
     },
@@ -502,6 +514,10 @@
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable_skin_global_bg.xml.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable\\skin_global_bg.xml"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_dialog_3.xml.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\layout\\dialog_3.xml"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_more_seesion_normal.png.flat",
@@ -632,6 +648,10 @@
         "source": "D:\\workspace\\sportView\\demo\\res\\layout\\no_disturb_activity.xml"
     },
     {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tc5.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\tc5.png"
+    },
+    {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logo.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\logo.png"
     },
@@ -670,6 +690,10 @@
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_bmi_1.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\bmi_1.png"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_pk.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\pk.png"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_lock_guide2.png.flat",
@@ -860,6 +884,10 @@
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\ic_stepper_minus.png"
     },
     {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tc9.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\tc9.png"
+    },
+    {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_file_ic_detail_excel.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\file_ic_detail_excel.png"
     },
@@ -886,6 +914,10 @@
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_avchat_speaker_icon_disable.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_disable.png"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_kf1.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\kf1.png"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable_splash_bg.xml.flat",
@@ -928,10 +960,6 @@
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\ic_tab_me_normal.png"
     },
     {
-        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_more_session_selector.xml.flat",
-        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xxhdpi\\more_session_selector.xml"
-    },
-    {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ready_run.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\ready_run.png"
     },
@@ -946,6 +974,10 @@
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_room_cover_49.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\room_cover_49.png"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_dialog_1.xml.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\layout\\dialog_1.xml"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_team_message_announce_dialog.xml.flat",
@@ -1078,10 +1110,6 @@
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable_actionbar_blue_bg_pressed.xml.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable\\actionbar_blue_bg_pressed.xml"
-    },
-    {
-        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout-v21_login_activity.xml.flat",
-        "source": "D:\\workspace\\sportView\\demo\\res\\layout-v21\\login_activity.xml"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_avchat_audio_record_icon_checked.png.flat",
@@ -1270,6 +1298,10 @@
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_next_normal.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\next_normal.png"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_tc444.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\tc444.png"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_new_message_notify.png.flat",
@@ -1780,6 +1812,10 @@
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable\\message_plus_rts_selector.xml"
     },
     {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_dialog_2.xml.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\layout\\dialog_2.xml"
+    },
+    {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable_shape_oval_rect_agray.xml.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable\\shape_oval_rect_agray.xml"
     },
@@ -1822,6 +1858,10 @@
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_avchat_speaker_icon_pressed.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\avchat_speaker_icon_pressed.png"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_item_qr.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\item_qr.png"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_avchat_audio_control_layout.xml.flat",
@@ -2028,10 +2068,6 @@
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\toast_actionsheet_top_normal.9.png"
     },
     {
-        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_ic_logo.png.flat",
-        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xxhdpi\\ic_logo.png"
-    },
-    {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_map_view_google_layout.xml.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\layout\\map_view_google_layout.xml"
     },
@@ -2112,6 +2148,10 @@
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\file.png"
     },
     {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_dialog_5.xml.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\layout\\dialog_5.xml"
+    },
+    {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable_ic_lock_selector.xml.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable\\ic_lock_selector.xml"
     },
@@ -2162,6 +2202,10 @@
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_myinfo_icon_st_nor.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\myinfo_icon_st_nor.png"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_activity_yinsi.xml.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\layout\\activity_yinsi.xml"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_app_icon.png.flat",
@@ -2218,6 +2262,10 @@
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_share_press.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\share_press.png"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_dialog_4.xml.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\layout\\dialog_4.xml"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable_target_btnok_selector.xml.flat",
@@ -2282,6 +2330,10 @@
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_online_people_item.xml.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\layout\\online_people_item.xml"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_saishi_3.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\saishi_3.png"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\layout_file_browser_activity.xml.flat",
@@ -2440,6 +2492,10 @@
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\chat_room_announce.png"
     },
     {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_yj3.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\yj3.png"
+    },
+    {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_file_ic_detail_mp3.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\file_ic_detail_mp3.png"
     },
@@ -2462,6 +2518,10 @@
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_avchat_left_type_video.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\avchat_left_type_video.png"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_saishi_1.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\saishi_1.png"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_file_ic_session_ppt.png.flat",
@@ -2542,6 +2602,10 @@
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_sport_finish_night.png.flat",
         "source": "D:\\workspace\\sportView\\demo\\res\\drawable-xhdpi\\ic_sport_finish_night.png"
+    },
+    {
+        "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_saishi_2.png.flat",
+        "source": "D:\\workspace\\sportView\\demo\\res\\drawable-hdpi\\saishi_2.png"
     },
     {
         "merged": "D:\\workspace\\sportView\\demo\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_one.jpg.flat",

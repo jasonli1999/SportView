@@ -9,12 +9,9 @@ android {
     }
 
 
-
     sourceSets {
         main {
-
             jniLibs.srcDirs = ['libs', 'libs-sdk']
-
         }
 
     }
