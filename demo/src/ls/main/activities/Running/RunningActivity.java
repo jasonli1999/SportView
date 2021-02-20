@@ -12,7 +12,6 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Message;
-
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -256,6 +255,7 @@ public class RunningActivity extends Activity implements LocationSource,
 
     }
     private int second;
+    @SuppressLint("HandlerLeak")
     private Handler handler = new Handler(){
         @Override
         public void handleMessage(Message msg) {
@@ -302,7 +302,7 @@ public class RunningActivity extends Activity implements LocationSource,
     @Override
     public void onLocationChanged(AMapLocation amapLocation) {
         if (mListener != null && amapLocation != null) {
-            if (amapLocation != null && amapLocation.getErrorCode() == 0) {
+            if (amapLocation.getErrorCode() == 0) {
                 mListener.onLocationChanged(amapLocation);// 显示系统小蓝点
                 LatLng mylocation = new LatLng(amapLocation.getLatitude(),
                         amapLocation.getLongitude());
@@ -327,17 +327,12 @@ public class RunningActivity extends Activity implements LocationSource,
                     }
                 }
 
-//                if (btn.isChecked()) {
                     record.addpoint(mylocation);
                     mPolyoptions.add(mylocation);
-
-                    //
                     redrawline();
                     index++;
-//                }
             } else {
-                String errText = "定位失败," + amapLocation.getErrorCode() + ": "
-                        + amapLocation.getErrorInfo();
+                String errText = "定位失败," + amapLocation.getErrorCode() + ": " + amapLocation.getErrorInfo();
                 Log.e("AmapErr", errText);
             }
         }
@@ -355,8 +350,6 @@ public class RunningActivity extends Activity implements LocationSource,
             mLocationOption.setInterval(200);
 //            mLocationOption.setGpsFirst(true);
             mLocationOption.setWifiActiveScan(true);
-
-
             // 设置定位参数
             mlocationClient.setLocationOption(mLocationOption);
             // 此方法为每隔固定时间会发起一次定位请求，为了减少电量消耗或网络流量消耗，
@@ -378,8 +371,7 @@ public class RunningActivity extends Activity implements LocationSource,
 
     @SuppressLint("SimpleDateFormat")
     private String getcueDate(long time) {
-        SimpleDateFormat formatter = new SimpleDateFormat(
-                "yyyy-MM-dd  HH:mm:ss ");
+        SimpleDateFormat formatter = new SimpleDateFormat("yyyy-MM-dd  HH:mm:ss ");
         Date curDate = new Date(time);
         String date = formatter.format(curDate);
         return date;
@@ -392,6 +384,7 @@ public class RunningActivity extends Activity implements LocationSource,
 
 
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
@@ -522,6 +515,6 @@ public class RunningActivity extends Activity implements LocationSource,
 
     @Override
     public void onBackPressed() {
-//        super.onBackPressed();
+        super.onBackPressed();
     }
 }
