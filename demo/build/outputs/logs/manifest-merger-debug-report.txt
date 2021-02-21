@@ -731,9 +731,9 @@ ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:386:9-389:72
 	android:name
 		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:387:13-68
 activity#ls.main.activities.Running.ReadyGoActivity
-ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:390:9-392:64
+ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:390:9-392:75
 	android:theme
-		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:392:13-61
+		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:392:13-72
 	android:name
 		ADDED from D:\workspace\sportView\demo\AndroidManifest.xml:391:13-70
 activity#ls.main.activities.Running.LastestRunningActivity

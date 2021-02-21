@@ -383,7 +383,7 @@
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="ls.main.activities.Running.ReadyGoActivity"
-            android:theme="@android:style/Theme.Translucent" />
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
         <activity android:name="ls.main.activities.Running.LastestRunningActivity" />
         <activity android:name="ls.main.activities.ImageBrowserActivity" />
         <activity
